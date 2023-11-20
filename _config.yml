@@ -1,2 +1,7 @@
 theme: minima
 title: Sudhir K. Singh
+<style>
+  .footer {
+    display: none;
+  }
+</style>
