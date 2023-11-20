@@ -1,4 +1,4 @@
-# Sudhir K Singh
+# Sudhir K. Singh
 ## [CV](Sudhir_CV.pdf)
 Welcome!
 
