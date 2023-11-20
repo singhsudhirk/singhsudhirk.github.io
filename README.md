@@ -13,4 +13,4 @@ I am an economist. My research focuses on labor and development, with a particul
 -
 -
 
-<embed src="https://singhsudhirk.github.io/Sudhir_K_Singh.pdf" type="application/pdf" />
+
