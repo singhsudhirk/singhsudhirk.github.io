@@ -7,7 +7,7 @@ I am an economist. My research focuses on labor and development, with a particul
 
 [CV](Sudhir_CV.pdf) | [Research](research.md) 
 ## Research
---------------------------------------------
+
 ### Working Papers
 -
 -
