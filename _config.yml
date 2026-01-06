@@ -1,4 +1,3 @@
-theme: minima
-title: Sudhir K. Singh
-plugins:
-  - jekyll-include-cache
+theme: jekyll-theme-minimal
+   title: **Sudhir K. Singh**
+   description: Economist and Researcher
