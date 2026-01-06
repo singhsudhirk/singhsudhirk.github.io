@@ -23,7 +23,7 @@ with K. Deininger & S. Jin
 
 ### Publications
 
-**Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference?**
+**Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference?**  
 with K. Deininger, S. Jin, & H. K. Nagarajan  
 *Journal of Development Studies*
 
