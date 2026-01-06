@@ -1,4 +1,4 @@
-[Home](README.md) | [Research](research.md) | [CV](Sudhir_Singh.pdf) | [Teaching](teaching.md)
+[Home](README.md) | [Research](research.md) | [CV](Sudhir_Singh.md) | [Teaching](teaching.md)
 
 ----
 
