@@ -5,7 +5,7 @@ Welcome!
 
 I am an Economist and a Postdoctoral Researcher in the Department of Economics at the University of Rochester and a Fellow of the Global Labor Organization (GLO). I have also worked as an Economist and Consultant at the World Bank Group, and have consulted for the International Food Policy Research Institute (IFPRI) in Washington, D.C. 
 
-My primary research interests are in labor and development economics. To learn more about my work, please visit my [Research Page](research.md)
+My primary research interests are in labor and development economics. To learn more about my work, please visit my [research page](research.md).
 
 [CV](Sudhir_Singh_CV.pdf) | [Research](research.md) 
 ## Research
