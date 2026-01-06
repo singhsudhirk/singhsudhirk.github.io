@@ -1,3 +1,6 @@
+[Home](README.md) | [Research](research.md) | [CV](Sudhir_Singh.pdf) | [Teaching](teaching.md)
+
+----
 
 Welcome!
 
