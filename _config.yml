@@ -1,2 +1,18 @@
-theme: minima
+remote_theme: mmistakes/minimal-mistakes
 title: Sudhir K. Singh
+email: your-email@domain.com
+description: Academic Portfolio
+baseurl: ""
+url: "https://yourusername.github.io"
+
+author:
+  name: "Sudhir K. Singh"
+  bio: "Your academic title/position"
+  location: "Your Institution"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:your-email@domain.com"
+
+plugins:
+  - jekyll-include-cache
