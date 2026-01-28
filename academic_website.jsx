@@ -126,10 +126,9 @@ export default function AcademicWebsite() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-white border-t mt-12 py-6 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Sudhir K. Singh. All rights reserved.
-      </footer>
+ <footer class="site-footer">
+  <p>© 2026 Sudhir K Singh</p>
+</footer>
     </div>
   );
 }
