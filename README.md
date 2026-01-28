@@ -1,72 +1,190 @@
-[Home](README.md) | [Research](research.md) | [CV](Sudhir_Singh.md) | [Teaching](teaching.md)
+# Academic Website - Sudhir K. Singh
 
-----
+A modern, React-based academic website built with Next.js, TypeScript, and Tailwind CSS.
 
-Welcome!
+## 🚀 Getting Started
 
+### Prerequisites
+- Node.js 18+ installed
+- Git installed
+- A GitHub account
 
-I am an Economist and Postdoctoral Researcher in the Department of Economics at the University of Rochester. I have worked as an Economist and Consultant at the World Bank Group and have consulted for the International Food Policy Research Institute (IFPRI) in Washington, D.C. I am also a Fellow of the Global Labor Organization (GLO).
+### Local Development
 
-My primary research interests are in labor and development economics. To learn more about my work, please visit my [research page](research.md). 
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
+2. **Run development server:**
+   ```bash
+   npm run dev
+   ```
+   
+   Open [http://localhost:3000](http://localhost:3000) to view your site.
 
-[CV](Sudhir_Singh_CV.pdf) | [Research](research.md) 
-## Research
+3. **Add your profile image:**
+   - Place your profile photo as `profile.jpg` in the `public/` folder
+   - Or update the image path in `app/page.tsx`
 
-### Working Papers
-**Female Leaders and Welfare in a Water-Scarce Economy**  
-with Caitlin Brown & Aruni Mitra  
+4. **Add your CV:**
+   - Place your CV PDF as `Sudhir_Singh_CV.pdf` in the `public/` folder
 
-**College Access and Domestic Violence**  
-with Ha Luong   
-*under review*
+## 📦 Deployment to GitHub Pages
 
-**Misallocation and Product Choice**  
-with Stepan Gordeev 
+### Option 1: Using GitHub Actions (Recommended)
 
-**Input-Driven Production Technology Heterogeneity and the Allocation of Inputs**  
-with Stepan Gordeev 
+1. **Create `.github/workflows/deploy.yml`:**
+   ```yaml
+   name: Deploy to GitHub Pages
 
-**Political Exit: The Unintended Effects of Electoral Rules in India**  
-with Varun K.R. & Drew Stommes  
-*under review*
+   on:
+     push:
+       branches: ["main"]
+     workflow_dispatch:
 
-**How Productive are Workfare Programs? Evidence from India**  
-with K. Deininger & S. Jin  
-*revise and resubmit*
+   permissions:
+     contents: read
+     pages: write
+     id-token: write
 
+   jobs:
+     build:
+       runs-on: ubuntu-latest
+       steps:
+         - uses: actions/checkout@v4
+         - uses: actions/setup-node@v4
+           with:
+             node-version: '18'
+         - run: npm ci
+         - run: npm run build
+         - uses: actions/upload-pages-artifact@v2
+           with:
+             path: ./out
 
-### Publications
+     deploy:
+       environment:
+         name: github-pages
+         url: ${{ steps.deployment.outputs.page_url }}
+       runs-on: ubuntu-latest
+       needs: build
+       steps:
+         - id: deployment
+           uses: actions/deploy-pages@v2
+   ```
 
-**Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference?**  
-with K. Deininger, S. Jin, & H. K. Nagarajan  
-*Journal of Development Studies*
+2. **Push to GitHub:**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/singhsudhirk/singhsudhirk.github.io.git
+   git push -u origin main
+   ```
 
+3. **Enable GitHub Pages:**
+   - Go to your repository settings
+   - Navigate to "Pages" section
+   - Under "Build and deployment", select "GitHub Actions" as the source
+   - Your site will be live at: `https://singhsudhirk.github.io`
 
-**Women's Political Leadership and Economic Empowerment: Evidence from Public Works in India**   
-with K. Deininger & H. K. Nagarajan  
-*Journal of Comparative Economics*
+### Option 2: Manual Build and Deploy
 
-**Wages, Prices, and Agriculture: How Can Indian Agriculture Cope with Rising Wages**   
-with H. Binswanger  
-*Journal of Agricultural Economics*
+1. **Build the static site:**
+   ```bash
+   npm run build
+   ```
+   This creates an `out/` folder with static files.
 
-**Can Labor Market Imperfections Explain Changes in Farm Size Productivity Relationship? Longitudinal Evidence from India**   
-with K. Deininger, S. Jin, & Y. Liu  
-*Land Economics*
+2. **Deploy manually:**
+   - Copy contents of `out/` folder to your GitHub Pages repository
+   - Push to GitHub
 
-**Determinants of Productivity and Structural Change in a Large Commercial Farm Environment: Evidence from Ukraine**   
-with K. Deininger & D. Nizalov  
-*The World Bank Economic Review*
+## 📝 Customization
 
-**Does Land Fragmentation Increase the Cost of Cultivation? Evidence from India**   
-with K. Deininger, D. Monchuck, & H. K. Nagarajan  
-*Journal of Development Studies*
+### Update Content
+Edit `app/page.tsx` to update:
+- Personal information
+- Research papers
+- Publications
+- Teaching experience
+- Contact information
 
-**Consumption Smoothing and Insurance against the Income Risks: A Case of India**   
-with P. Kumar  
-*Indian Economic Review*
+### Styling
+- Tailwind CSS classes are used throughout
+- Global styles in `app/globals.css`
+- Modify colors, spacing, and fonts as needed
 
+### Add New Sections
+Simply add new `<section>` elements in `app/page.tsx` following the existing pattern.
 
+## 🛠 Project Structure
 
+```
+academic-website/
+├── app/
+│   ├── layout.tsx       # Root layout
+│   ├── page.tsx         # Main page (your website)
+│   └── globals.css      # Global styles
+├── components/
+│   └── ui/
+│       └── button.tsx   # Button component
+├── lib/
+│   └── utils.ts         # Utility functions
+├── public/
+│   ├── profile.jpg      # Your profile image (add this)
+│   └── Sudhir_Singh_CV.pdf  # Your CV (add this)
+├── next.config.js       # Next.js configuration
+├── tailwind.config.ts   # Tailwind CSS configuration
+└── package.json         # Dependencies
 
+```
+
+## 🔧 Technologies Used
+
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **Lucide React** - Icon library
+
+## 📚 Removing Jekyll
+
+If you still have Jekyll files in your repository:
+
+1. Delete these files/folders:
+   - `_config.yml`
+   - `_layouts/`
+   - `_includes/`
+   - `_posts/`
+   - `Gemfile`
+   - `Gemfile.lock`
+   - Any `.md` files that are Jekyll pages
+
+2. Keep only:
+   - Your CV PDF
+   - Your profile image
+   - Any other assets you want to use
+
+## 🐛 Troubleshooting
+
+### Build fails
+- Make sure all dependencies are installed: `npm install`
+- Check Node.js version: `node --version` (should be 18+)
+
+### Images not loading
+- Ensure images are in the `public/` folder
+- Update paths in `app/page.tsx` if needed
+
+### Site not updating on GitHub Pages
+- Check GitHub Actions status in the "Actions" tab
+- Ensure GitHub Pages is enabled in repository settings
+
+## 📧 Support
+
+For issues or questions, please open an issue in the GitHub repository.
+
+## 📄 License
+
+© 2025 - Personal academic website
