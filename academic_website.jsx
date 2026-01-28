@@ -1,4 +1,3 @@
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { BookOpen, FileText, GraduationCap, Mail, User } from "lucide-react";
@@ -60,17 +59,13 @@ export default function AcademicWebsite() {
         <div className="max-w-6xl mx-auto px-6">
           <h3 className="text-2xl font-semibold mb-6 flex items-center"><BookOpen className="mr-2" /> Working Papers</h3>
           <div className="space-y-6">
-            <Card>
-              <CardContent className="p-6">
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>Misallocation and Product Choice (with Stepan Gordeev)</li>
-                  <li>Input-Driven Production Technology Heterogeneity and the Allocation of Inputs (with Stepan Gordeev)</li>
-                  <li>Political Exit: The Unintended Effects of Electoral Rules in India (with Varun K.R. & Drew Stommes)</li>
-                  <li>Identity-Based Political Connections and Public Employment (formerly titled “One of Our Own…”) </li>
-                  <li>How Productive are Workfare Programs? Evidence from India (with Klaus Deininger & Songqing Jin)</li>
-                </ul>
-              </CardContent>
-            </Card>
+            <ul className="list-disc ml-6 space-y-2">
+              <li>Misallocation and Product Choice (with Stepan Gordeev)</li>
+              <li>Input-Driven Production Technology Heterogeneity and the Allocation of Inputs (with Stepan Gordeev)</li>
+              <li>Political Exit: The Unintended Effects of Electoral Rules in India (with Varun K.R. & Drew Stommes)</li>
+              <li>Identity-Based Political Connections and Public Employment (formerly titled "One of Our Own…") </li>
+              <li>How Productive are Workfare Programs? Evidence from India (with Klaus Deininger & Songqing Jin)</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -79,20 +74,16 @@ export default function AcademicWebsite() {
       <section id="publications" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-2xl font-semibold mb-6 flex items-center"><FileText className="mr-2" /> Publications</h3>
         <div className="space-y-6">
-          <Card>
-            <CardContent className="p-6">
-              <h4 className="font-bold mb-2">Journal Articles</h4>
-              <ul className="list-disc ml-6 space-y-2">
-                <li>Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference? with K. Deininger, S. Jin, & H. K. Nagarajan. <i>Journal of Development Studies</i>, 2022.</li>
-                <li>Women’s Political Leadership and Economic Empowerment: Evidence from Public Works in India with K. Deininger & H. K. Nagarajan. <i>Journal of Comparative Economics</i>, 2020.</li>
-                <li>Wages, Prices, and Agriculture: How Can Indian Agriculture Cope with Rising Wages with H. Binswanger. <i>Journal of Agricultural Economics</i>, 2018.</li>
-                <li>Can Labor Market Imperfections Explain Changes in Farm Size Productivity Relationship? Longitudinal Evidence from India with K. Deininger, S. Jin, & Y. Liu. <i>Land Economics</i>, 2018.</li>
-                <li>Determinants of Productivity and Structural Change in a Large Commercial Farm Environment: Evidence from Ukraine with K. Deininger & D. Nizalov. <i>The World Bank Economic Review</i>, 2017.</li>
-                <li>Does Land Fragmentation Increase the Cost of Cultivation? Evidence from India with K. Deininger, D. Monchuk, & H. K. Nagarajan. <i>Journal of Development Studies</i>, 2016.</li>
-                <li>Consumption Smoothing and Insurance against the Income Risks: A Case of India with P. Kumar. <i>Indian Economic Review</i>, 2012.</li>
-              </ul>
-            </CardContent>
-          </Card>
+          <h4 className="font-bold mb-2">Journal Articles</h4>
+          <ul className="list-disc ml-6 space-y-2">
+            <li>Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference? with K. Deininger, S. Jin, & H. K. Nagarajan. <i>Journal of Development Studies</i>, 2022.</li>
+            <li>Women's Political Leadership and Economic Empowerment: Evidence from Public Works in India with K. Deininger & H. K. Nagarajan. <i>Journal of Comparative Economics</i>, 2020.</li>
+            <li>Wages, Prices, and Agriculture: How Can Indian Agriculture Cope with Rising Wages with H. Binswanger. <i>Journal of Agricultural Economics</i>, 2018.</li>
+            <li>Can Labor Market Imperfections Explain Changes in Farm Size Productivity Relationship? Longitudinal Evidence from India with K. Deininger, S. Jin, & Y. Liu. <i>Land Economics</i>, 2018.</li>
+            <li>Determinants of Productivity and Structural Change in a Large Commercial Farm Environment: Evidence from Ukraine with K. Deininger & D. Nizalov. <i>The World Bank Economic Review</i>, 2017.</li>
+            <li>Does Land Fragmentation Increase the Cost of Cultivation? Evidence from India with K. Deininger, D. Monchuk, & H. K. Nagarajan. <i>Journal of Development Studies</i>, 2016.</li>
+            <li>Consumption Smoothing and Insurance against the Income Risks: A Case of India with P. Kumar. <i>Indian Economic Review</i>, 2012.</li>
+          </ul>
         </div>
       </section>
 
@@ -128,7 +119,7 @@ export default function AcademicWebsite() {
 
       {/* Footer */}
       <footer className="bg-white border-t mt-12 py-6 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Sudhir K. Singh. All rights reserved.
+        © {new Date().getFullYear()}
       </footer>
     </div>
   );
