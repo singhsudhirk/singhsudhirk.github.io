@@ -2,7 +2,7 @@
   <a href="/">Home</a> | <a href="/research.html">Research</a> | <a href="/teaching.html">Teaching</a> | <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>
 </div>
 
-<img src="image.jpg" alt="" style="float:left; width:180px; margin:0px 20px 15px 0px; border-radius:6px;">
+<img src="image.jpg" alt="" style="float:left; width:180px; margin:0px 20px 15px 0px; border-radius:6px; margin-left:0;">
 
 
 Welcome!
