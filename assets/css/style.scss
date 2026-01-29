@@ -13,7 +13,7 @@
 }
 
 .simple-nav a {
-  color: #0366d6;
+  color: #159957;  /* Cayman green for navigation too */
   text-decoration: none;
   margin: 0 20px;
   font-weight: 500;
@@ -21,7 +21,7 @@
 }
 
 .simple-nav a:hover {
-  color: #0256c2;
+  color: #0d6b3d;
   text-decoration: underline;
 }
 
@@ -39,24 +39,31 @@
   margin: 10px 0;
 }
 
-/* Green links for all content links */
-section a {
-  color: #159957;  /* Green color */
+/* Cayman theme bright green links for all content */
+section a,
+a {
+  color: #159957 !important;  /* Bright Cayman green */
   text-decoration: none;
   transition: color 0.2s;
 }
 
-section a:hover {
-  color: #0d6b3d;  /* Darker green on hover */
+section a:hover,
+a:hover {
+  color: #0d6b3d !important;  /* Darker green on hover */
   text-decoration: underline;
 }
 
-/* Style for journal names in italics */
+/* Override for paper status (journals) - keep them gray */
 .paper-status {
-  color: #666;
+  color: #666 !important;
   font-style: italic;
   font-size: 15px;
   margin-top: 2px;
+}
+
+.paper-status a {
+  color: #666 !important;
+  font-style: italic;
 }
 
 /* Move header to top instead of sidebar */
