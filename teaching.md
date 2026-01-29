@@ -1,3 +1,6 @@
+<div class="simple-nav">
+  <a href="/">Home</a> | <a href="/research.html">Research</a> | <a href="/teaching.html">Teaching</a>
+</div>
 *Advanced Econometrics* (Graduate level)  
 Spring 2025, University of Rochester
 
