@@ -16,3 +16,7 @@ Fall 2024, University of Rochester
 Fall 2023, University of Rochester
 
 **Note:** Please check the course Blackboards for more information, or contact me with any questions.
+
+<div class="site-footer">
+  <p>© 2026 Sudhir K. Singh | ssingh45@ur.rochester.edu</p>
+</div>
