@@ -1,5 +1,5 @@
 <div class="simple-nav">
-  <a href="/">Home</a> | <a href="/research/">Research</a> | <a href="/teaching/">Teaching</a>
+  <a href="/">Home</a> | <a href="/research.html">Research</a> | <a href="/teaching.html">Teaching</a>
 </div>
 
 ### Working Papers
