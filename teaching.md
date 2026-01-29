@@ -4,7 +4,7 @@
 
 
 
-**Advanced Econometrics** (PhD. Second Year)  
+**Advanced Econometrics** (Ph.D., Second Year)  
 Spring 2025, University of Rochester
 
 **Economic Research and Communication** (Undergraduate level)  
