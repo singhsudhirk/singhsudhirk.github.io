@@ -70,5 +70,8 @@ with P. Kumar
 *Indian Economic Review*
 
 
-
+<div class="site-footer">
+  <p>© 2026 Sudhir K. Singh</p>
+  <p>ssingh45@ur.rocheste.edu</p>
+</div>
 
