@@ -11,8 +11,8 @@ I am an Economist and Postdoctoral Researcher in the Department of Economics at 
 </p>
 <p style="text-align: justify;">
 My primary research interests are in labor and development economics. To learn more about my work, please visit my
-<a href="research">research page</a> or download my
-<a href="Sudhir_Singh_CV.pdf">CV</a>.
+<a href="/research.html">Research</a> or download my
+<a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>.
 </p>
 
 <div style="clear: both;"></div>
