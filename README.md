@@ -13,9 +13,9 @@ My primary research interests are in labor and development economics. To learn m
 
 
 [CV](Sudhir_Singh_CV.pdf) | [Research](research.md) 
-## Research
 
-### Working Papers
+
+## Working Papers
 **Female Leaders and Welfare in a Water-Scarce Economy**  
 with Caitlin Brown & Aruni Mitra  
 
@@ -38,7 +38,7 @@ with K. Deininger & S. Jin
 *revise and resubmit*
 
 
-### Publications
+## Publications
 
 **Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference?**  
 with K. Deininger, S. Jin, & H. K. Nagarajan  
