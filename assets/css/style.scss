@@ -3,6 +3,17 @@
 
 @import "{{ site.theme }}";
 
+/* your overrides go below */
+header, section, footer {
+  float: none !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+header h1, header p, header a {
+  text-align: center !important;
+}
+
 /* Simple, clean text links navigation */
 .simple-nav {
   text-align: center;
