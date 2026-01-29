@@ -1,4 +1,6 @@
-[Home](/) | [Research](research.md)  | [Teaching](teaching.md)
+<div class="simple-nav">
+  <a href="/">Home</a> | <a href="/research/">Research</a> | <a href="/teaching/">Teaching</a>
+</div>
 
 Welcome!
 
