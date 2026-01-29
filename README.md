@@ -2,7 +2,8 @@
   <a href="/">Home</a> | <a href="/research.html">Research</a> | <a href="/teaching.html">Teaching</a> | <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>
 </div>
 
-<img src="image.jpg" alt="" style="float:right; width:200px; margin:0px 0 0px 0px; border-radius:6px;">
+<img src="image.jpg" alt="" style="float:left; width:200px; margin:0px 0 0px 0px; border-radius:6px;">
+
 
 Welcome!
 
@@ -16,6 +17,7 @@ My primary research interests are in labor and development economics. To learn m
 </p>
 
 <div style="clear: both;"></div>
+
 
 
 
