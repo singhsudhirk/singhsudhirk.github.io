@@ -3,7 +3,7 @@
 </div>
 
 <img src="image.jpg" alt=""
-     style="float:right; width:200px; margin:10px 0 10px 25px; border-radius:5px;">
+     style="float:right; width:230px; margin:-5px 0 15px 30px; border-radius:6px;">
 
 
 
