@@ -1,1 +1,65 @@
+---
+---
 
+@import "{{ site.theme }}";
+
+/* Simple, clean text links navigation */
+.simple-nav {
+  text-align: center;
+  margin: 20px 0 30px 0;
+  font-size: 16px;
+}
+
+.simple-nav a {
+  color: #0366d6;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.simple-nav a:hover {
+  color: #0256c2;
+  text-decoration: underline;
+}
+
+/* Move header to top instead of sidebar */
+@media print, screen and (min-width: 720px) {
+  .wrapper {
+    width: 100%;
+    display: block;
+  }
+  
+  header {
+    float: none;
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0 10px 0;
+    border-bottom: none;
+  }
+  
+  header h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  section {
+    float: none;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+}
+
+/* Better spacing for content */
+section h2:first-of-type {
+  margin-top: 20px;
+}
