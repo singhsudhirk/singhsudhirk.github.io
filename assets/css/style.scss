@@ -178,3 +178,21 @@ header {
     float: none !important;
 }
 
+<style>
+  .profile-img {
+    float: left;
+    width: 180px;
+    margin: 0px 20px 15px 0px;
+    border-radius: 6px;
+  }
+  
+  /* Remove float on mobile so text goes below */
+  @media (max-width: 768px) {
+    .profile-img {
+      float: none;  /* This removes the float */
+      margin: 0px 0px 15px 0px;  /* Remove right margin */
+    }
+  }
+</style>
+
+<img src="image.jpg" alt="" class="profile-img">
