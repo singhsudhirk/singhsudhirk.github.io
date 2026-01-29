@@ -3,7 +3,7 @@
 </div>
 
 <img src="image.jpg" alt="" style="float:right; width:180px; margin:0px 0 15px 20px; border-radius:6px;">
-<div style="clear: both;"></div>
+
 
 Welcome!
 
@@ -11,7 +11,7 @@ Welcome!
 I am an Economist and Postdoctoral Researcher in the Department of Economics at the University of Rochester. I have worked as an Economist and Consultant at the World Bank Group and have consulted for the International Food Policy Research Institute (IFPRI) in Washington, D.C. I am also a Fellow of the Global Labor Organization (GLO).
 
 My primary research interests are in labor and development economics. To learn more about my work, please visit my <a href="/research.html">Research</a> or download my <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>.
-
+<div style="clear: both;"></div>
 
 
 
