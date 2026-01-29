@@ -2,6 +2,8 @@
   <a href="/">Home</a> | <a href="/research.html">Research</a> | <a href="/teaching.html">Teaching</a> | <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>
 </div>
 
+
+
 *Advanced Econometrics* (Graduate level)  
 Spring 2025, University of Rochester
 
