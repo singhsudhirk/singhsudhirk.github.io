@@ -1,4 +1,4 @@
-[Home](/) | [Research](/research/) | [Teaching](/teaching/)
+[Home](/) | [Research](research.md)  | [Teaching](teaching.md)
 
 Welcome!
 
