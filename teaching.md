@@ -5,7 +5,7 @@
 *Advanced Econometrics* (Graduate level)  
 Spring 2025, University of Rochester
 
-**conomic Research and Communication* (Undergraduate level)  
+*Economic Research and Communication* (Undergraduate level)  
 Spring 2025, University of Rochester
 
 *Advanced Quantitative Methods: Causal Inference* (Graduate level)  
