@@ -4,18 +4,15 @@
 
 
 
-*Advanced Econometrics* (Graduate level)  
+**Advanced Econometrics** (PhD. Second Year)  
 Spring 2025, University of Rochester
 
-*Economic Research and Communication* (Undergraduate level)  
+**Economic Research and Communication** (Undergraduate level)  
 Spring 2025, University of Rochester
 
-*Advanced Quantitative Methods: Causal Inference* (Graduate level)  
-Fall 2024, University of Rochester
+**Advanced Quantitative Methods: Causal Inference** (Graduate level)  
+University of Rochester
 
-**Guest Lectures:**  
-*Advanced Quantitative Methods: Causal Inference* (Graduate level, PhD 2nd year)  
-Fall 2023, University of Rochester
 
 **Note:** Please check the course Blackboards for more information, or contact me with any questions.
 
