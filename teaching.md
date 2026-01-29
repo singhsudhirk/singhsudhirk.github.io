@@ -1,6 +1,11 @@
-<div class="simple-nav">
-  <a href="/">Home</a> | <a href="/research.html">Research</a> | <a href="/teaching.html">Teaching</a>
-</div>
+<nav class="site-nav">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/research/">Research</a></li>
+    <li><a href="/teaching/">Teaching</a></li>
+  </ul>
+</nav>
+
 *Advanced Econometrics* (Graduate level)  
 Spring 2025, University of Rochester
 
