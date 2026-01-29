@@ -5,7 +5,7 @@
 <img src="image.jpg" alt=""
      style="float:right; width:220px; margin:10px 0 10px 25px; border-radius:6px;">
 
-<h2>Welcome!</h2>
+
 
 Welcome!
 
