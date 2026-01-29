@@ -3,18 +3,40 @@
 
 @import "{{ site.theme }}";
 
-/* your overrides go below */
-header, section, footer {
+/* ===================================
+   HEADER & TITLE STYLING
+   =================================== */
+header {
   float: none !important;
+  position: static !important;
   width: 100% !important;
   text-align: center !important;
+  padding: 40px 0 15px 0 !important;
+  border-bottom: none !important;
+  left: auto !important;
+  right: auto !important;
 }
 
-header h1, header p, header a {
+header h1 {
+  text-align: center !important;
+  font-size: 42px !important;
+  margin-bottom: 8px !important;
+}
+
+header p {
+  text-align: center !important;
+  font-size: 18px !important;
+  color: #666 !important;
+  margin-bottom: 0 !important;
+}
+
+header a {
   text-align: center !important;
 }
 
-/* Simple, clean text links navigation */
+/* ===================================
+   NAVIGATION
+   =================================== */
 .simple-nav {
   text-align: center;
   margin: 25px 0 40px 0;
@@ -31,27 +53,24 @@ header h1, header p, header a {
   transition: color 0.2s;
 }
 
-
 .simple-nav a:hover {
   color: #0d6b3d;
   text-decoration: underline;
 }
 
-/* Footer with horizontal line */
-.site-footer {
-  margin-top: 60px;
-  padding-top: 30px;
-  border-top: 1px solid #e5e5e5;
-  text-align: center;
-  color: #999;
-  font-size: 14px;
+/* ===================================
+   PROFILE IMAGE
+   =================================== */
+.profile-img {
+  float: left;
+  width: 180px;
+  margin: 0px 30px 15px 0px;
+  border-radius: 6px;
 }
 
-.site-footer p {
-  margin: 10px 0;
-}
-
-/* Cayman theme bright green links for all content */
+/* ===================================
+   LINKS
+   =================================== */
 section a,
 a {
   color: #159957 !important;
@@ -78,32 +97,60 @@ a:hover {
   font-style: italic;
 }
 
-/* Force header to center - works for all screen sizes */
-header {
-  float: none !important;
-  position: static !important;
-  width: 100% !important;
-  text-align: center !important;
-  padding: 40px 0 15px 0 !important;
-  border-bottom: none !important;
-  left: auto !important;
-  right: auto !important;
+/* ===================================
+   PAPER STYLING
+   =================================== */
+.paper {
+  margin-bottom: 25px;
 }
 
-header h1 {
-  text-align: center !important;
-  font-size: 42px !important;
-  margin-bottom: 8px !important;
+.paper-title {
+  font-weight: 600;
+  color: #222;
+  line-height: 1.4;
 }
 
-header p {
-  text-align: center !important;
-  font-size: 18px !important;
-  color: #666 !important;
-  margin-bottom: 0 !important;
+.paper-authors {
+  color: #666;
+  font-size: 15px;
+  margin-top: 3px;
 }
 
-/* Move header to top instead of sidebar */
+/* ===================================
+   CONTENT SPACING
+   =================================== */
+section h2:first-of-type {
+  margin-top: 30px;
+}
+
+section h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+section p {
+  margin-bottom: 18px;
+}
+
+/* ===================================
+   FOOTER
+   =================================== */
+.site-footer {
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+}
+
+.site-footer p {
+  margin: 10px 0;
+}
+
+/* ===================================
+   DESKTOP LAYOUT (720px and above)
+   =================================== */
 @media print, screen and (min-width: 720px) {
   .wrapper {
     width: 100% !important;
@@ -138,57 +185,13 @@ header p {
     max-width: 900px !important;
     margin: 0 auto !important;
     padding-top: 0 !important;
+    text-align: left !important;
   }
 }
 
-/* Better spacing for content */
-section h2:first-of-type {
-  margin-top: 30px;
-}
-
-section h2 {
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-section p {
-  margin-bottom: 18px;
-}
-
-/* Better spacing for papers */
-.paper {
-  margin-bottom: 25px;
-}
-
-/* Paper title styling */
-.paper-title {
-  font-weight: 600;
-  color: #222;
-  line-height: 1.4;
-}
-
-/* Paper authors styling */
-.paper-authors {
-  color: #666;
-  font-size: 15px;
-  margin-top: 3px;
-}
-/*****************************************/
-
-// Center the title
-.container-lg h1 {
-  text-align: center !important;
-}
-
-// Profile image - default desktop
-.profile-img {
-  float: left;
-  width: 180px;
-  margin: 0px 30px 15px 0px;
-  border-radius: 6px;
-}
-
-// Mobile: remove float so text goes below image
+/* ===================================
+   MOBILE LAYOUT (below 768px)
+   =================================== */
 @media (max-width: 768px) {
   .profile-img {
     float: none !important;
@@ -197,5 +200,16 @@ section p {
     width: 100%;
     max-width: 180px;
   }
+  
+  section {
+    float: none !important;
+    width: 100% !important;
+    text-align: left !important;
+  }
+  
+  footer {
+    float: none !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
 }
-
