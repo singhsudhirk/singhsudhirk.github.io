@@ -164,18 +164,6 @@ section p {
 }
 /*****************************************/
 header {
-    text-align: center !important;
-    margin: 0 auto;
-}
-
-header h1, 
-header p, 
-header nav {
-    text-align: center !important;
-}
-
-.wrapper {
-    width: 100% !important;
-    margin: 0 auto !important;
+    float: none !important;
 }
 
