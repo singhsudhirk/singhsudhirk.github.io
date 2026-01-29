@@ -1,3 +1,81 @@
-<div class="simple-nav">
-  <a href="/">Home</a> | <a href="/research/">Research</a> | <a href="/teaching/">Teaching</a>
-</div>
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Simple, clean text links navigation */
+.simple-nav {
+  text-align: center;
+  margin: 25px 0 40px 0;  /* More space below navigation */
+  padding-bottom: 20px;  /* Extra padding */
+  border-bottom: 1px solid #e5e5e5;  /* Optional: adds a subtle line */
+  font-size: 16px;
+}
+
+.simple-nav a {
+  color: #0366d6;
+  text-decoration: none;
+  margin: 0 20px;  /* More space between links */
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.simple-nav a:hover {
+  color: #0256c2;
+  text-decoration: underline;
+}
+
+/* Move header to top instead of sidebar */
+@media print, screen and (min-width: 720px) {
+  .wrapper {
+    width: 100%;
+    display: block;
+  }
+  
+  header {
+    float: none;
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0 15px 0;  /* More space around header */
+    border-bottom: none;
+  }
+  
+  header h1 {
+    font-size: 42px;
+    margin-bottom: 8px;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  section {
+    float: none;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+}
+
+/* Better spacing for content */
+section h2:first-of-type {
+  margin-top: 30px;  /* Space before first heading (Welcome!) */
+}
+
+section h2 {
+  margin-top: 40px;  /* Space before other headings */
+  margin-bottom: 20px;  /* Space after headings */
+}
+
+section p {
+  margin-bottom: 18px;  /* Space between paragraphs */
+}
+
+/* Better spacing for papers */
+.paper {
+  margin-bottom: 25px;
+}
