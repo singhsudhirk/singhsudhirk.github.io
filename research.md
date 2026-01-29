@@ -57,5 +57,7 @@ with P. Kumar
 *Indian Economic Review*
 
 
-
+<div class="site-footer">
+  <p>© 2026 Sudhir K. Singh | ssingh45@ur.rochester.edu</p>
+</div>
 
