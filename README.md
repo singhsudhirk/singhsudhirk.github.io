@@ -71,6 +71,6 @@ with P. Kumar
 
 
 <div class="site-footer">
-  <p>© 2026 Sudhir K. Singh</p> | <p>ssingh45@ur.rochester.edu</p>
+  <p>© 2026 Sudhir K. Singh | ssingh45@ur.rochester.edu</p>
 </div>
 
