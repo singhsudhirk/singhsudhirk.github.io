@@ -6,16 +6,16 @@
 /* Simple, clean text links navigation */
 .simple-nav {
   text-align: center;
-  margin: 25px 0 40px 0;  /* More space below navigation */
-  padding-bottom: 20px;  /* Extra padding */
-  border-bottom: 1px solid #e5e5e5;  /* Optional: adds a subtle line */
+  margin: 25px 0 40px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;  /* Line at top below navigation */
   font-size: 16px;
 }
 
 .simple-nav a {
   color: #0366d6;
   text-decoration: none;
-  margin: 0 20px;  /* More space between links */
+  margin: 0 20px;
   font-weight: 500;
   transition: color 0.2s;
 }
@@ -23,6 +23,20 @@
 .simple-nav a:hover {
   color: #0256c2;
   text-decoration: underline;
+}
+
+/* Footer with horizontal line */
+.site-footer {
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid #e5e5e5;  /* Line at bottom above footer */
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+}
+
+.site-footer p {
+  margin: 10px 0;
 }
 
 /* Move header to top instead of sidebar */
@@ -37,7 +51,7 @@
     position: static;
     width: 100%;
     text-align: center;
-    padding: 40px 0 15px 0;  /* More space around header */
+    padding: 40px 0 15px 0;
     border-bottom: none;
   }
   
@@ -63,16 +77,16 @@
 
 /* Better spacing for content */
 section h2:first-of-type {
-  margin-top: 30px;  /* Space before first heading (Welcome!) */
+  margin-top: 30px;
 }
 
 section h2 {
-  margin-top: 40px;  /* Space before other headings */
-  margin-bottom: 20px;  /* Space after headings */
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 section p {
-  margin-bottom: 18px;  /* Space between paragraphs */
+  margin-bottom: 18px;
 }
 
 /* Better spacing for papers */
