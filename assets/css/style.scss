@@ -174,25 +174,28 @@ section p {
   margin-top: 3px;
 }
 /*****************************************/
-header {
-    float: none !important;
+
+// Center the title
+.container-lg h1 {
+  text-align: center !important;
 }
 
-// Profile image styles
+// Profile image - default desktop
 .profile-img {
   float: left;
   width: 180px;
-  margin: 0px 20px 15px 0px;
+  margin: 0px 30px 15px 0px;
   border-radius: 6px;
 }
 
-// Mobile responsive - remove float on small screens
+// Mobile: remove float so text goes below image
 @media (max-width: 768px) {
   .profile-img {
-    float: none !important;  // !important to override theme styles
+    float: none !important;
     display: block;
-    margin: 0px 0px 15px 0px !important;
-    width: 100%;  // Make it full width on mobile
-    max-width: 180px;  // But not larger than 180px
+    margin: 0 0 15px 0 !important;
+    width: 100%;
+    max-width: 180px;
   }
 }
+
