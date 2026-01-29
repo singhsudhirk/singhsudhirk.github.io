@@ -16,9 +16,7 @@ My primary research interests are in labor and development economics. To learn m
 <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>.
 </p>
 
-
-
-
+<div style="clear: both; height: 8px;"></div>
 
 
 ## Working Papers
