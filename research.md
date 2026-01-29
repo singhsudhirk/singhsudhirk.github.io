@@ -1,3 +1,6 @@
+<div class="simple-nav">
+  <a href="/">Home</a> | <a href="/research.html">Research</a> | <a href="/teaching.html">Teaching</a>
+</div>
 ### Working Papers
 **Female Leaders and Welfare in a Water-Scarce Economy**  
 with Caitlin Brown & Aruni Mitra  
