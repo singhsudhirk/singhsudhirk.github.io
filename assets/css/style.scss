@@ -8,7 +8,7 @@
   text-align: center;
   margin: 25px 0 40px 0;
   padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;  /* Line at top below navigation */
+  border-bottom: 1px solid #e5e5e5;
   font-size: 16px;
 }
 
@@ -29,7 +29,7 @@
 .site-footer {
   margin-top: 60px;
   padding-top: 30px;
-  border-top: 1px solid #e5e5e5;  /* Line at bottom above footer */
+  border-top: 1px solid #e5e5e5;
   text-align: center;
   color: #999;
   font-size: 14px;
@@ -37,6 +37,26 @@
 
 .site-footer p {
   margin: 10px 0;
+}
+
+/* Green links for all content links */
+section a {
+  color: #159957;  /* Green color */
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+section a:hover {
+  color: #0d6b3d;  /* Darker green on hover */
+  text-decoration: underline;
+}
+
+/* Style for journal names in italics */
+.paper-status {
+  color: #666;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 2px;
 }
 
 /* Move header to top instead of sidebar */
@@ -92,4 +112,18 @@ section p {
 /* Better spacing for papers */
 .paper {
   margin-bottom: 25px;
+}
+
+/* Paper title styling */
+.paper-title {
+  font-weight: 600;
+  color: #222;
+  line-height: 1.4;
+}
+
+/* Paper authors styling */
+.paper-authors {
+  color: #666;
+  font-size: 15px;
+  margin-top: 3px;
 }
