@@ -1,10 +1,6 @@
-<nav class="site-nav">
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/research/">Research</a></li>
-    <li><a href="/teaching/">Teaching</a></li>
-  </ul>
-</nav>
+<div class="simple-nav">
+  <a href="/">Home</a> | <a href="/research/">Research</a> | <a href="/teaching/">Teaching</a>
+</div>
 
 ### Working Papers
 **Female Leaders and Welfare in a Water-Scarce Economy**  
