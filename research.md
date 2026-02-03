@@ -2,7 +2,7 @@
   <a href="/">Home</a> | <a href="/research.html">Research</a> | <a href="/teaching.html">Teaching</a> | <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>
 </div>
 
-### Working Papers
+## Working Papers
 **Female Leaders and Welfare in a Water-Scarce Economy**  
 with Caitlin Brown & Aruni Mitra  
 
@@ -25,7 +25,7 @@ with K. Deininger & S. Jin
 *revise and resubmit*
 
 
-### Publications
+## Publications
 
 **Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference?**  
 with K. Deininger, S. Jin, & H. K. Nagarajan  
