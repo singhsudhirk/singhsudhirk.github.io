@@ -21,8 +21,8 @@ with Caitlin Brown & Aruni Mitra
 with Ha Luong   
 *under review*
 
-**[Misallocation and Product Choice](https://sgordeev.com/input_heterogeneity_misallocation.pdf)** 
-with Stepan Gordeev 
+**[Misallocation and Product Choice](https://sgordeev.com/input_heterogeneity_misallocation.pdf)**  
+with Stepan Gordeev
 
 **[Input-Driven Production Technology Heterogeneity and the Allocation of Inputs]([https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html](https://sgordeev.com/input_heterogeneity_misallocation.pdf))**  
 with Stepan Gordeev 
