@@ -72,7 +72,7 @@ with P. Kumar
 with Travis Baseler and Alp Sungu  
 *fieldwork in progress*
 
-**Farm, Trade, and Misallocation** 
+**Farm, Trade, and Misallocation**  
 with Stepan Gordeev
 
 <div class="site-footer">
