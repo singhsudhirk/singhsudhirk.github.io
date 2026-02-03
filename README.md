@@ -68,8 +68,8 @@ with P. Kumar
 *Indian Economic Review*
 
 ## Selected Work in Progress
-**Housing, Network, and Migration**   
-with Travis Baseler and Alp Sungu 
+**Housing, Network, and Migration**  
+with Travis Baseler and Alp Sungu  
 *fieldwork in progress*
 
 **Farm, Trade, and Misallocation** 
