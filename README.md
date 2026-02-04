@@ -13,7 +13,7 @@ My primary research interests are in labor and development economics. To learn m
 
 
 
-# Working Papers
+### Working Papers
 **[Female Leaders and Welfare in a Water-Scarce Economy](https://www.dropbox.com/scl/fi/fryusj3ezzog3eetm5t6m/BMS_2025.pdf?rlkey=sdo9ipp3y20pxcmke8lnso3ue&dl=0)**  
 with Caitlin Brown & Aruni Mitra
 
@@ -36,7 +36,7 @@ with K. Deininger & S. Jin
 *revise and resubmit*
 
 
-# Publications
+### Publications
 
 **[Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference?](https://www.tandfonline.com/doi/abs/10.1080/00220388.2022.2043278?journalCode=fjds20)**  
 with K. Deininger, S. Jin, & H. K. Nagarajan  
@@ -67,7 +67,7 @@ with K. Deininger, D. Monchuck, & H. K. Nagarajan
 with P. Kumar  
 *Indian Economic Review*
 
-# Selected Work in Progress
+### Selected Work in Progress
 **Housing, Network, and Migration**  
 with Travis Baseler and Alp Sungu  
 *fieldwork in progress*
