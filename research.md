@@ -5,24 +5,24 @@
 
 
 ### Working Papers
-**[Female Leaders and Welfare in a Water-Scarce Economy](https://www.dropbox.com/scl/fi/fryusj3ezzog3eetm5t6m/BMS_2025.pdf?rlkey=sdo9ipp3y20pxcmke8lnso3ue&dl=0)**  
+__[Female Leaders and Welfare in a Water-Scarce Economy](https://www.dropbox.com/scl/fi/fryusj3ezzog3eetm5t6m/BMS_2025.pdf?rlkey=sdo9ipp3y20pxcmke8lnso3ue&dl=0)__  
 with Caitlin Brown & Aruni Mitra
 
-**[College Access and Domestic Violence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5839251)**  
+__[College Access and Domestic Violence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5839251)__  
 with Ha Luong   
 *under review*
 
-**[Misallocation and Product Choice](https://sgordeev.com/input_heterogeneity_misallocation.pdf)**  
+__[Misallocation and Product Choice](https://sgordeev.com/input_heterogeneity_misallocation.pdf)__  
 with Stepan Gordeev 
 
-**[Input-Driven Production Technology Heterogeneity and the Allocation of Inputs]([https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html](https://sgordeev.com/input_heterogeneity_misallocation.pdf))**  
+__[Input-Driven Production Technology Heterogeneity and the Allocation of Inputs]([https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html](https://sgordeev.com/input_heterogeneity_misallocation.pdf))__  
 with Stepan Gordeev 
 
-**[Political Exit: The Unintended Effects of Electoral Rules in India](https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html)**  
+__[Political Exit: The Unintended Effects of Electoral Rules in India](https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html)__  
 with Varun K.R. & Drew Stommes  
 *under review*
 
-**How Productive are Workfare Programs? Evidence from India**  
+__How Productive are Workfare Programs? Evidence from India__  
 with K. Deininger & S. Jin  
 *revise and resubmit*
 
