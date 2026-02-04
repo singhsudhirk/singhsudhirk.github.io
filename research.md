@@ -25,10 +25,7 @@ with Varun K.R. & Drew Stommes
 **How Productive are Workfare Programs? Evidence from India**  
 with K. Deininger & S. Jin  
 *revise and resubmit*
- <details>
-  <summary>Abstract</summary>
-    This is the abstract of the third paper with detailed information about the methodology and results.
-    </details>
+
 
 ### Publications
 
