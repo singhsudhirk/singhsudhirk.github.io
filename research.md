@@ -27,10 +27,8 @@ with K. Deininger & S. Jin
 *revise and resubmit*
  <details>
   <summary>Abstract</summary>
-  
-  This is the abstract of the third paper with detailed information about the methodology and results.
-  
-  </details>
+    This is the abstract of the third paper with detailed information about the methodology and results.
+    </details>
 
 ### Publications
 
