@@ -8,7 +8,7 @@
 **[Female Leaders and Welfare in a Water-Scarce Economy](https://www.dropbox.com/scl/fi/fryusj3ezzog3eetm5t6m/BMS_2025.pdf?rlkey=sdo9ipp3y20pxcmke8lnso3ue&dl=0)**  
 with Caitlin Brown & Aruni Mitra
 
-**[College Access and Domestic Violence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5839251)**  
+***[College Access and Domestic Violence](https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0nt8j6gg9g8wfp19&e=1&dl=0)** <br>
 with Ha Luong   
 *under review*
 
