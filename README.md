@@ -26,7 +26,7 @@ with Ha Luong
 **[Misallocation and Product Choice](https://sgordeev.com/input_heterogeneity_misallocation.pdf)**  
 with Stepan Gordeev
 
-**[Input-Driven Production Technology Heterogeneity and the Allocation of Inputs]([https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html](https://sgordeev.com/input_heterogeneity_misallocation.pdf))**  
+**[Input-Driven Production Technology Heterogeneity and the Allocation of Inputs](https://sgordeev.com/input_heterogeneity_misallocation.pdf)**  
 with Stepan Gordeev 
 
 **[Political Exit: The Unintended Effects of Electoral Rules in India](https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html)**  
