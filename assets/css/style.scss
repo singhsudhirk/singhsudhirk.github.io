@@ -136,6 +136,17 @@ section p {
   margin-bottom: 18px;
 }
 
+
+/* ===================================
+   BODY FONT STYLE
+   =================================== */
+// Palatino font stack
+body {
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /* ===================================
    FOOTER
    =================================== */
