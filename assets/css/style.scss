@@ -42,6 +42,13 @@ header a {
 a {
   font-weight: 600;
 }
+
+
+*/Animation*/
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
 /* ===================================
    NAVIGATION
    =================================== */
