@@ -69,6 +69,9 @@ details {
 }
 */
 
+
+/* Old colors: #159957 (primary), #0d6b3d (hover) */
+/* New colors: #117a46 (primary), #095c32 (hover) */
 /* ===================================
    NAVIGATION
    =================================== */
@@ -81,7 +84,7 @@ details {
 }
 
 .simple-nav a {
-  color: #159957;
+  color: #117a46;
   text-decoration: none;
   margin: 0 15px;
   font-weight: 500;
@@ -89,7 +92,7 @@ details {
 }
 
 .simple-nav a:hover {
-  color: #0d6b3d;
+  color: #095c32;
   text-decoration: underline;
 }
 
@@ -108,14 +111,14 @@ details {
    =================================== */
 section a,
 a {
-  color: #159957 !important;
+  color: #117a46 !important;
   text-decoration: none;
   transition: color 0.2s;
 }
 
 section a:hover,
 a:hover {
-  color: #0d6b3d !important;
+  color: #095c32 !important;
   text-decoration: underline;
 }
 
