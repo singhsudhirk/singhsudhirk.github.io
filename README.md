@@ -23,13 +23,13 @@ with Caitlin Brown & Aruni Mitra
 with Ha Luong   
 *under review*
 
-[Misallocation and Product Choice](https://sgordeev.com/input_heterogeneity_misallocation.pdf)  
+[Misallocation and Product Choice](https://sgordeev.com/input_heterogeneity_misallocation.pdf) <br>  
 with Stepan Gordeev
 
-[Input-Driven Production Technology Heterogeneity and the Allocation of Inputs](https://sgordeev.com/input_heterogeneity_misallocation.pdf) 
+[Input-Driven Production Technology Heterogeneity and the Allocation of Inputs](https://sgordeev.com/input_heterogeneity_misallocation.pdf) <br> 
 with Stepan Gordeev 
 
-[Political Exit: The Unintended Effects of Electoral Rules in India](https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html)  
+[Political Exit: The Unintended Effects of Electoral Rules in India](https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html) <br>  
 with Varun K.R. & Drew Stommes  
 *under review*
 
