@@ -63,6 +63,10 @@ details > summary::before {
 details[open] > summary::before {
   content: "−";
 }
+details {
+  margin: 0;
+  padding: 0;
+}
 
 /* ===================================
    NAVIGATION
