@@ -39,12 +39,13 @@ header a {
   text-align: center !important;
 }
 
+/*Hyperlinked font thickness*/
 a {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 
-*/Animation*/
+/*Animation*/
 @keyframes blink {
   50% { opacity: 0; }
 }
