@@ -16,10 +16,10 @@ I am an Economist and Postdoctoral Researcher in the Department of Economics at 
 -->
 
 ### Recent-ish Papers
-[Female Leaders and Welfare in a Water-Scarce Economy](https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0)<br>with Caitlin Brown & Aruni Mitra
+🆕 [Female Leaders and Welfare in a Water-Scarce Economy](https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0)<br>with Caitlin Brown & Aruni Mitra
 
 
-[College Access and Domestic Violence](https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0nt8j6gg9g8wfp19&e=1&dl=0)<br>
+🆕 [College Access and Domestic Violence](https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0nt8j6gg9g8wfp19&e=1&dl=0)<br>
 with Ha Luong   
 *under review*
 
