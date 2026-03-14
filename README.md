@@ -22,60 +22,7 @@ I am an Economist and Postdoctoral Researcher in the Department of Economics at 
 [College Access and Domestic Violence](https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0nt8j6gg9g8wfp19&e=1&dl=0)<br>
 with Ha Luong   
 *under review*
-<!--
-[Misallocation and Product Choice](https://sgordeev.com/input_heterogeneity_misallocation.pdf)<br>
-with Stepan Gordeev
 
-[Input-Driven Production Technology Heterogeneity and the Allocation of Inputs](https://sgordeev.com/input_heterogeneity_misallocation.pdf)<br> 
-with Stepan Gordeev 
-
-[Political Exit: The Unintended Effects of Electoral Rules in India](https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html)<br>with Varun K.R. & Drew Stommes  
-*under review*
-
-**How Productive are Workfare Programs? Evidence from India**  
-with K. Deininger & S. Jin  
-*revise and resubmit*
-
-
-### Publications
-
-[Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference?](https://www.tandfonline.com/doi/abs/10.1080/00220388.2022.2043278?journalCode=fjds20)  
-with K. Deininger, S. Jin, & H. K. Nagarajan  
-*Journal of Development Studies*
-
-
-[Women's Political Leadership and Economic Empowerment: Evidence from Public Works in India](https://www.sciencedirect.com/science/article/pii/S0147596719301039)   
-with K. Deininger & H. K. Nagarajan  
-*Journal of Comparative Economics*
-
-[Wages, Prices, and Agriculture: How Can Indian Agriculture Cope with Rising Wages](https://onlinelibrary.wiley.com/doi/abs/10.1111/1477-9552.12234)   
-with H. Binswanger  
-*Journal of Agricultural Economics*
-
-[Can Labor Market Imperfections Explain Changes in Farm Size Productivity Relationship? Longitudinal Evidence from India](https://academic.oup.com/wber/article-abstract/doi/10.1093/wber/lhw063/2965623/Determinants-of-Productivity-and-Structural-Change?redirectedFrom=fulltext)   
-with K. Deininger, S. Jin, & Y. Liu  
-*Land Economics*
-
-[Determinants of Productivity and Structural Change in a Large Commercial Farm Environment: Evidence from Ukraine](https://academic.oup.com/wber/article-abstract/doi/10.1093/wber/lhw063/2965623/Determinants-of-Productivity-and-Structural-Change?redirectedFrom=fulltext)   
-with K. Deininger & D. Nizalov  
-*The World Bank Economic Review*
-
-[Does Land Fragmentation Increase the Cost of Cultivation? Evidence from India](http://www.tandfonline.com/doi/abs/10.1080/00220388.2016.1166210?journalCode=fjds20)   
-with K. Deininger, D. Monchuck, & H. K. Nagarajan  
-*Journal of Development Studies*
-
-[Consumption Smoothing and Insurance against the Income Risks: A Case of India](http://www.jstor.org/stable/41969731?seq=1#page_scan_tab_contents)  
-with P. Kumar  
-*Indian Economic Review*
-
-### Selected Work in Progress
-**Housing, Network, and Migration**  
-with Travis Baseler and Alp Sungu  
-*fieldwork in progress*
-
-**Farm, Trade, and Misallocation**  
-with Stepan Gordeev
--->
 <div class="site-footer">
   <p>© 2026 Sudhir K. Singh | ssingh45@ur.rochester.edu</p>
 </div>
