@@ -272,7 +272,7 @@ section p {
   gap: 6px;
   flex-wrap: wrap;
 }
-
+/* ORIGINAL BORDER VERSION - uncomment to restore
 .paper-links a, .abstract-toggle {
   font-size: 13px;
   color: #117a46 !important;
@@ -286,14 +286,35 @@ section p {
   align-items: center;
   gap: 5px;
 }
+*/
 
+.paper-links a, .abstract-toggle {
+  font-size: 13px;
+  color: #117a46 !important;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 3px 10px;
+  background: #e8f5e9;
+  border-radius: 4px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.paper-links a:hover, .abstract-toggle:hover {
+  background: #c8e6c9;
+  color: #095c32 !important;
+  text-decoration: none !important;
+}
+/* ORIGINAL BORDER VERSION - color scheme
 .paper-links a:hover, .abstract-toggle:hover {
   color: #095c32 !important;
   border-color: #095c32;
   background: #e8f5e9;
   text-decoration: none !important;
 }
-
+*/
 .toggle-icon {
   display: inline-block;
   transition: transform 0.2s;
