@@ -259,37 +259,58 @@ section p {
   }
 }
 
+
+
+
+
 /* ===================================
    ABSTRACT
    =================================== */
-details {
-  display: inline-block;
-  margin-right: 6px;
+.paper-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
 }
 
-details summary {
-  color: #117a46;
+.paper-links a, .abstract-toggle {
+  font-size: 13px;
+  color: #117a46 !important;
+  text-decoration: none;
   cursor: pointer;
   padding: 3px 10px;
   border: 1px solid #117a46;
   border-radius: 4px;
-  font-size: 13px;
+  background: transparent;
   display: inline-flex;
   align-items: center;
   gap: 5px;
 }
 
-details summary:hover {
-  background: #e8f5e9;
-  color: #095c32;
+.paper-links a:hover, .abstract-toggle:hover {
+  color: #095c32 !important;
   border-color: #095c32;
+  background: #e8f5e9;
+  text-decoration: none !important;
 }
 
-details[open] summary {
-  margin-bottom: 8px;
+.toggle-icon {
+  display: inline-block;
+  transition: transform 0.2s;
+  font-style: normal;
+  font-size: 10px;
 }
 
-details p {
+.toggle-icon.open {
+  transform: rotate(90deg);
+}
+
+.sep {
+  color: #999;
+  font-size: 13px;
+}
+
+.abstract-box {
   margin-top: 10px;
   padding: 10px 14px;
   background: #f1f8f1;
