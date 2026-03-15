@@ -262,6 +262,31 @@ section p {
 /* ===================================
    Abstract
    =================================== */
-details {
+.paper-links {
   display: inline;
+}
+
+.paper-links a {
+  cursor: pointer;
+  color: #0066cc;
+  text-decoration: none;
+  margin: 0 2px;
+}
+
+.paper-links a:hover {
+  text-decoration: underline;
+}
+
+.abstract-toggle {
+  cursor: pointer;
+}
+
+.abstract-box {
+  margin-top: 8px;
+  padding: 10px 14px;
+  background: #f8f8f8;
+  border-left: 3px solid #0066cc;
+  font-size: 0.92em;
+  line-height: 1.6;
+  max-width: 700px;
 }
