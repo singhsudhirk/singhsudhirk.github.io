@@ -27,13 +27,13 @@ I am an Economist and Postdoctoral Researcher in the Department of Economics at 
   <span class="sep">|</span>
   <a href="#">Slides</a>
 </span>
-<div id="abs1" class="abstract-box" style="display:none">Your abstract text here.</div>
+<div id="abs1" class="abstract-box" style="display:none">Are female leaders better at mitigating the adverse economic consequences of environmental change than their male counterparts? Combining historical groundwater data with rural household survey data from India and exploiting village-level random variation in leadership quotas, we document that female leaders are more effective in mitigating the adverse employment impact of groundwater scarcity, increasing household incomes and non-food spending, particularly investment in child education. We identify a structural transformation mechanism: female leaders in water-scarce villages reallocate public works (NREGS) toward water-related infrastructure development, facilitating a shift from the water-constrained agricultural sector towards manufacturing and construction..</div>
 
 🆕 **College Access and Domestic Violence**<br>with Ha Luong<br>
 <span class="paper-links">
   <span class="abstract-toggle" onclick="toggleAbstract('abs2', this)"><i class="toggle-icon">▶</i> Abstract</span>
   <span class="sep">|</span>
-  <a href="https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0tn8j6gg9g8wfp19&e=1&dl=0">Paper</a>
+  <a href="https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0nt8j6gg9g8wfp19&e=2&dl=0">Paper</a>
   <span class="sep">|</span>
   <a href="#">Slides</a>
 </span>
