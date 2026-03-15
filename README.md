@@ -39,6 +39,10 @@ I am an Economist and Postdoctoral Researcher in the Department of Economics at 
 </span>
 <div id="abs2" class="abstract-box" style="display:none">How does access to college affect domestic violence? We study this question in the context of a large-scale investment in higher education expansion in India. The expansion program incentivized the establishment of new colleges in areas with relatively low enrollment in higher education. Using multiple sources of data and a regression discontinuity design, we find that the college expansion program significantly reduced domestic violence for all women. The decline was more pronounced for younger women than for older women, which suggests that the impact of the expansion program was driven by cohorts that were more likely to be exposed to the colleges and benefit from them. Additionally, we find that the entry of new colleges increased women's labor force participation and changed how women spent their time in the economy. More specifically, we find that women spent more time on paid activities including wage and self-employment, educational activities and less on domestic work. Finally, we tested how social norms changed, and we find that women were more likely to reject any justification for domestic violence, participate in household decision-making, and have ownership of assets, suggesting a change in existing social norms and increased empowerment of women..</div>
 
+
+
+<script src="{{ '/assets/js/toggle.js' | relative_url }}"></script>
+
 <div class="site-footer">
   <p>© 2026 Sudhir K. Singh | ssingh45@ur.rochester.edu</p>
 </div>
