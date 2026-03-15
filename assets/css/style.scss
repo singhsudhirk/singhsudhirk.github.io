@@ -262,50 +262,6 @@ section p {
 /* ===================================
    Abstract
    =================================== */
-
-/* Links row under paper title */
-.paper-links {
-  margin-top: 0px;
-  font-size: 0.95em;
-}
-
-
-/* link styling */
-.paper-links a {
-  margin-right: 12px;
-  text-decoration: none;
-  color: #0366d6;
-  font-weight: 500;
-}
-
-/* hover style */
-.paper-links a:hover {
-  text-decoration: underline;
-}
-
-/* + sign before abstract */
-.abstract-toggle::before {
-  content: "+ ";
-  font-weight: bold;
-}
-
-/* change + to − when open */
-.abstract-toggle.open::before {
-  content: "− ";
-}
-
-/* abstract container */
-.abstract-box {
-  display: none;
-  margin-top: 6px;
-  margin-left: 6px;
-  padding-left: 10px;
-  border-left: 3px solid #ddd;
-  font-size: 0.95em;
-  line-height: 1.5;
-}
-
-/* visible abstract */
-.abstract-box.show {
-  display: block;
+details {
+  display: inline;
 }
