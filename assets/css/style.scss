@@ -263,18 +263,48 @@ section p {
    Abstract
    =================================== */
 
-/* Remove default triangle */
-.abstract-box summary {
-  list-style: none;
-  cursor: pointer;
-  font-weight: 600;
+/* Links row under paper title */
+.paper-links {
+  margin-top: 4px;
+  font-size: 0.95em;
 }
 
-.abstract-box summary::-webkit-details-marker {
-  display: none;
+/* link styling */
+.paper-links a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: 500;
 }
 
-/* Optional styling */
+/* hover style */
+.paper-links a:hover {
+  text-decoration: underline;
+}
+
+/* + sign before abstract */
+.abstract-toggle::before {
+  content: "+ ";
+  font-weight: bold;
+}
+
+/* change + to − when open */
+.abstract-toggle.open::before {
+  content: "− ";
+}
+
+/* abstract container */
 .abstract-box {
+  display: none;
   margin-top: 6px;
+  margin-left: 6px;
+  padding-left: 10px;
+  border-left: 3px solid #ddd;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* visible abstract */
+.abstract-box.show {
+  display: block;
 }
