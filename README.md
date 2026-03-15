@@ -28,7 +28,8 @@ I am an Economist and Postdoctoral Researcher in the Department of Economics at 
   <span class="sep">|</span>
   <a href="#">Slides</a>
 </span>
-<div id="abs1" class="abstract-box" style="display:none">Your abstract text here.</div>
+<div id="abs1" class="abstract-box" style="display:none">Are female leaders better at mitigating the adverse economic consequences of environmental change than their male counterparts? Combining historical groundwater data with rural household survey data from India and exploiting village-level random variation in leadership quotas, we document that female leaders are indeed more effective in mitigating the adverse employment impact of groundwater scarcity, boosting household incomes and increasing non-food spending, particularly investment in child education. We identify a structural transformation mechanism: female leaders in water-scarce villages reallocate public works (NREGS) toward water-related infrastructure development,thereby shifting labor from the water-constrained agricultural sector towards manufacturing and
+construction.</div>
 
 🆕 **College Access and Domestic Violence**<br>with Ha Luong<br>
 <span class="paper-links">
