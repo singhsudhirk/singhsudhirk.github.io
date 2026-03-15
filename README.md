@@ -20,10 +20,25 @@ I am an Economist and Postdoctoral Researcher in the Department of Economics at 
 
 ### Recent-ish Papers
 
-🆕 **Female Leaders and Welfare in a Water-Scarce Economy**<br>with Caitlin Brown & Aruni Mitra<br><details style="display:inline"><summary>Abstract</summary>Your abstract text here.</details> [[Paper](https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0)] [[Slides](#)]
+🆕 **Female Leaders and Welfare in a Water-Scarce Economy**<br>with Caitlin Brown & Aruni Mitra<br>
+<span class="paper-links">
+  <span class="abstract-toggle" onclick="toggleAbstract('abs1', this)"><i class="toggle-icon" id="icon1">▶</i> Abstract</span>
+  <span class="sep">|</span>
+  <a href="https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0">Paper</a>
+  <span class="sep">|</span>
+  <a href="#">Slides</a>
+</span>
+<div id="abs1" class="abstract-box" style="display:none">Your abstract text here.</div>
 
-🆕 **College Access and Domestic Violence**<br>with Ha Luong<br><details style="display:inline"><summary>Abstract</summary>Your abstract text here.</details> [[Paper](https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0tn8j6gg9g8wfp19&e=1&dl=0)] [[Slides](#)]
-
+🆕 **College Access and Domestic Violence**<br>with Ha Luong<br>
+<span class="paper-links">
+  <span class="abstract-toggle" onclick="toggleAbstract('abs2', this)"><i class="toggle-icon" id="icon2">▶</i> Abstract</span>
+  <span class="sep">|</span>
+  <a href="https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0tn8j6gg9g8wfp19&e=1&dl=0">Paper</a>
+  <span class="sep">|</span>
+  <a href="#">Slides</a>
+</span>
+<div id="abs2" class="abstract-box" style="display:none">Your abstract text here.</div>
 
 
 <div class="site-footer">
