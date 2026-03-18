@@ -11,9 +11,6 @@ I am an Economist and Postdoctoral Researcher in the Department of Economics at 
  To learn more about my work, please visit my <a href="/research.html">Research</a> page or download my <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>.
 <div style="clear: both;"></div>
 
-<!-- 
-<hr style="height:1px; border:none; background-color:#e0e0e0;">
--->
 
 {% include research_h.md %}
 
