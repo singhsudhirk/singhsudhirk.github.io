@@ -1,5 +1,5 @@
 <div class="simple-nav">
-  <a href="/">Home</a> | <a href="/research.html">Research</a> | <a href="/teaching.html">Teaching</a> | <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>
+  <a href="/">Home</a> | <a href="/#research">Research</a> | <a href="/teaching.html">Teaching</a> | <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>
 </div>
 
 <img src="image.jpg" alt="Sudhir K Singh" class="profile-img">
@@ -16,7 +16,7 @@ I am an Economist and Postdoctoral Researcher in the Department of Economics at 
 -->
 
 
-
+## Research {#research}
 ### Working Papers
 
 🆕 **Female Leaders and Welfare in a Water-Scarce Economy**<br>with Caitlin Brown & Aruni Mitra<br>
