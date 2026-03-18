@@ -28,11 +28,15 @@ with Stepan Gordeev<br>  <span class="paper-links">
 
 
 
-[Input-Driven Production Technology Heterogeneity and the Allocation of Inputs](https://sgordeev.com/input_heterogeneity_misallocation.pdf)<br> 
-with Stepan Gordeev 
+**Input-Driven Production Technology Heterogeneity and the Allocation of Inputs**<br> 
+with Stepan Gordeev<br> <span class="paper-links">
+  <a href="https://sgordeev.com/input_heterogeneity_misallocation.pdf" target="_blank">Paper</a>
+  <span class="sep">
 
-[Political Exit: The Unintended Effects of Electoral Rules in India](https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html)<br>with Varun K.R. & Drew Stommes  
-*under review*
+**Political Exit: The Unintended Effects of Electoral Rules in India**<br>with Varun K.R. & Drew Stommes  
+*under review*<br><span class="paper-links">
+  <a href="https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html" target="_blank">Paper</a>
+  <span class="sep">
 
 **How Productive are Workfare Programs? Evidence from India**  
 with K. Deininger & S. Jin  
