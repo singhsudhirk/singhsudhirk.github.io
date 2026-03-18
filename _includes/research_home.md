@@ -83,11 +83,3 @@ with Travis Baseler and Alp Sungu
 **Farm, Trade, and Misallocation**  
 with Stepan Gordeev
 
-
-
-<div class="site-footer">
-  <p>© 2026 Sudhir K. Singh | ssingh45@ur.rochester.edu</p>
-</div>
-
-
-
