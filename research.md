@@ -20,15 +20,11 @@ with Ha Luong
 </span>
 
 **Misallocation and Product Choice**<br> 
-with Stepan Gordeev<br>  
-<div style="display: flex; gap: 20px;">
-  <span class="paper-links">
-    <a href="https://sgordeev.com/input_heterogeneity_misallocation.pdf">Paper</a>
-  </span> |
-  <span class="paper-links">
-    <a href="https://cepr.org/publications/wp094">STEG Working Paper</a>
-  </span>
-</div>
+with Stepan Gordeev<br>  <span class="paper-links">
+  <a href="https://sgordeev.com/input_heterogeneity_misallocation.pdf" target="_blank">Paper 1</a>
+  <span class="sep">|</span>
+  <a href="https://cepr.org/publications/wp094" target="_blank">Paper 2</a>
+</span>
 
 
 
