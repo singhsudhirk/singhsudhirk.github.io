@@ -48,32 +48,32 @@ with K. Deininger & S. Jin
 
 **[Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference?](https://www.tandfonline.com/doi/abs/10.1080/00220388.2022.2043278?journalCode=fjds20)**  
 with K. Deininger, S. Jin, & H. K. Nagarajan  
-*Journal of Development Studies, 2022*
+*Journal of Development Studies*
 
 
 **[Women's Political Leadership and Economic Empowerment: Evidence from Public Works in India](https://www.sciencedirect.com/science/article/pii/S0147596719301039)**   
 with K. Deininger & H. K. Nagarajan  
-*Journal of Comparative Economics, 2020*
+*Journal of Comparative Economics*
 
 **[Wages, Prices, and Agriculture: How Can Indian Agriculture Cope with Rising Wages](https://onlinelibrary.wiley.com/doi/abs/10.1111/1477-9552.12234)**   
 with H. Binswanger  
-*Journal of Agricultural Economics, 2018*
+*Journal of Agricultural Economics*
 
 **[Can Labor Market Imperfections Explain Changes in Farm Size Productivity Relationship? Longitudinal Evidence from India](https://academic.oup.com/wber/article-abstract/doi/10.1093/wber/lhw063/2965623/Determinants-of-Productivity-and-Structural-Change?redirectedFrom=fulltext)**   
 with K. Deininger, S. Jin, & Y. Liu  
-*Land Economics, 2018*
+*Land Economics*
 
 **[Determinants of Productivity and Structural Change in a Large Commercial Farm Environment: Evidence from Ukraine](https://academic.oup.com/wber/article-abstract/doi/10.1093/wber/lhw063/2965623/Determinants-of-Productivity-and-Structural-Change?redirectedFrom=fulltext)**   
 with K. Deininger & D. Nizalov  
-*The World Bank Economic Review, 2017*
+*The World Bank Economic Review*
 
 **[Does Land Fragmentation Increase the Cost of Cultivation? Evidence from India](http://www.tandfonline.com/doi/abs/10.1080/00220388.2016.1166210?journalCode=fjds20)**   
 with K. Deininger, D. Monchuck, & H. K. Nagarajan  
-*Journal of Development Studies, 2017*
+*Journal of Development Studies*
 
 **[Consumption Smoothing and Insurance against the Income Risks: A Case of India](http://www.jstor.org/stable/41969731?seq=1#page_scan_tab_contents)**   
 with P. Kumar  
-*Indian Economic Review, 2012*
+*Indian Economic Review*
 
 ### Selected Work in Progress
 **Housing, Network, and Migration**  
