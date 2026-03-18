@@ -67,3 +67,11 @@ with K. Deininger & S. Jin
   <p>© 2026 Sudhir K. Singh | ssingh45@ur.rochester.edu</p>
 </div>
 
+<!--
+<div class="simple-nav">
+  <a href="/">Home</a> | 
+  <a href="/research.html">Research</a> | 
+  <a href="/teaching.html">Teaching</a> | 
+  <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>
+</div>
+-->
