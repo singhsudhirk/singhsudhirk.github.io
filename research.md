@@ -12,12 +12,25 @@ with Caitlin Brown & Aruni Mitra<br>
 </span>
 
 
-[College Access and Domestic Violence](https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0nt8j6gg9g8wfp19&e=1&dl=0) <br>
+**College Access and Domestic Violence**<br>
 with Ha Luong   
-*under review*
+*under review*<br>
+<span class="paper-links">
+  <a href="https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0">Paper</a>
+</span>
 
-[Misallocation and Product Choice](https://sgordeev.com/input_heterogeneity_misallocation.pdf)<br> 
-with Stepan Gordeev 
+**Misallocation and Product Choice**<br> 
+with Stepan Gordeev<br>  
+<div style="display: flex; gap: 20px;">
+  <span class="paper-links">
+    <a href="https://sgordeev.com/input_heterogeneity_misallocation.pdf">Paper</a>
+  </span>
+  <span class="paper-links">
+    <a href="https://cepr.org/publications/wp094">STEG Working Paper</a>
+  </span>
+</div>
+
+
 
 [Input-Driven Production Technology Heterogeneity and the Allocation of Inputs](https://sgordeev.com/input_heterogeneity_misallocation.pdf)<br> 
 with Stepan Gordeev 
