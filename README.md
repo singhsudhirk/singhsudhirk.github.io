@@ -12,7 +12,7 @@ I am an Economist and Postdoctoral Researcher in the Department of Economics at 
 <div style="clear: both;"></div>
 
 
-{% include research_h.md %}
+{% include research_home.md %}
 
 
 <script src="{{ '/assets/js/toggle.js' | relative_url }}"></script>
