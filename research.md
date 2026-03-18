@@ -5,38 +5,25 @@
 
 
 ### Working Papers
-**Female Leaders and Welfare in a Water-Scarce Economy**<br> 
-with Caitlin Brown & Aruni Mitra<br>
-<span class="paper-links">
-  <a href="https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0">Paper</a>
-</span>
+**[Female Leaders and Welfare in a Water-Scarce Economy](https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0)**<br> 
+with Caitlin Brown & Aruni Mitra
 
 
-**College Access and Domestic Violence**<br>
+
+**[College Access and Domestic Violence](https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0)**<br>
 with Ha Luong   
-*under review*<br>
-<span class="paper-links">
-  <a href="https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0">Paper</a>
-</span>
+*under review*
 
-**Misallocation and Product Choice**<br> 
-with Stepan Gordeev<br>  <span class="paper-links">
-  <a href="https://sgordeev.com/input_heterogeneity_misallocation.pdf" target="_blank">Paper</a>
-  <span class="sep">|</span>
-  <a href="https://cepr.org/publications/wp094" target="_blank">STEG Working Paper</a>
-</span>
+**[Misallocation and Product Choice](https://cepr.org/publications/wp094)**<br> 
+with Stepan Gordeev
 
 
 
-**Input-Driven Production Technology Heterogeneity and the Allocation of Inputs**<br> 
-with Stepan Gordeev<br> <span class="paper-links">
-  <a href="https://sgordeev.com/input_heterogeneity_misallocation.pdf" target="_blank">Paper</a>
-  <span class="sep">
+**[Input-Driven Production Technology Heterogeneity and the Allocation of Inputs](https://sgordeev.com/input_heterogeneity_misallocation.pdf)**<br> 
+with Stepan Gordeev
 
-**Political Exit: The Unintended Effects of Electoral Rules in India**<br>with Varun K.R. & Drew Stommes  
-*under review*<br><span class="paper-links">
-  <a href="https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html" target="_blank">Paper</a>
-  <span class="sep">
+**[Political Exit: The Unintended Effects of Electoral Rules in India](https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html)**<br>with Varun K.R. & Drew Stommes  
+*under review*
 
 **How Productive are Workfare Programs? Evidence from India**  
 with K. Deininger & S. Jin  
