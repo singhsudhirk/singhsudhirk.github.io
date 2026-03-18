@@ -46,33 +46,27 @@ with K. Deininger & S. Jin
 
 ### Publications
 
-**[Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference?](https://www.tandfonline.com/doi/abs/10.1080/00220388.2022.2043278?journalCode=fjds20)**  
+[Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference?](https://www.tandfonline.com/doi/abs/10.1080/00220388.2022.2043278?journalCode=fjds20)<br> 
 with K. Deininger, S. Jin, & H. K. Nagarajan  
 *Journal of Development Studies*
 
 
-**[Women's Political Leadership and Economic Empowerment: Evidence from Public Works in India](https://www.sciencedirect.com/science/article/pii/S0147596719301039)**   
-with K. Deininger & H. K. Nagarajan  
+[Women's Political Leadership and Economic Empowerment: Evidence from Public Works in India](https://www.sciencedirect.com/science/article/pii/S0147596719301039)<br> with K. Deininger & H. K. Nagarajan  
 *Journal of Comparative Economics*
 
-**[Wages, Prices, and Agriculture: How Can Indian Agriculture Cope with Rising Wages](https://onlinelibrary.wiley.com/doi/abs/10.1111/1477-9552.12234)**   
-with H. Binswanger  
+[Wages, Prices, and Agriculture: How Can Indian Agriculture Cope with Rising Wages](https://onlinelibrary.wiley.com/doi/abs/10.1111/1477-9552.12234)<br> with H. Binswanger  
 *Journal of Agricultural Economics*
 
-**[Can Labor Market Imperfections Explain Changes in Farm Size Productivity Relationship? Longitudinal Evidence from India](https://academic.oup.com/wber/article-abstract/doi/10.1093/wber/lhw063/2965623/Determinants-of-Productivity-and-Structural-Change?redirectedFrom=fulltext)**   
-with K. Deininger, S. Jin, & Y. Liu  
+[Can Labor Market Imperfections Explain Changes in Farm Size Productivity Relationship? Longitudinal Evidence from India](https://academic.oup.com/wber/article-abstract/doi/10.1093/wber/lhw063/2965623/Determinants-of-Productivity-and-Structural-Change?redirectedFrom=fulltext)<br> with K. Deininger, S. Jin, & Y. Liu  
 *Land Economics*
 
-**[Determinants of Productivity and Structural Change in a Large Commercial Farm Environment: Evidence from Ukraine](https://academic.oup.com/wber/article-abstract/doi/10.1093/wber/lhw063/2965623/Determinants-of-Productivity-and-Structural-Change?redirectedFrom=fulltext)**   
-with K. Deininger & D. Nizalov  
+[Determinants of Productivity and Structural Change in a Large Commercial Farm Environment: Evidence from Ukraine](https://academic.oup.com/wber/article-abstract/doi/10.1093/wber/lhw063/2965623/Determinants-of-Productivity-and-Structural-Change?redirectedFrom=fulltext)<br>with K. Deininger & D. Nizalov  
 *The World Bank Economic Review*
 
-**[Does Land Fragmentation Increase the Cost of Cultivation? Evidence from India](http://www.tandfonline.com/doi/abs/10.1080/00220388.2016.1166210?journalCode=fjds20)**   
-with K. Deininger, D. Monchuck, & H. K. Nagarajan  
+[Does Land Fragmentation Increase the Cost of Cultivation? Evidence from India](http://www.tandfonline.com/doi/abs/10.1080/00220388.2016.1166210?journalCode=fjds20)<br> with K. Deininger, D. Monchuck, & H. K. Nagarajan  
 *Journal of Development Studies*
 
-**[Consumption Smoothing and Insurance against the Income Risks: A Case of India](http://www.jstor.org/stable/41969731?seq=1#page_scan_tab_contents)**   
-with P. Kumar  
+[Consumption Smoothing and Insurance against the Income Risks: A Case of India](http://www.jstor.org/stable/41969731?seq=1#page_scan_tab_contents)<br> with P. Kumar  
 *Indian Economic Review*
 
 ### Selected Work in Progress
