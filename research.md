@@ -24,7 +24,7 @@ with Stepan Gordeev<br>
 <div style="display: flex; gap: 20px;">
   <span class="paper-links">
     <a href="https://sgordeev.com/input_heterogeneity_misallocation.pdf">Paper</a>
-  </span>
+  </span> |
   <span class="paper-links">
     <a href="https://cepr.org/publications/wp094">STEG Working Paper</a>
   </span>
