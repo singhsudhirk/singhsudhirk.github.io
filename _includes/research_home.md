@@ -57,7 +57,7 @@ with K. Deininger, S. Jin, & H. K. Nagarajan
 [Wages, Prices, and Agriculture: How Can Indian Agriculture Cope with Rising Wages](https://onlinelibrary.wiley.com/doi/abs/10.1111/1477-9552.12234)<br> with H. Binswanger  
 *Journal of Agricultural Economics*
 
-[Can Labor Market Imperfections Explain Changes in Farm Size Productivity Relationship? Longitudinal Evidence from India](https://academic.oup.com/wber/article-abstract/doi/10.1093/wber/lhw063/2965623/Determinants-of-Productivity-and-Structural-Change?redirectedFrom=fulltext)<br> with K. Deininger, S. Jin, & Y. Liu  
+[Can Labor Market Imperfections Explain Changes in Farm Size Productivity Relationship? Longitudinal Evidence from India](https://le.uwpress.org/content/94/2/239)<br> with K. Deininger, S. Jin, & Y. Liu  
 *Land Economics*
 
 [Determinants of Productivity and Structural Change in a Large Commercial Farm Environment: Evidence from Ukraine](https://academic.oup.com/wber/article-abstract/doi/10.1093/wber/lhw063/2965623/Determinants-of-Productivity-and-Structural-Change?redirectedFrom=fulltext)<br>with K. Deininger & D. Nizalov  
