@@ -15,6 +15,8 @@ I am an Economist and Postdoctoral Researcher in the Department of Economics at 
 <hr style="height:1px; border:none; background-color:#e0e0e0;">
 -->
 
+{% include research_h.md %}
+
 
 <script src="{{ '/assets/js/toggle.js' | relative_url }}"></script>
 
