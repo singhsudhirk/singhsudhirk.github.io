@@ -160,6 +160,9 @@ a:hover {
 }
 
 
+
+
+/* Keep header name green */
 header a {
   color: #117a46 !important;
   text-decoration: none !important;
@@ -167,8 +170,19 @@ header a {
 
 header a:hover {
   color: #095c32 !important;
+  text-decoration: none !important;
 }
 
+/* Keep navigation green */
+.simple-nav a {
+  color: #117a46 !important;
+  text-decoration: none !important;
+}
+
+.simple-nav a:hover {
+  color: #095c32 !important;
+  text-decoration: underline !important;
+}
 
 /* ===================================
    PAPER STYLING
