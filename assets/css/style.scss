@@ -111,11 +111,12 @@ details {
 /* ===================================
    LINKS
    =================================== */
-/*
+
 section a,
 a {
   color: #117a46 !important;
-  text-decoration: none;
+text-decoration: underline;
+  text-decoration-style: dotted;
   transition: color 0.2s;
 }
 
@@ -124,9 +125,9 @@ a:hover {
   color: #095c32 !important;
   text-decoration: underline;
 }
-*/
+
 /* Override for paper status (journals) - keep them gray */
-/*
+
 .paper-status {
   color: #666 !important;
   font-style: italic;
@@ -138,51 +139,7 @@ a:hover {
   color: #666 !important;
   font-style: italic;
 }
-*/
 
-/* ===================================
-   LINKS
-   =================================== */
-section a,
-a {
-  color: #222 !important;
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  text-underline-offset: 3px;
-  transition: color 0.2s;
-}
-
-section a:hover,
-a:hover {
-  color: #000 !important;
-  text-decoration: underline;
-  text-decoration-style: dotted;
-}
-
-/* Keep header name green */
-header > a,
-header > a:link,
-header > a:visited {
-  color: #117a46 !important;
-  text-decoration: none !important;
-  text-decoration-style: unset !important;
-}
-
-header > a:hover {
-  color: #095c32 !important;
-  text-decoration: none !important;
-}
-
-/* Keep navigation green */
-.simple-nav a {
-  color: #117a46 !important;
-  text-decoration: none !important;
-}
-
-.simple-nav a:hover {
-  color: #095c32 !important;
-  text-decoration: underline !important;
-}
 
 
 /* ===================================
