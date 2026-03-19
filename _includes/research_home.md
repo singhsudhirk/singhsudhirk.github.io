@@ -24,15 +24,21 @@
 
 **Misallocation and Product Choice**<br> 
 with Stepan Gordeev<br>  <span class="paper-links">
+ <span class="abstract-toggle" onclick="toggleAbstract('abs2', this)"><i class="toggle-icon">▶</i> Abstract</span>
+ <span class="sep">|</span>
   <a href="https://sgordeev.com/input_heterogeneity_misallocation.pdf" target="_blank">Paper</a>
   <span class="sep">|</span>
   <a href="https://cepr.org/publications/wp094" target="_blank">STEG Working Paper</a>
 </span>
+<div id="abs2" class="abstract-box" style="display:none">We study the costs of misallocation of inputs between multi-product firms that endogenously choose among heterogeneous products. Misallocation of inputs between firms has been shown to be a significant drag on aggregate productivity: it is especially severe between farms in the agricultural sectors of low-income economies. Existing estimates of its costs have relied on models of single-product firms using a single aggregate production function. Using rich farm-crop-level data from India, we estimate product-level production functions and find that they are meaningfully different from one another and from the aggregate one. We build a general equilibrium model of firm-level misallocation in which multi-product firms (or farms) are able to choose the set and mix of heterogeneous products. Misinterpreting product heterogeneity as evidence of distortions and missing the endogenous product choice response to real distortions biases single-product models to overstate misallocation, while ignoring returns-to-scale heterogeneity and within-firm productivity dispersion biases them to understate it. On net, the single-product model understates the aggregate productivity cost of misallocation between Indian farms by 28%.</div>
 
 **Input-Driven Production Technology Heterogeneity and the Allocation of Inputs**<br> 
 with Stepan Gordeev<br> <span class="paper-links">
+<span class="abstract-toggle" onclick="toggleAbstract('abs2', this)"><i class="toggle-icon">▶</i> Abstract</span>
+ <span class="sep">|</span>
   <a href="https://sgordeev.com/input_heterogeneity_misallocation.pdf" target="_blank">Paper</a>
   <span class="sep">
+  <div id="abs2" class="abstract-box" style="display:none">We study whether heterogeneity in the intrinsic features of production inputs may generate heterogeneity in production technologies optimally chosen by firms, leading existing estimates of misallocation to overstate its costs. Existing estimates of the severity of the misallocation of inputs across firms rely on assuming homogeneous production technology and interpreting deviations from that technology as evidence of misallocative distortions. We use a state-of-the-art clustering algorithm for ordinal data to group Indian agricultural plots into land types by the intrinsic physical features of each plot. We find that production functions are significantly heterogeneous across land types, which we confirm with placebo-like randomization inference. Some types of land are better suited to land-intensive technology, others to labor-intensive technology, etc. We build a model in which heterogeneous farmers face distortions and choose the type of land to rent. We use the model to quantify the cost of misallocation for India’s aggregate agricultural productivity and compare it to conventional models that assume homogeneous production technology.</div>
 
 **Political Exit: The Unintended Effects of Electoral Rules in India**<br>with Varun K.R. & Drew Stommes  
 *under review*<br><span class="paper-links">
