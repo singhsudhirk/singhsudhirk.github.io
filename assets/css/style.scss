@@ -111,6 +111,7 @@ details {
 /* ===================================
    LINKS
    =================================== */
+/*
 section a,
 a {
   color: #117a46 !important;
@@ -123,8 +124,9 @@ a:hover {
   color: #095c32 !important;
   text-decoration: underline;
 }
-
+*/
 /* Override for paper status (journals) - keep them gray */
+/*
 .paper-status {
   color: #666 !important;
   font-style: italic;
@@ -136,6 +138,29 @@ a:hover {
   color: #666 !important;
   font-style: italic;
 }
+*/
+
+/* ===================================
+   LINKS
+   =================================== */
+section a,
+a {
+  /* DELETE → color: #117a46 !important; */
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
+  transition: color 0.2s;
+}
+
+section a:hover,
+a:hover {
+  /* DELETE → color: #095c32 !important; */
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+
+
 
 /* ===================================
    PAPER STYLING
