@@ -159,16 +159,16 @@ a:hover {
   text-decoration-style: dotted;
 }
 
-
-
-header h1 a,
-header h1 a:link,
-header h1 a:visited {
+/* Keep header name green */
+header > a,
+header > a:link,
+header > a:visited {
   color: #117a46 !important;
   text-decoration: none !important;
+  text-decoration-style: unset !important;
 }
 
-header h1 a:hover {
+header > a:hover {
   color: #095c32 !important;
   text-decoration: none !important;
 }
@@ -185,15 +185,6 @@ header h1 a:hover {
 }
 
 
-header h1 a {
-  color: #117a46 !important;
-  text-decoration: none !important;
-}
-
-header h1 a:hover {
-  color: #095c32 !important;
-  text-decoration: none !important;
-}
 /* ===================================
    PAPER STYLING
    =================================== */
