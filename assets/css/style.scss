@@ -41,39 +41,10 @@ header a {
 
 /*Hyperlinked font thickness*/
 a {
-  font-weight: 450;
+  font-weight: 500;
 }
 
 
-/* Animation
-@keyframes blink {
-  50% { opacity: 0; }
-}
-*/
-
-/* Custom Abstract Button
-details > summary {
-  list-style: none;
-  cursor: pointer;
-}
-details > summary::-webkit-details-marker {
-  display: none;
-}
-details > summary::before {
-  content: "+";
-}
-details[open] > summary::before {
-  content: "−";
-}
-details {
-  margin: 0;
-  padding: 0;
-}
-*/
-
-
-/* Old colors: #159957 (primary), #0d6b3d (hover) */
-/* New colors: #117a46 (primary), #095c32 (hover) */
 /* ===================================
    NAVIGATION
    =================================== */
@@ -115,8 +86,7 @@ details {
 section a,
 a {
   color: #117a46 !important;
-text-decoration: underline;
-  text-decoration-style: dotted;
+text-decoration: none;
   transition: color 0.2s;
 }
 
