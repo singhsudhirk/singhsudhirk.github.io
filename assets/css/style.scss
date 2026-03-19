@@ -31,9 +31,10 @@ header p {
 }
 
 header a {
-  text-align: center !important;
+  color: #117a46 !important;
+  text-decoration: none !important;
+  text-decoration-line: none !important;
 }
-
 // Center the title
 .container-lg h1 {
   text-align: center !important;
@@ -129,6 +130,20 @@ a:hover {
   color: #666;
   font-size: 15px;
   margin-top: 3px;
+}
+
+
+.paper-title a {
+  color: #117a46 !important;
+  text-decoration: underline !important;
+  text-decoration-style: dotted !important;
+  text-underline-offset: 3px !important;
+}
+
+.paper-title a:hover {
+  color: #095c32 !important;
+  text-decoration: underline !important;
+  text-decoration-style: dotted !important;
 }
 
 /* ===================================
