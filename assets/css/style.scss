@@ -161,14 +161,14 @@ a:hover {
 
 
 
-
-/* Keep header name green */
-header a {
+header h1 a,
+header h1 a:link,
+header h1 a:visited {
   color: #117a46 !important;
   text-decoration: none !important;
 }
 
-header a:hover {
+header h1 a:hover {
   color: #095c32 !important;
   text-decoration: none !important;
 }
