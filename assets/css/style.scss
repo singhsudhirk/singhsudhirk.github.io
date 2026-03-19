@@ -266,12 +266,37 @@ section p {
 /* ===================================
    ABSTRACT
    =================================== */
+
+
+.paper-links a, .abstract-toggle {
+  font-size: 13px;
+  font-weight: 550;
+  color: #117a46 !important;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 3px 10px;
+  background: transparent;
+  border-radius: 4px; /* optional, you can also set 0 */
+  border: none;       /* remove the border */
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.paper-links a:hover, .abstract-toggle:hover {
+  background: #c8e6c9;
+  color: #095c32 !important;
+  text-decoration: none !important;
+}
+
+/*
 .paper-links {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   flex-wrap: wrap;
 }
+*/
 /* ORIGINAL BORDER VERSION - uncomment to restore
 .paper-links a, .abstract-toggle {
   font-size: 13px;
@@ -304,7 +329,7 @@ section p {
 }
 */
 
-
+/*
 
 .paper-links a, .abstract-toggle {
   font-size: 13px;
@@ -320,12 +345,14 @@ section p {
   align-items: center;
   gap: 5px;
 }
-
+*/
+/*
 .paper-links a:hover, .abstract-toggle:hover {
   background: #c8e6c9;
   color: #095c32 !important;
   text-decoration: none !important;
 }
+*/
 /* ORIGINAL BORDER VERSION - color scheme
 .paper-links a:hover, .abstract-toggle:hover {
   color: #095c32 !important;
@@ -334,6 +361,7 @@ section p {
   text-decoration: none !important;
 }
 */
+
 .toggle-icon {
   display: inline-block;
   transition: transform 0.2s;
