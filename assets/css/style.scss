@@ -145,7 +145,7 @@ a:hover {
    =================================== */
 section a,
 a {
-  /* DELETE → color: #117a46 !important; */
+  color: #222 !important;
   text-decoration: underline;
   text-decoration-style: dotted;
   text-underline-offset: 3px;
@@ -154,12 +154,20 @@ a {
 
 section a:hover,
 a:hover {
-  /* DELETE → color: #095c32 !important; */
+  color: #000 !important;
   text-decoration: underline;
   text-decoration-style: dotted;
 }
 
 
+header a {
+  color: #117a46 !important;
+  text-decoration: none !important;
+}
+
+header a:hover {
+  color: #095c32 !important;
+}
 
 
 /* ===================================
