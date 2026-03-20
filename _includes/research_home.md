@@ -56,7 +56,7 @@ with Stepan Gordeev<br> <span class="paper-links">
  <li>
 <strong>How Productive are Workfare Programs? Evidence from India</strong><br>   
 with K. Deininger & S. Jin<br>  
-</em>revise and resubmit</em>
+<em>revise and resubmit</em>
 </ol>
 
   
