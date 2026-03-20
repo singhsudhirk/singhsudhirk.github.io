@@ -375,9 +375,7 @@ html {
 
 /*New code to make dotted for papers only*/
 
-.markdown-body p strong a,
-.markdown-body p strong a:visited,
-.markdown-body p strong a:hover {
+a.paper-title {
   color: black !important;
   text-decoration: underline !important;
   text-decoration-style: dotted !important;
