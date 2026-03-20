@@ -374,14 +374,15 @@ html {
 }
 
 /*Sticky naviagation while scrolling*/
-.simple-nav {
-  position: sticky; /* makes it stick while scrolling */
-  top: 0;           /* stick to the top of the viewport */
-  z-index: 1000;    /* make sure it’s above other content */
-  background: white; /* prevents content showing through */
-  border-bottom: 1px solid #ccc; /* optional visual separation */
-}
 
+.simple-nav {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    line-height: 40px;  /* adjusts navbar height, links stay centered */
+    text-align: center;  /* optional: center links horizontally */
+}
 
 /*New code to make dotted for papers only*/
 
