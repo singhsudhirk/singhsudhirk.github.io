@@ -373,6 +373,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
+}
+
 /*New code to make dotted for papers only*/
 
 a.paper-title {
