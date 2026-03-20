@@ -375,10 +375,9 @@ html {
 
 /*New code to make dotted for papers only*/
 
-section p strong a,
-section p strong a:visited,
-section p strong a:hover,
-section p strong a:active {
+.markdown-body p strong a,
+.markdown-body p strong a:visited,
+.markdown-body p strong a:hover {
   color: black !important;
   text-decoration: underline !important;
   text-decoration-style: dotted !important;
