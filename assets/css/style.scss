@@ -369,12 +369,17 @@ section p {
 }
 
 
-section p strong a {
+html {
+  scroll-behavior: smooth;
+}
+
+/*New code to make dotted for papers only*/
+
+section p strong a,
+section p strong a:visited,
+section p strong a:hover,
+section p strong a:active {
   color: black !important;
   text-decoration: underline !important;
   text-decoration-style: dotted !important;
-}
-
-html {
-  scroll-behavior: smooth;
 }
