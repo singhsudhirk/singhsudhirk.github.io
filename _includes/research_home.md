@@ -59,6 +59,7 @@ with K. Deininger & S. Jin<br>
 <em></em>revise and resubmit</em>
  
 </ol>
+
   
 ### Publications
 1. <strong><a class="paper-title" href="https://www.tandfonline.com/doi/abs/10.1080/00220388.2022.2043278?journalCode=fjds20">Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference?</a></strong><br>
