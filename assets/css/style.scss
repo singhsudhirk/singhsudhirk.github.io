@@ -369,6 +369,12 @@ section p {
 }
 
 
+section p strong a {
+  color: black !important;
+  text-decoration: underline !important;
+  text-decoration-style: dotted !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
