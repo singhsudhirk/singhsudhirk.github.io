@@ -55,6 +55,10 @@ a {
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
   font-size: 16px;
+  position: sticky;   /* makes it sticky */
+  top: 0;             /* sticks to top of viewport */
+  background: white;  /* ensures it doesn’t blend with content when scrolling */
+  z-index: 1000;      /* keeps it above other content */
 }
 
 .simple-nav a {
@@ -373,16 +377,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/*Sticky naviagation while scrolling*/
-
-.simple-nav {
-    background: white;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    line-height: 40px;  /* adjusts navbar height, links stay centered */
-    text-align: center;  /* optional: center links horizontally */
-}
 
 /*New code to make dotted for papers only*/
 
