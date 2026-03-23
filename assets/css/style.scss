@@ -382,6 +382,16 @@ html {
 
 a.paper-title {
   color: black !important;
-  text-decoration: underline !important;
-  text-decoration-style: dotted !important;
+
+  /* remove decoration */
+  /* text-decoration: underline !important;
+     text-decoration-style: dotted !important; */
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+
+/* Hover ONLY when it's actually a link */
+a.paper-title:hover {
+  color: #117a46 !important;   /* green on hover */
+  text-decoration: underline;  /* optional: add underline on hover */
 }
