@@ -395,3 +395,94 @@ a.paper-title:hover {
   color: #117a46 !important;   /* green on hover */
   text-decoration: underline;  /* optional: add underline on hover */
 }
+
+
+/* New Research page Style for test*/
+/* ── Research Page ── */
+ol.papers {
+  list-style: none;
+  counter-reset: paper-counter var(--start, 0);
+  padding: 0;
+}
+
+ol.papers li {
+  counter-increment: paper-counter;
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 0 0.75rem;
+  margin-bottom: 1.6rem;
+  align-items: start;
+}
+
+ol.papers li::before {
+  content: counter(paper-counter) ".";
+  font-family: monospace;
+  font-size: 0.78rem;
+  color: #8a8a80;
+  padding-top: 0.2rem;
+  text-align: right;
+}
+
+.paper-body { min-width: 0; }
+
+.paper-coauthors {
+  font-size: 0.88rem;
+  color: #4a4a44;
+  font-style: italic;
+  margin-top: 0.1rem;
+}
+
+.paper-journal {
+  font-size: 0.88rem;
+  color: #4a4a44;
+  margin-top: 0.15rem;
+}
+
+.paper-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.3rem;
+  font-size: 0.82rem;
+}
+
+.sep { color: #d8d8cc; user-select: none; }
+
+.abstract-toggle {
+  font-family: monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.toggle-icon {
+  font-size: 0.6rem;
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.abstract-box {
+  display: none;
+  margin-top: 0.7rem;
+  padding: 0.9rem 1rem;
+  border-left: 2px solid #d8d8cc;
+  font-size: 0.91rem;
+  line-height: 1.65;
+  color: #4a4a44;
+}
+
+.rar-badge {
+  font-family: monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  color: #8a8a80;
+  border: 1px solid #d8d8cc;
+  padding: 0.1em 0.4em;
+  border-radius: 2px;
+  margin-left: 0.3em;
+}
