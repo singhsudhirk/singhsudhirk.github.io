@@ -486,3 +486,13 @@ ol.papers li::before {
   border-radius: 2px;
   margin-left: 0.3em;
 }
+
+a.paper-title {
+  color: black !important;
+  text-decoration: underline !important;
+}
+
+a.paper-title:hover {
+  color: black !important;
+  text-decoration: underline !important;
+}
