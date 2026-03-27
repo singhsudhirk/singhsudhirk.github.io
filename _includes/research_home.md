@@ -1,7 +1,7 @@
 
 ## Research {#research}
 
-## Working Papers
+### Working Papers
 
 <ol class="papers" style="--start: 0;">
 
@@ -85,7 +85,7 @@
 
 
 
-## Publications
+### Publications
 
 <ol class="papers" style="--start: 6;">
 
@@ -149,7 +149,7 @@
 
 
 
-## Selected Work in Progress
+### Selected Work in Progress
 
 <ol class="papers" style="--start: 0;">
 
