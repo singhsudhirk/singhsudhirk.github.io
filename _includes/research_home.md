@@ -83,7 +83,7 @@
 
 </ol>
 
----
+
 
 ## Publications
 
@@ -147,7 +147,7 @@
 
 </ol>
 
----
+
 
 ## Selected Work in Progress
 
