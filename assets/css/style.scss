@@ -487,12 +487,44 @@ ol.papers li::before {
   margin-left: 0.3em;
 }
 
+/*this was new suggestion to reset counter*/
+ol.papers {
+  list-style: none !important;
+  counter-reset: paper-counter var(--start, 0) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+ol.papers li {
+  counter-increment: paper-counter !important;
+  display: grid !important;
+  grid-template-columns: 2rem 1fr !important;
+  gap: 0 0.75rem !important;
+  margin-bottom: 1.6rem !important;
+  align-items: start !important;
+}
+
+ol.papers li::before {
+  content: counter(paper-counter) "." !important;
+  font-family: monospace !important;
+  font-size: 0.78rem !important;
+  color: #8a8a80 !important;
+  padding-top: 0.2rem !important;
+  text-align: right !important;
+}
+
+/*this is to make paper title black*/
+section a.paper-title,
+.paper-body a.paper-title,
 a.paper-title {
   color: black !important;
   text-decoration: underline !important;
+  font-style: normal !important;
 }
 
+section a.paper-title:hover,
+.paper-body a.paper-title:hover,
 a.paper-title:hover {
-  color: black !important;
+  color: #117a46 !important;
   text-decoration: underline !important;
 }
