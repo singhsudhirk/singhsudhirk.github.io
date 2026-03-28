@@ -399,12 +399,14 @@ a.paper-title:hover {
 
 /* New Research page Style for test*/
 /* ── Research Page ── */
+/*
 ol.papers {
   list-style: none;
   counter-reset: paper-counter var(--start, 0);
   padding: 0;
 }
-
+*/
+/*
 ol.papers li {
   counter-increment: paper-counter;
   display: grid;
@@ -413,7 +415,8 @@ ol.papers li {
   margin-bottom: 1.6rem;
   align-items: start;
 }
-
+*/
+/*
 ol.papers li::before {
   content: counter(paper-counter) ".";
   font-family: monospace;
@@ -422,7 +425,7 @@ ol.papers li::before {
   padding-top: 0.2rem;
   text-align: right;
 }
-
+*/
 .paper-body { min-width: 0; }
 
 .paper-coauthors {
