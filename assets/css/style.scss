@@ -418,7 +418,7 @@ ol.papers li::before {
   content: counter(paper-counter) ".";
   font-family: monospace;
   font-size: 0.78rem;
-  color: #8a8a80;
+  /*color: #8a8a80;*/
   padding-top: 0.2rem;
   text-align: right;
 }
@@ -508,7 +508,7 @@ ol.papers li::before {
   content: counter(paper-counter) "." !important;
   font-family: monospace !important;
   font-size: 0.78rem !important;
-  color: #8a8a80 !important;
+ /* color: #8a8a80 !important;*/
   padding-top: 0.2rem !important;
   text-align: right !important;
 }
