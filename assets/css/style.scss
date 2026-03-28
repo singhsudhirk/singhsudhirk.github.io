@@ -513,18 +513,20 @@ ol.papers li::before {
   text-align: right !important;
 }
 
-/*this is to make paper title black*/
-section a.paper-title,
-.paper-body a.paper-title,
+/*New code to make dotted for papers only*/
+
 a.paper-title {
   color: black !important;
-  text-decoration: underline !important;
-  font-style: normal !important;
+
+  /* remove decoration */
+   text-decoration: underline !important;
+    /* text-decoration-style: dotted !important; */
+  /*text-decoration: none !important;*/
+  transition: color 0.2s ease;
 }
 
-section a.paper-title:hover,
-.paper-body a.paper-title:hover,
+/* Hover ONLY when it's actually a link */
 a.paper-title:hover {
-  color: #117a46 !important;
-  text-decoration: underline !important;
+  color: #117a46 !important;   /* green on hover */
+  text-decoration: underline;  /* optional: add underline on hover */
 }
