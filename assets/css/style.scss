@@ -124,7 +124,7 @@ a:hover {
   margin-bottom: 25px;
 }
 
-.paper-body {
+.paper-title {
   font-weight: 600;
   color: #222;
   line-height: 1.4;
@@ -408,7 +408,7 @@ ol.papers li::before {
   text-align: right;
 }
 */
-.paper-body { min-width: 0; }
+.paper-title { min-width: 0; }
 
 .paper-coauthors {
   font-size: 0.88rem;
@@ -500,7 +500,7 @@ ol.papers li::before {
 
 /*New code to make dotted for papers only*/
 
-a.paper-body {
+a.paper-title {
   color: black !important;
 
   /* remove decoration */
@@ -512,7 +512,7 @@ a.paper-body {
 
 /* Hover ONLY when it's actually a link */
 
-a.paper-body:hover {
+a.paper-title:hover {
   color: #117a46 !important;   /* green on hover */
   text-decoration: underline;  /* optional: add underline on hover */
 }
