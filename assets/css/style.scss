@@ -500,7 +500,7 @@ ol.papers li::before {
 
 /*New code to make dotted for papers only*/
 
-a.paper-title {
+a.paper-body {
   color: black !important;
 
   /* remove decoration */
@@ -511,10 +511,9 @@ a.paper-title {
 }
 
 /* Hover ONLY when it's actually a link */
-a.paper-title:hover {
+a.paper-body:hover {
   color: #117a46 !important;   /* green on hover */
   text-decoration: underline;  /* optional: add underline on hover */
 }
-
 
 
