@@ -64,7 +64,7 @@
   </li>
 
   <li>
-    <div class="paper-title">
+    <div class="paper-body">
       <strong><a href="https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html">Political Exit: The Unintended Effects of Electoral Rules in India</a></strong>
       <div class="paper-coauthors">with Varun K.R. &amp; Drew Stommes</div>
       <div class="paper-meta">
