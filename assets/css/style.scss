@@ -499,21 +499,33 @@ ol.papers li::before {
 }
 
 /*New code to make dotted for papers only*/
-
-a.paper-body {
+/*
+a.paper-title {
   color: black !important;
 
   /* remove decoration */
-   text-decoration: underline !important;
+   /*text-decoration: underline !important;*/
     /* text-decoration-style: dotted !important; */
   /*text-decoration: none !important;*/
-  transition: color 0.2s ease;
+  /*transition: color 0.2s ease;*/
 }
-
+*/
+/*
 /* Hover ONLY when it's actually a link */
-a.paper-body:hover {
+/*
+a.paper-title:hover {
   color: #117a46 !important;   /* green on hover */
-  text-decoration: underline;  /* optional: add underline on hover */
+  /*text-decoration: underline;*/  /* optional: add underline on hover */
+}
+*/
+
+
+.paper-body strong a {
+  color: black !important;
+  text-decoration: underline !important;
 }
 
+.paper-body strong a:hover {
+  color: #117a46 !important;
+}
 
