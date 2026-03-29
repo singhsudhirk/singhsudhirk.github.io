@@ -378,24 +378,6 @@ html {
 }
 
 
-/*New code to make dotted for papers only*/
-
-a.paper-title {
-  color: black !important;
-
-  /* remove decoration */
-   text-decoration: underline !important;
-    /* text-decoration-style: dotted !important; */
-  /*text-decoration: none !important;*/
-  transition: color 0.2s ease;
-}
-
-/* Hover ONLY when it's actually a link */
-a.paper-title:hover {
-  color: #117a46 !important;   /* green on hover */
-  text-decoration: underline;  /* optional: add underline on hover */
-}
-
 
 /* New Research page Style for test*/
 /* ── Research Page ── */
@@ -515,4 +497,24 @@ ol.papers li::before {
   padding-top: 0.2rem !important;
   text-align: right !important;
 }
+
+/*New code to make dotted for papers only*/
+
+a.paper-title {
+  color: black !important;
+
+  /* remove decoration */
+   text-decoration: underline !important;
+    /* text-decoration-style: dotted !important; */
+  /*text-decoration: none !important;*/
+  transition: color 0.2s ease;
+}
+
+/* Hover ONLY when it's actually a link */
+a.paper-title:hover {
+  color: #117a46 !important;   /* green on hover */
+  text-decoration: underline;  /* optional: add underline on hover */
+}
+
+
 
