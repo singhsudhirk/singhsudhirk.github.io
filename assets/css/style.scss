@@ -490,5 +490,10 @@ ol.papers li::before {
   text-align: right !important;
 }
 
+/*This applies the green to all links except .paper-title ones, so your black rule can then take effect cleanly.*/
 
-
+section a:not(.paper-title) {
+  color: #117a46 !important;
+  text-decoration: none;
+  transition: color 0.2s;
+}
