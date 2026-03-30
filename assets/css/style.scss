@@ -378,26 +378,7 @@ html {
 }
 
 
-/*New code to make dotted for papers only*/
-
-
-section a.paper-title { 
-  color: black !important; 
-
-  /* remove decoration */
-   text-decoration: underline !important;
-    /* text-decoration-style: dotted !important; */
-  transition: color 0.2s ease;
-}
-
-
-/* Hover ONLY when it's actually a link */
-
-a.paper-title:hover {
-  color: #117a46 !important;   /* green on hover */
-  text-decoration: underline;  /* optional: add underline on hover */
-}
-
+/*******************************************/
 /*New paper style */
 
 .paper-body { min-width: 0; }
@@ -490,10 +471,26 @@ ol.papers li::before {
   text-align: right !important;
 }
 
-/*This applies the green to all links except .paper-title ones, so your black rule can then take effect cleanly.*/
 
-section a:not(.paper-title) {
-  color: #117a46 !important;
-  text-decoration: none;
-  transition: color 0.2s;
+
+
+/*New code to make dotted for papers only*/
+
+
+section a.paper-title { 
+  color: black !important; 
+
+  /* remove decoration */
+   text-decoration: underline !important;
+    /* text-decoration-style: dotted !important; */
+  transition: color 0.2s ease;
 }
+
+
+/* Hover ONLY when it's actually a link */
+
+a.paper-title:hover {
+  color: #117a46 !important;   /* green on hover */
+  text-decoration: underline;  /* optional: add underline on hover */
+}
+
