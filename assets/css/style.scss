@@ -494,3 +494,13 @@ a.paper-title:hover {
   text-decoration: underline;  /* optional: add underline on hover */
 }
 
+/* Target links inside .paper-body strong */
+.paper-body strong a {
+  color: black !important;
+  text-decoration: underline !important;
+  transition: color 0.2s ease;
+}
+
+.paper-body strong a:hover {
+  color: #117a46 !important;
+}
