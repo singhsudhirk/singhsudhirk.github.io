@@ -40,10 +40,11 @@ header a {
   text-align: center !important;
 }
 
-/*Hyperlinked font thickness*/
+/* REMOVED: overridden by .paper-body strong, .paper-body strong a rule below
 a {
   font-weight: 500;
 }
+*/
 
 
 /* ===================================
@@ -55,10 +56,10 @@ a {
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
   font-size: 16px;
-  position: sticky;   /* makes it sticky */
-  top: 0;             /* sticks to top of viewport */
-  background: white;  /* ensures it doesn’t blend with content when scrolling */
-  z-index: 1000;      /* keeps it above other content */
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1000;
 }
 
 .simple-nav a {
@@ -91,7 +92,7 @@ a {
 section a,
 a {
   color: #117a46 !important;
-text-decoration: none;
+  text-decoration: none;
   transition: color 0.2s;
 }
 
@@ -243,13 +244,9 @@ section p {
 }
 
 
-
-
-
 /* ===================================
    ABSTRACT
    =================================== */
-
 
 .paper-links a, .abstract-toggle {
   font-size: 13px;
@@ -259,8 +256,8 @@ section p {
   cursor: pointer;
   padding: 3px 10px;
   background: transparent;
-  border-radius: 4px; /* optional, you can also set 0 */
-  border: none;       /* remove the border */
+  border-radius: 4px;
+  border: none;
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -280,6 +277,7 @@ section p {
   flex-wrap: wrap;
 }
 */
+
 /* ORIGINAL BORDER VERSION - uncomment to restore
 .paper-links a, .abstract-toggle {
   font-size: 13px;
@@ -313,7 +311,6 @@ section p {
 */
 
 /*
-
 .paper-links a, .abstract-toggle {
   font-size: 13px;
   font-weight: 550;
@@ -329,6 +326,7 @@ section p {
   gap: 5px;
 }
 */
+
 /*
 .paper-links a:hover, .abstract-toggle:hover {
   background: #c8e6c9;
@@ -336,6 +334,7 @@ section p {
   text-decoration: none !important;
 }
 */
+
 /* ORIGINAL BORDER VERSION - color scheme
 .paper-links a:hover, .abstract-toggle:hover {
   color: #095c32 !important;
@@ -379,7 +378,7 @@ html {
 
 
 /*******************************************/
-/*New paper style */
+/* New paper style */
 
 .paper-body { min-width: 0; }
 
@@ -445,7 +444,6 @@ html {
   margin-left: 0.3em;
 }
 
-/*this was new suggestion to reset counter*/
 ol.papers {
   list-style: none !important;
   counter-reset: paper-counter var(--start, 0) !important;
@@ -472,43 +470,39 @@ ol.papers li::before {
 }
 
 
-
-
-/*New code to make dotted for papers only*/
-
-
-section a.paper-title { 
-  color: black !important; 
-
-  /* remove decoration */
-   text-decoration: underline !important;
-    /* text-decoration-style: dotted !important; */
+/* REMOVED: .paper-title class no longer used in HTML
+section a.paper-title {
+  color: black !important;
+  text-decoration: underline !important;
   transition: color 0.2s ease;
 }
-
-
-/* Hover ONLY when it's actually a link */
-
 a.paper-title:hover {
-  color: #117a46 !important;   /* green on hover */
-  text-decoration: underline;  /* optional: add underline on hover */
+  color: #117a46 !important;
+  text-decoration: underline;
 }
+*/
 
-/* Target links inside .paper-body strong */
+/* REMOVED: redundant — covered by combined rule below
 .paper-body strong a {
   color: black !important;
+  text-decoration: underline !important;
+  transition: color 0.2s ease;
+}
+*/
+
+/* Paper title styling — covers both linked and unlinked titles */
+.paper-body strong,
+.paper-body strong a {
+  font-weight: 500;
+  color: black !important;
+}
+
+/* Underline and hover only for linked titles */
+.paper-body strong a {
   text-decoration: underline !important;
   transition: color 0.2s ease;
 }
 
 .paper-body strong a:hover {
   color: #117a46 !important;
-}
-
-
-
-.paper-body strong,
-.paper-body strong a {
-  font-weight: 500;
-  color: black;
 }
