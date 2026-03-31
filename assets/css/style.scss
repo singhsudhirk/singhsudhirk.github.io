@@ -505,6 +505,8 @@ a.paper-title:hover {
   color: #117a46 !important;
 }
 
-.paper-body strong {
+.paper-body strong,
+.paper-body strong a {
+  font-weight: 600;  /* or 700 — pick whichever looks balanced */
   color: black;
 }
