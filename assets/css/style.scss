@@ -512,3 +512,26 @@ a.paper-title:hover {
 .papers li {
   list-style-type: circle !important;
 }
+
+ul.papers {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+ul.papers li {
+  display: grid !important;
+  grid-template-columns: 2rem 1fr !important;
+  gap: 0 0.75rem !important;
+  margin-bottom: 1.6rem !important;
+  align-items: start !important;
+}
+
+ul.papers li::before {
+  content: "○"; /* hollow bullet */
+  font-family: monospace !important;
+  font-size: 0.9rem;
+  color: #8a8a80 !important;
+  padding-top: 0.2rem !important;
+  text-align: right !important;
+}
