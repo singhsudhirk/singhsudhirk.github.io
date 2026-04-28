@@ -77,7 +77,7 @@
     <div class="paper-body">
       <strong>How Productive are Workfare Programs? Evidence from India</strong>
       <div class="paper-coauthors">with K. Deininger &amp; S. Jin</div>
-      <em>revise and resubmit at AJAE</em>
+      <div class="paper-journal"><em>revise and resubmit at AJAE</em></div>
     </div>
   </li>
 
