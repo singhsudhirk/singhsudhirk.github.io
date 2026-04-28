@@ -3,7 +3,7 @@
 
 ### Working Papers
 
-<ol class="papers" style="--start: 0;">
+<ul class="papers" style="--start: 0;">
 
   <li>
     <div class="paper-body">
@@ -81,13 +81,13 @@
     </div>
   </li>
 
-</ol>
+</ul>
 
 
 
 ### Publications
 
-<ol class="papers" style="--start: 6;">
+<ul class="papers" style="--start: 6;">
 
   <li>
     <div class="paper-body">
@@ -145,13 +145,13 @@
     </div>
   </li>
 
-</ol>
+</ul>
 
 
 
 ### Selected Work in Progress
 
-<ol class="papers" style="--start: 0;">
+<ul class="papers" style="--start: 0;">
 
   <li>
     <div class="paper-body">
@@ -168,5 +168,5 @@
     </div>
   </li>
 
-</ol>
+</ul>
 
