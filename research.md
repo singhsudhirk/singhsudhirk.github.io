@@ -2,7 +2,10 @@
   <a href="/">Home</a> | <a href="/research.html">Research</a> | <a href="/teaching.html">Teaching</a> | <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>
 </div>
 
+{% include research_home.md %}
 
+
+<script src="{{ '/assets/js/toggle.js' | relative_url }}"></script>
 
 ## Research {#research}
 
