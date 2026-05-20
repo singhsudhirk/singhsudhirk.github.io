@@ -12,10 +12,7 @@ I am an economist and a postdoctoral researcher in the Department of Economics a
 <div style="clear: both;"></div>
 
 
-{% include research_home.md %}
 
-
-<script src="{{ '/assets/js/toggle.js' | relative_url }}"></script>
 
 <div class="site-footer">
   <p>© 2026 Sudhir K. Singh | ssingh45@ur.rochester.edu</p>
