@@ -7,7 +7,7 @@
 
 <script src="{{ '/assets/js/toggle.js' | relative_url }}"></script>
 
-## Research {#research}
+<!--## Research {#research}
 
 ### Working Papers
 
@@ -177,4 +177,4 @@
   </li>
 
 </ol>
-
+-->
