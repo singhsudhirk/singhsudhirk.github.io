@@ -479,6 +479,13 @@ ol.papers li::before {
   list-style-type: circle !important;
 }
 
+/* Hollow Circle */
+/*
+ul.papers li::before {
+  content: "○";
+}
+*/
+
 ul.papers {
   list-style: none !important;
   padding: 0 !important;
@@ -494,7 +501,8 @@ ul.papers li {
 }
 
 ul.papers li::before {
-  content: "○"; /* hollow bullet */
+  /*content: "○";*/ /* hollow bullet */
+ content: "#";
   font-family: monospace !important;
   font-size: 0.80rem !important;
   color: #8a8a80 !important;
