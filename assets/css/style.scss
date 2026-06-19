@@ -504,7 +504,8 @@ ul.papers li {
 ul.papers li::before {
   /*content: "○";*/ /* hollow bullet */
   content: "»";   /* double chevron */
-  font-family: monospace !important;
+  /*font-family: monospace !important;*/
+   font-family: Arial, sans-serif !important;
   font-weight: 700 !important;   /* add this */
   font-size: 0.80rem !important;
   color: #8a8a80 !important;
