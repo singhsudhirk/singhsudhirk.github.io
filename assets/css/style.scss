@@ -503,6 +503,7 @@ ul.papers li {
 
 ul.papers li::before {
   /*content: "○";*/ /* hollow bullet */
+/* content: "»"; */  /* double chevron */
   content: "□";   /* hollow square */
   font-family: monospace !important;
   font-size: 0.80rem !important;
