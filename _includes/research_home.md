@@ -32,6 +32,7 @@
         <a href="#">Slides</a>
       </div>
       <div id="abs2" class="abstract-box">How does access to college affect domestic violence? We study this question in the context of a large-scale investment in higher education expansion in India. The expansion program incentivized the establishment of new colleges in areas with relatively low enrollment in higher education. Using multiple sources of data and a regression discontinuity design, we find that the college expansion program significantly reduced domestic violence for all women. The decline was more pronounced for younger women than for older women, which suggests that the impact of the expansion program was driven by cohorts that were more likely to be exposed to the colleges and benefit from them. Additionally, we find that the entry of new colleges increased women's labor force participation and changed how women spent their time in the economy. More specifically, we find that women spent more time on paid activities including wage and self-employment, educational activities and less on domestic work. Finally, we tested how social norms changed, and we find that women were more likely to reject any justification for domestic violence, participate in household decision-making, and have ownership of assets, suggesting a change in existing social norms and increased empowerment of women.</div>
+       <div class="paper-journal"><em>under review</em></div>
     </div>
   </li>
 
@@ -67,9 +68,7 @@
     <div class="paper-body">
       <strong><a href="https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html">Political Exit: The Unintended Effects of Electoral Rules in India</a></strong>
       <div class="paper-coauthors">with Varun K.R. &amp; Drew Stommes</div>
-      <div class="paper-meta">
-        <a href="https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html">Paper</a>
-      </div>
+       <div class="paper-journal"><em>under review</em></div>
     </div>
   </li>
 
@@ -77,7 +76,7 @@
     <div class="paper-body">
       <strong>How Productive are Workfare Programs? Evidence from India</strong>
       <div class="paper-coauthors">with K. Deininger &amp; S. Jin</div>
-      <div class="paper-journal"><em>revise and resubmit at AJAE</em></div>
+      <div class="paper-journal"><em>under review</em></div>
     </div>
   </li>
 
