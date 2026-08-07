@@ -9,15 +9,17 @@ I am an economist and a postdoctoral researcher in the Department of Economics a
 
  To learn more about my work, please visit my <a href="/research.html">Research</a> page or download my <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>. 
  
- **Research Interests**: Development Economics, Labor Economics, Agricultural and Environmental Economics
+ **Research Interests**:<br>
+ Development Economics<br>
+ Labor Economics<br> 
+ Agricultural and Environmental Economics
 
 <div style="clear: both;"></div>
 
 
 
 
-**Contact Information**
-
+**Contact Information**<br>
 University of Rochester<br>
 Harkness Hall,<br>
 Rochester, NY 
