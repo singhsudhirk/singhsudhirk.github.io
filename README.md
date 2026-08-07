@@ -12,6 +12,18 @@ I am an economist and a postdoctoral researcher in the Department of Economics a
 <div style="clear: both;"></div>
 
 
+**Research Interests:**
+
+Development Economics  
+Labor Economics  
+Agricultural and Environmental Economics
+
+**Contact Information**
+
+University of Rochester<br>
+Harkness Hall,<br>
+Rochester, NY 
+
 
 
 <div class="site-footer">
