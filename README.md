@@ -5,15 +5,11 @@
 <img src="image.jpg" alt="Sudhir K Singh" class="profile-img">
 Welcome!
 
-I am an economist and a postdoctoral researcher in the Department of Economics at the University of Rochester. I am also a Fellow of the Global Labor Organization (GLO). Previously, I was an Economist and Consultant at the World Bank Group and have consulted for the International Food Policy Research Institute (IFPRI) in Washington, D.C. 
+I am an economist and a postdoctoral researcher in the Department of Economics at the University of Rochester. My primary research interests are in development and labor economics. I am also a Fellow of the Global Labor Organization (GLO). Previously, I was an Economist and Consultant at the World Bank Group and have consulted for the International Food Policy Research Institute (IFPRI) in Washington, D.C. 
 
  To learn more about my work, please visit my <a href="/research.html">Research</a> page or download my <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>. 
  
- **Research Interests:**
-
-Development Economics  
-Labor Economics  
-Agricultural and Environmental Economics
+ **Research Interests**: Development Economics, Labor Economics, Agricultural and Environmental Economics
 
 <div style="clear: both;"></div>
 
