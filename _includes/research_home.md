@@ -1,6 +1,6 @@
 <!-- ## Research {#research} --> <!-- Commented out -->
 
-## Working Papers {.no-border}
+### Working Papers
 
 <ul class="papers" style="--start: 0;">
 
