@@ -541,13 +541,9 @@ a.paper-title:hover {
   color: #117a46 !important;
 }
 
-
-h2.no-border,
-h2.no-border::before,
-h2.no-border::after {
-  border: none !important;
+section h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
   border-bottom: none !important;
-  box-shadow: none !important;
-  background-image: none !important;
-  content: none !important;
+  padding-bottom: 0 !important;
 }
