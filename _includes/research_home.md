@@ -83,8 +83,7 @@
 </ul>
 
 
-
-### Published Papers
+<h2 style="border-bottom: none !important;">Published Papers</h2>
 
 <ul class="papers" style="--start: 6;">
 
@@ -147,8 +146,7 @@
 </ul>
 
 
-
-### Selected Work in Progress
+<h2 style="border-bottom: none !important;">Selected Work in Progress</h2>
 
 <ul class="papers" style="--start: 0;">
 
