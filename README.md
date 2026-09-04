@@ -18,7 +18,9 @@ Rochester, NY
 
 
 
+{% include research_home.md %}
 
+<script src="{{ '/assets/js/toggle.js' | relative_url }}"></script>
 
 
 
