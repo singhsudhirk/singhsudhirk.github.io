@@ -32,7 +32,7 @@
         <a href="#">Slides</a>
       </div>
       <div id="abs2" class="abstract-box">How does college access affect domestic violence? We study this question in the context of a large-scale investment in higher education expansion in India. The program incentivized the establishment of new colleges in areas with relatively low college enrollment. Using multiple sources of data and a regression discontinuity design, we find that college expansion significantly decreased the incidence of domestic violence for all women. The decline was more pronounced for younger women than for older women, suggesting that the impact was driven by cohorts that were more likely to be exposed to the colleges and benefit from them. Additionally, we find that these results can be explained by improved educational outcomes for women, changes in social norms and husbands' attitudes, and occupational choices. Better access to college led women to reject any justification for domestic violence, increased women's participation in household decision-making, and increased ownership of assets, along with improvements in husbands' gender attitudes. We find heterogeneous effects for employment. Husbands were more likely to work than wives; however, both husbands and wives were more likely to work in high-skilled occupations and move away from low-skilled occupations..</div>
-       <div class="paper-journal"><em></em></div>
+       <div class="paper-journal"><em> New Draft Coming Soon</em></div>
     </div>
   </li>
 
