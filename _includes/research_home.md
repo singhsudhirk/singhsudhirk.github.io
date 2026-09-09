@@ -1,6 +1,6 @@
 <!-- ## Research {#research} --> <!-- Commented out -->
 
-<h2 style="border-bottom: none !important;">Working Papers</h2>
+<h3 style="border-bottom: none !important;">Working Papers</h2>
 
 <ul class="papers" style="--start: 0;">
 
@@ -83,7 +83,7 @@
 </ul>
 
 
-<h2 style="border-bottom: none !important;">Published Papers</h2>
+<h3 style="border-bottom: none !important;">Published Papers</h2>
 
 <ul class="papers" style="--start: 6;">
 
@@ -147,7 +147,7 @@
 
 
 
-<h2 style="border-bottom: none !important;">Selected Work in Progress</h2>
+<h3 style="border-bottom: none !important;">Selected Work in Progress</h2>
 
 <ul class="papers" style="--start: 0;">
 
