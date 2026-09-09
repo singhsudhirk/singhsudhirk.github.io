@@ -16,9 +16,7 @@ Rochester, NY
 
 <div style="clear: both;"></div>
 
-<h2 style="height: 0; padding: 0; margin: 20px 0; font-size: 0;"></h2>
-
-<div id="research"></div>
+<h2 id="research" style="height: 0; padding: 0; margin: 20px 0; font-size: 0;"></h2>
 
 {% include research_home.md %}
 
