@@ -1,5 +1,5 @@
 <div class="simple-nav">
-  <a href="/">Home</a> | <a href="/research.html">Research</a> | <a href="/teaching.html">Teaching</a> | <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>
+  <a href="/">Home</a> | <a href="/#research">Research</a> | <a href="/teaching.html">Teaching</a> | <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>
 </div>
 
 <img src="image.jpg" alt="Sudhir K Singh" class="profile-img">
@@ -17,6 +17,8 @@ Rochester, NY
 <div style="clear: both;"></div>
 
 <h2 style="height: 0; padding: 0; margin: 20px 0; font-size: 0;"></h2>
+
+<div id="research"></div>
 
 {% include research_home.md %}
 
