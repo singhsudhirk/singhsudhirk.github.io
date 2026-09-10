@@ -549,12 +549,31 @@ a.paper-title:hover {
 
 ol.papers li,
 ul.papers li {
-  border-left: 2px solid transparent;
-  padding-left: 0.6rem !important;
-  transition: border-color 0.2s ease;
+  padding: 0.9rem 1rem 0.9rem 0.5rem !important;
+  border-radius: 6px;
+  background: transparent;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
 }
 
 ol.papers li:hover,
 ul.papers li:hover {
-  border-left-color: #117a46;
+  transform: translateY(-2px);
+  background: #fafafa;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 768px) {
+  ol.papers li,
+  ul.papers li {
+    padding: 0.75rem 0.7rem 0.75rem 0.25rem !important;
+  }
+
+  ol.papers li:hover,
+  ul.papers li:hover {
+    transform: none;
+  }
 }
