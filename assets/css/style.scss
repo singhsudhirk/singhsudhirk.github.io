@@ -541,13 +541,3 @@ a.paper-title:hover {
   color: #117a46 !important;
 }
 
-/* for research scroll on main page*/
-#research {
-  scroll-margin-top: 80px;
-}
-
-@media (max-width: 768px) {
-  #research {
-    scroll-margin-top: 40px;
-  }
-}
