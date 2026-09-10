@@ -546,7 +546,6 @@ a.paper-title:hover {
 /* ===================================
    TEST: DYNAMIC PAPER BOX
    =================================== */
-
 ol.papers li,
 ul.papers li {
   padding: 0.9rem 1rem 0.9rem 0.5rem !important;
@@ -562,7 +561,7 @@ ul.papers li {
 ol.papers li:hover,
 ul.papers li:hover {
   transform: translateY(-2px);
-  background: #fafafa;
+  background: #f7faf7; /* very light green-gray */
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
 }
 
@@ -577,6 +576,7 @@ ul.papers li:hover {
     transform: none;
   }
 }
+
 
 
 #research {
