@@ -584,32 +584,4 @@ ul.papers li:hover {
 }
 
 
-.simple-nav {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-
-  width: 100%;
-  max-width: 760px;
-  margin: 0 auto;
-
-  background: white;
-  padding: 10px 0;
-  box-sizing: border-box;
-
-  transition:
-    max-width 0.25s ease,
-    padding 0.25s ease,
-    box-shadow 0.25s ease;
-}
-
-.simple-nav.is-sticky {
-  max-width: 900px;
-  padding: 12px 20px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
-}
