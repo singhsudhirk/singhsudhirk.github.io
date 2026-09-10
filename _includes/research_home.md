@@ -97,7 +97,7 @@
     <strong>Can Workfare Increase Agricultural Productivity? Evidence from India</strong>
     <div class="paper-coauthors">with K. Deininger &amp; S. Jin</div>
     <div class="paper-meta">
-      <span class="abstract-toggle" onclick="toggleAbstract('abs5', this)"><span class="toggle-icon">▶</span> Abstract</span>
+      <span class="abstract-toggle" onclick="toggleAbstract('abs6', this)"><span class="toggle-icon">▶</span> Abstract</span>
  <!--
       <span class="sep">|</span>
       <a href="#">Paper</a>
@@ -105,7 +105,7 @@
       <a href="#">Slides</a>
  -->
     </div>
-    <div id="abs5" class="abstract-box">Departing from a large literature that documented wage increases triggered by India’s National Rural Employment Guarantee Scheme (NREGS), this paper explores initial size-differentiated implications of such wage growth for agricultural productivity. We show that, before 2008, exposure to the program allowed marginal farmers to greatly increase use of family labor on their own parcels, cultivate riskier crops, and rent somewhat more machinery and irrigation services. These changes in input use, presumably attributable to the wage income and implicit safety net provided by NREGS, translated into modest productivity gains. Large farmers, in turn, sharply reduced labor use and shifted towards cultivation of higher value crops as well as more intensive use of other purchased inputs, especially fertilizer, in a type of induced innovation. Though less rigorous analytically, 2007-15 data point towards a positive link between intensity of program implementation and productivity gains in favor of all farm size classes that could be indicative of a positive, but less targeted, impact of the public goods constructed under the program.</div>
+    <div id="abs6" class="abstract-box">Departing from a large literature that documented wage increases triggered by India’s National Rural Employment Guarantee Scheme (NREGS), this paper explores initial size-differentiated implications of such wage growth for agricultural productivity. We show that, before 2008, exposure to the program allowed marginal farmers to greatly increase use of family labor on their own parcels, cultivate riskier crops, and rent somewhat more machinery and irrigation services. These changes in input use, presumably attributable to the wage income and implicit safety net provided by NREGS, translated into modest productivity gains. Large farmers, in turn, sharply reduced labor use and shifted towards cultivation of higher value crops as well as more intensive use of other purchased inputs, especially fertilizer, in a type of induced innovation. Though less rigorous analytically, 2007-15 data point towards a positive link between intensity of program implementation and productivity gains in favor of all farm size classes that could be indicative of a positive, but less targeted, impact of the public goods constructed under the program.</div>
     <div class="paper-journal"><em>submitted</em></div>
   </div>
 </li>
