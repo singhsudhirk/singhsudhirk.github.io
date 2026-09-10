@@ -47,14 +47,3 @@ window.addEventListener('load', function() {
 
 
 
-/* Expand navigation while scrolling */
-const nav = document.querySelector('.simple-nav');
-
-if (nav) {
-  function updateStickyNav() {
-    nav.classList.toggle('is-sticky', window.scrollY > 20);
-  }
-
-  updateStickyNav();
-  window.addEventListener('scroll', updateStickyNav);
-}
