@@ -541,3 +541,43 @@ a.paper-title:hover {
   color: #117a46 !important;
 }
 
+
+
+/* ===================================
+   TEST: DYNAMIC PAPER BOX
+   =================================== */
+
+ol.papers li,
+ul.papers li {
+  padding: 0.9rem 1rem 0.9rem 0.5rem !important;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  background: #fff;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+ol.papers li:hover,
+ul.papers li:hover {
+  transform: translateY(-2px);
+  border-color: #d8d8d8;
+  background: #fafafa;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  ol.papers li,
+  ul.papers li {
+    padding: 0.75rem 0.7rem 0.75rem 0.25rem !important;
+  }
+
+  ol.papers li:hover,
+  ul.papers li:hover {
+    transform: none;
+  }
+}
