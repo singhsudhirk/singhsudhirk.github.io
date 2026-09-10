@@ -76,7 +76,7 @@
     <strong><a href="https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html">Political Exit: The Unintended Effects of Electoral Rules in India</a></strong>
     <div class="paper-coauthors">with Varun K.R. &amp; Drew Stommes</div>
     <div class="paper-meta">
-      <span class="abstract-toggle" onclick="toggleAbstract('abs4', this)"><span class="toggle-icon">▶</span> Abstract</span>
+      <span class="abstract-toggle" onclick="toggleAbstract('abs5', this)"><span class="toggle-icon">▶</span> Abstract</span>
  <!--
       <span class="sep">|</span>
       <a href="https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html">Paper</a>
@@ -84,7 +84,7 @@
       <a href="#">Slides</a>
  -->
     </div>
-    <div id="abs4" class="abstract-box">What are the unintended consequences of electoral rules on candidate re-entry into politics? We examine how rules that punish candidates for poor performance affect re-entry. In India, candidates must submit a monetary deposit to electoral authorities, forfeiting it if they receive less than one-sixth of total votes cast in their race. We use the discontinuity created by this deposit rule to estimate the causal effect of costly procedural rules on re-contest rates. Deposit forfeiture disproportionately deters women from re-running compared to men. This effect is most pronounced among women from local niche parties, which are weakly institutionalized parties with a limited geographic footprint, suggesting party-level gatekeeping against women candidates.</div>
+    <div id="abs5" class="abstract-box">What are the unintended consequences of electoral rules on candidate re-entry into politics? We examine how rules that punish candidates for poor performance affect re-entry. In India, candidates must submit a monetary deposit to electoral authorities, forfeiting it if they receive less than one-sixth of total votes cast in their race. We use the discontinuity created by this deposit rule to estimate the causal effect of costly procedural rules on re-contest rates. Deposit forfeiture disproportionately deters women from re-running compared to men. This effect is most pronounced among women from local niche parties, which are weakly institutionalized parties with a limited geographic footprint, suggesting party-level gatekeeping against women candidates.</div>
     <div class="paper-journal"><em>submitted</em></div>
   </div>
 </li>
