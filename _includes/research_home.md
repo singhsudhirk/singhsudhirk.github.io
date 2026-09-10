@@ -6,35 +6,42 @@
 
   <li>
     <div class="paper-body">
-      <strong><a href="https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0">Female Leaders and Welfare in a Water-Scarce Economy</a></strong>
-      <div class="paper-coauthors">with Caitlin Brown &amp; Aruni Mitra</div>
-      <div class="paper-meta">
-        <span class="abstract-toggle" onclick="toggleAbstract('abs1', this)"><span class="toggle-icon">▶</span> Abstract</span>
-        <span class="sep">|</span>
-        <a href="https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0">Paper</a>
-        <span class="sep">|</span>
-        <a href="#">Slides</a>
-      </div>
-      <div id="abs1" class="abstract-box">Are female leaders better at mitigating the adverse economic consequences of environmental change than their male counterparts? Combining historical groundwater data with rural household survey data from India and exploiting village-level random variation in leadership quotas, we document that female leaders are more effective in mitigating the adverse employment impact of groundwater scarcity, increasing household incomes and non-food spending, particularly investment in child education. We identify a structural transformation mechanism: female leaders in water-scarce villages reallocate public works (NREGS) toward water-related infrastructure development, facilitating a shift from the water-constrained agricultural sector towards manufacturing and construction.</div>
-           <div class="paper-journal"><em>submitted</em></div>
-    </div>
-  </li>
-
-  <li>
-    <div class="paper-body">
       <strong><a href="https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0nt8j6gg9g8wfp19&e=2&dl=0">College Access and Domestic Violence</a></strong>
       <div class="paper-coauthors">with Ha Luong</div>
       <div class="paper-meta">
         <span class="abstract-toggle" onclick="toggleAbstract('abs2', this)"><span class="toggle-icon">▶</span> Abstract</span>
         <span class="sep">|</span>
         <a href="https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0nt8j6gg9g8wfp19&e=2&dl=0">Paper</a>
-        <span class="sep">|</span>
-        <a href="#">Slides</a>
+ <!--
+  <span class="sep">|</span>
+  <a href="#">Slides</a>
+  -->
       </div>
       <div id="abs2" class="abstract-box">How does college access affect domestic violence? We study this question in the context of a large-scale investment in higher education expansion in India. The program incentivized the establishment of new colleges in areas with relatively low college enrollment. Using multiple sources of data and a regression discontinuity design, we find that college expansion significantly decreased the incidence of domestic violence for all women. The decline was more pronounced for younger women than for older women, suggesting that the impact was driven by cohorts that were more likely to be exposed to the colleges and benefit from them. Additionally, we find that these results can be explained by improved educational outcomes for women, changes in social norms and husbands' attitudes, and occupational choices. Better access to college led women to reject any justification for domestic violence, increased women's participation in household decision-making, and increased ownership of assets, along with improvements in husbands' gender attitudes. We find heterogeneous effects for employment. Husbands were more likely to work than wives; however, both husbands and wives were more likely to work in high-skilled occupations and move away from low-skilled occupations..</div>
        <div class="paper-journal"><em> New Draft Coming Soon</em></div>
     </div>
   </li>
+
+
+
+  <li>
+    <div class="paper-body">
+      <strong><a href="https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0">Female Leaders and Welfare in a Water-Scarce Economy</a></strong>
+      <div class="paper-coauthors">with Caitlin Brown &amp; Aruni Mitra</div>
+      <div class="paper-meta">
+        <span class="abstract-toggle" onclick="toggleAbstract('abs1', this)"><span class="toggle-icon">▶</span> Abstract</span>
+        <span class="sep">|</span>
+        <a href="https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0">Paper</a>
+ <!--
+  <span class="sep">|</span>
+  <a href="#">Slides</a>
+  -->
+      </div>
+      <div id="abs1" class="abstract-box">Are female leaders better at mitigating the adverse economic consequences of environmental change than their male counterparts? Combining historical groundwater data with rural household survey data from India and exploiting village-level random variation in leadership quotas, we document that female leaders are more effective in mitigating the adverse employment impact of groundwater scarcity, increasing household incomes and non-food spending, particularly investment in child education. We identify a structural transformation mechanism: female leaders in water-scarce villages reallocate public works (NREGS) toward water-related infrastructure development, facilitating a shift from the water-constrained agricultural sector towards manufacturing and construction.</div>
+           <div class="paper-journal"><em>submitted</em></div>
+    </div>
+  </li>
+
 
   <li>
     <div class="paper-body">
