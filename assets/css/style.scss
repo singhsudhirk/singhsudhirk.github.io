@@ -589,12 +589,11 @@ ul.papers li:hover {
   top: 0;
   z-index: 1000;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-
   width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+
+  text-align: center;
   background: white;
   padding: 10px 0;
 }
