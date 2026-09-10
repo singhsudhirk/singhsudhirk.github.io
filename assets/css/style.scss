@@ -582,3 +582,19 @@ ul.papers li:hover {
 #research {
   scroll-margin-top: 0;
 }
+
+
+.simple-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  width: 100%;
+  background: white;
+  padding: 10px 0;
+}
