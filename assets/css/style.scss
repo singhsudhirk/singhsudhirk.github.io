@@ -262,7 +262,7 @@ section p {
 /* ===================================
    ABSTRACT
    =================================== */
-
+/*
 .paper-links a, .abstract-toggle {
   font-size: 13px;
   font-weight: 550;
@@ -283,15 +283,31 @@ section p {
   color: #095c32 !important;
   text-decoration: none !important;
 }
+*/
 
-/*
-.paper-links {
+.paper-links a, .abstract-toggle {
+  font-size: 13px;
+  font-weight: 550;
+  color: #117a46 !important;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 3px 10px;
+  background: #f3f3f3;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
+  gap: 5px;
 }
-*/
+
+.paper-links a:hover, .abstract-toggle:hover {
+  background: #e8e8e8;
+  border-color: #d0d0d0;
+  color: #095c32 !important;
+  text-decoration: none !important;
+}
+
+
 
 /* ORIGINAL BORDER VERSION - uncomment to restore
 .paper-links a, .abstract-toggle {
@@ -560,111 +576,6 @@ a.paper-title:hover {
 /*===================================
    DYNAMIC PAPER BOX
    =================================== */
-
-/*
-ol.papers li,
-ul.papers li {
-  padding: 0.05rem 0.3rem !important;
-  border-radius: 6px;
-  background: transparent;
-
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    background-color 0.2s ease;
-}
-
-ol.papers li:hover,
-ul.papers li:hover {
-  transform: translateY(-3px);
-  background: #f1f5f1;
-  box-shadow:
-    0 2px 5px rgba(0, 0, 0, 0.05),
-    0 8px 20px rgba(0, 0, 0, 0.09);
-}
-
-@media (max-width: 768px) {
-  ol.papers li:hover,
-  ul.papers li:hover {
-    transform: none;
-  }
-}
-*/
-
-/*===================================
-   DYNAMIC PAPER BOX more stair style
-   =================================== */
-/*
-ol.papers li,
-ul.papers li {
-  padding: 0.05rem 0.3rem !important;
-  border-radius: 6px;
-  background: transparent;
-
-  transition:
-    transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
-    box-shadow 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
-    background-color 0.25s ease;
-}
-*/
-/*
-ol.papers li:hover,
-ul.papers li:hover {
-  transform: translate(-3px, -6px);
-  background: #f1f5f1;
-  box-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.06),
-    3px 6px 0 -2px rgba(211, 221, 211, 0.9),
-    6px 12px 0 -3px rgba(231, 237, 231, 0.7),
-    0 10px 22px rgba(0, 0, 0, 0.12);
-}
-*/
-/*
-ol.papers li:hover,
-ul.papers li:hover {
-  position: relative;
-  z-index: 2;
-  transform: translate(-3px, -6px);
-  background: #f1f5f1;
-  box-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.06),
-    3px 6px 0 -2px rgba(211, 221, 211, 0.9),
-    6px 12px 0 -3px rgba(231, 237, 231, 0.7),
-    0 10px 22px rgba(0, 0, 0, 0.12);
-}
-*/
-
-
-/*
-ol.papers li,
-ul.papers li {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0.05rem 0.3rem !important;
-  border-radius: 6px;
-  background: transparent;
-
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    background-color 0.2s ease;
-}
-
-ol.papers li:hover,
-ul.papers li:hover {
-  position: relative;
-  z-index: 2;
-  transform: translate(-3px, -6px);
-  background: #f1f5f1;
-  box-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.06),
-    3px 6px 0 -2px rgba(211, 221, 211, 0.9),
-    6px 12px 0 -3px rgba(231, 237, 231, 0.7),
-    0 10px 22px rgba(0, 0, 0, 0.12);
-}
-
-*/
 
 ol.papers li,
 ul.papers li {
