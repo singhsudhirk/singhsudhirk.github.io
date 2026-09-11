@@ -45,7 +45,7 @@
 
   <li>
     <div class="paper-body">
-      <strong><a href="https://sgordeev.com/input_heterogeneity_misallocation.pdf">Misallocation and Product Choice</a></strong>
+      <strong><a href="https://sgordeev.com/misallocation_and_product_choice.pdf">Misallocation and Product Choice</a></strong>
       <div class="paper-coauthors">with Stepan Gordeev</div>
       <div class="paper-meta">
         <span class="abstract-toggle" onclick="toggleAbstract('abs3', this)"><span class="toggle-icon">▶</span> Abstract</span>
