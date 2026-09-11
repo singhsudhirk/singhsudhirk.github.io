@@ -557,10 +557,11 @@ a.paper-title:hover {
 }
 
 
-===================================
+/*===================================
    DYNAMIC PAPER BOX
    =================================== */
 
+/*
 ol.papers li,
 ul.papers li {
   padding: 0.05rem 0.3rem !important;
@@ -576,8 +577,7 @@ ul.papers li {
 ol.papers li:hover,
 ul.papers li:hover {
   transform: translateY(-3px);
-  background: 
-#f1f5f1;
+  background: #f1f5f1;
   box-shadow:
     0 2px 5px rgba(0, 0, 0, 0.05),
     0 8px 20px rgba(0, 0, 0, 0.09);
@@ -589,6 +589,42 @@ ul.papers li:hover {
     transform: none;
   }
 }
+*/
+
+
+
+ol.papers li,
+ul.papers li {
+  padding: 0.05rem 0.3rem !important;
+  border-radius: 6px;
+  background: transparent;
+
+  transition:
+    transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
+    background-color 0.25s ease;
+}
+
+ol.papers li:hover,
+ul.papers li:hover {
+  transform: translate(-3px, -6px);
+  background: #f1f5f1;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.06),
+    3px 6px 0 -2px rgba(211, 221, 211, 0.9),
+    6px 12px 0 -3px rgba(231, 237, 231, 0.7),
+    0 10px 22px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 768px) {
+  ol.papers li:hover,
+  ul.papers li:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+
 
 #research {
   scroll-margin-top: 0;
