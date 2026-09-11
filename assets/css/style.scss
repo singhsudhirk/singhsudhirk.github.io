@@ -287,10 +287,11 @@ section p {
 
 
 /* for gray soft box*/
+/* for gray soft box*/
 .paper-meta a, .abstract-toggle {
   font-size: 13px;
   font-weight: 550;
-  color: #117a46 !important;
+  color: #000 !important;
   text-decoration: none;
   cursor: pointer;
   padding: 3px 10px;
@@ -305,7 +306,7 @@ section p {
 .paper-meta a:hover, .abstract-toggle:hover {
   background: #e8e8e8;
   border-color: #d0d0d0;
-  color: #095c32 !important;
+  color: #117a46 !important;
   text-decoration: none !important;
 }
 
