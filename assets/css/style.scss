@@ -262,8 +262,10 @@ section p {
 /* ===================================
    ABSTRACT
    =================================== */
-/*
-.paper-links a, .abstract-toggle {
+
+/*.paper-links a, .abstract-toggle { */
+
+ .paper-meta a, .abstract-toggle {  
   font-size: 13px;
   font-weight: 550;
   color: #117a46 !important;
@@ -278,19 +280,22 @@ section p {
   gap: 5px;
 }
 
-.paper-links a:hover, .abstract-toggle:hover {
+/*.paper-links a:hover, .abstract-toggle:hover {*/
+   
+.paper-meta a:hover, .abstract-toggle:hover {
   background: #c8e6c9;
   color: #095c32 !important;
   text-decoration: none !important;
 }
-*/
+
 
 
 /* for gray soft box*/
+/*
 .paper-meta a, .abstract-toggle {
   font-size: 13px;
   font-weight: 550;
-  color: #444 !important;
+  color: #666 !important;
   text-decoration: none;
   cursor: pointer;
   padding: 3px 10px;
@@ -308,7 +313,7 @@ section p {
   color: #117a46 !important;
   text-decoration: none !important;
 }
-
+*/
 
 
 /* Soft green no border VERSION - uncomment to restore
