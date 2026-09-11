@@ -557,63 +557,30 @@ a.paper-title:hover {
 }
 
 
+===================================
+   DYNAMIC PAPER BOX
+   =================================== */
+
 ol.papers li,
 ul.papers li {
-  position: relative;
   padding: 0.05rem 0.3rem !important;
   border-radius: 6px;
-  background: #fff;
-  transform-style: preserve-3d;
-  perspective: 800px;
+  background: transparent;
 
   transition:
-    transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
-    box-shadow 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
-    background-color 0.35s ease;
-}
-
-/* Stair-step layers, hidden until hover */
-ol.papers li::before,
-ol.papers li::after,
-ul.papers li::before,
-ul.papers li::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 6px;
-  background: #e7ede7;
-  z-index: -1;
-  opacity: 0;
-  transition:
-    transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
-    opacity 0.35s ease;
-}
-
-ol.papers li::after,
-ul.papers li::after {
-  background: #d3ddd3;
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
 }
 
 ol.papers li:hover,
 ul.papers li:hover {
-  transform: translate3d(-4px, -6px, 0) rotateX(4deg);
-  background: #f7faf7;
+  transform: translateY(-3px);
+  background: 
+#f1f5f1;
   box-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.06),
-    0 10px 22px rgba(0, 0, 0, 0.12);
-}
-
-/* Each "step" cascades down-right behind the card */
-ol.papers li:hover::before,
-ul.papers li:hover::before {
-  transform: translate(4px, 6px);
-  opacity: 1;
-}
-
-ol.papers li:hover::after,
-ul.papers li:hover::after {
-  transform: translate(8px, 12px);
-  opacity: 1;
+    0 2px 5px rgba(0, 0, 0, 0.05),
+    0 8px 20px rgba(0, 0, 0, 0.09);
 }
 
 @media (max-width: 768px) {
@@ -621,14 +588,7 @@ ul.papers li:hover::after {
   ul.papers li:hover {
     transform: none;
   }
-  ol.papers li:hover::before,
-  ol.papers li:hover::after,
-  ul.papers li:hover::before,
-  ul.papers li:hover::after {
-    opacity: 0;
-  }
 }
-
 
 #research {
   scroll-margin-top: 0;
