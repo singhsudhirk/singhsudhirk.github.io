@@ -262,7 +262,7 @@ section p {
 /* ===================================
    ABSTRACT
    =================================== */
-
+/*
 .paper-links a, .abstract-toggle {
   font-size: 13px;
   font-weight: 550;
@@ -283,9 +283,11 @@ section p {
   color: #095c32 !important;
   text-decoration: none !important;
 }
-/*
+*/
 
-.paper-links a, .abstract-toggle {
+
+/* for gray soft box*/
+.paper-meta a, .abstract-toggle {
   font-size: 13px;
   font-weight: 550;
   color: #117a46 !important;
@@ -300,30 +302,14 @@ section p {
   gap: 5px;
 }
 
-.paper-links a:hover, .abstract-toggle:hover {
+.paper-meta a:hover, .abstract-toggle:hover {
   background: #e8e8e8;
   border-color: #d0d0d0;
   color: #095c32 !important;
   text-decoration: none !important;
 }
-*/
 
 
-/* ORIGINAL BORDER VERSION - uncomment to restore
-.paper-links a, .abstract-toggle {
-  font-size: 13px;
-  color: #117a46 !important;
-  text-decoration: none;
-  cursor: pointer;
-  padding: 3px 10px;
-  border: 1px solid #117a46;
-  border-radius: 4px;
-  background: transparent;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-}
-*/
 
 /* Soft green no border VERSION - uncomment to restore
 .paper-links a, .abstract-toggle {
