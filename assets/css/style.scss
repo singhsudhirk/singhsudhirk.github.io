@@ -664,15 +664,6 @@ ul.papers li:hover {
     0 10px 22px rgba(0, 0, 0, 0.12);
 }
 
-/*
-@media (max-width: 768px) {
-  ol.papers li:hover,
-  ul.papers li:hover {
-    transform: none;
-    box-shadow: none;
-  }
-}
-*/
 
 @media (max-width: 768px) {
   ol.papers li:hover,
@@ -680,21 +671,8 @@ ul.papers li:hover {
     transform: none;
     box-shadow: none;
   }
-
-  ol.papers li:active,
-  ul.papers li:active {
-    position: relative;
-    z-index: 2;
-    transform: translate(-2px, -4px);
-    background: #f1f5f1;
-    box-shadow:
-      0 2px 4px rgba(0, 0, 0, 0.06),
-      2px 4px 0 -2px rgba(211, 221, 211, 0.9),
-      4px 8px 0 -3px rgba(231, 237, 231, 0.7),
-      0 8px 18px rgba(0, 0, 0, 0.1);
-    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
-  }
 }
+
 
 
 
