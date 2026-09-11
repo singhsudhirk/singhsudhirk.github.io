@@ -635,7 +635,7 @@ ul.papers li:hover {
 */
 
 
-
+/*
 ol.papers li,
 ul.papers li {
   display: block;
@@ -664,6 +664,35 @@ ul.papers li:hover {
     0 10px 22px rgba(0, 0, 0, 0.12);
 }
 
+*/
+
+ol.papers li,
+ul.papers li {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.05rem 0.3rem !important;
+  border-radius: 6px;
+  background: transparent;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+ol.papers li:hover,
+ul.papers li:hover {
+  position: relative;
+  z-index: 2;
+ transform: translateY(-1px);
+  background: #ffffff;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.04),
+    1px 2px 0 -1px rgba(235, 235, 235, 0.6),
+    2px 4px 0 -2px rgba(245, 245, 245, 0.4),
+    0 4px 10px rgba(0, 0, 0, 0.06);
+}
 
 @media (max-width: 768px) {
   ol.papers li:hover,
