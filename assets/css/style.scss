@@ -557,7 +557,6 @@ a.paper-title:hover {
 }
 
 
-
 /* ===================================
    DYNAMIC PAPER BOX
    =================================== */
@@ -576,9 +575,11 @@ ul.papers li {
 
 ol.papers li:hover,
 ul.papers li:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   background: #f1f5f1;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  box-shadow:
+    0 2px 5px rgba(0, 0, 0, 0.05),
+    0 8px 20px rgba(0, 0, 0, 0.09);
 }
 
 @media (max-width: 768px) {
