@@ -618,12 +618,10 @@ ul.papers li:hover {
 }
 
 
-.paper-coauthors a {
-    color: inherit;
+.paper-coauthors a,
+.paper-coauthors a:hover,
+.paper-coauthors a:visited,
+.paper-coauthors a:active {
+    color: inherit !important;
     text-decoration: none;
 }
-
-.paper-coauthors a:hover {
-    text-decoration: underline;
-}
-
