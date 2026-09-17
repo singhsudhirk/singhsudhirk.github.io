@@ -29,7 +29,7 @@
   <li>
     <div class="paper-body">
       <strong><a href="https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0">Female Leaders and Welfare in a Water-Scarce Economy</a></strong>
-     <div class="paper-coauthors"> with <a href="https://sites.google.com/site/caitbrownecon/">Caitlin Brown</a> &amp;<a href="https://arunimitra.com/">Aruni Mitra</a></div>
+     <div class="paper-coauthors"> with <a href="https://sites.google.com/site/caitbrownecon/">Caitlin Brown</a> &amp; <a href="https://arunimitra.com/">Aruni Mitra</a></div>
       <div class="paper-meta">
         <span class="abstract-toggle" onclick="toggleAbstract('abs1', this)"><span class="toggle-icon">▶</span> Abstract</span>
         <span class="sep">|</span>
