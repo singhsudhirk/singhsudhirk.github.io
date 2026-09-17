@@ -617,3 +617,13 @@ ul.papers li:hover {
   padding-bottom: 8px;
 }
 
+
+.paper-coauthors a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.paper-coauthors a:hover {
+    text-decoration: underline;
+}
+
