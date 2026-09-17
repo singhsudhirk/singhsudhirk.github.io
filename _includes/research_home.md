@@ -9,7 +9,7 @@
   <li>
     <div class="paper-body">
       <strong><a href="https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0nt8j6gg9g8wfp19&e=2&dl=0">College Access and Domestic Violence</a></strong>
-      <div class="paper-coauthors">with Ha Luong</div>
+      <div class="paper-coauthors">with<a href="https://haluong.weebly.com/"> Ha Luong</div>
       <div class="paper-meta">
         <span class="abstract-toggle" onclick="toggleAbstract('abs2', this)"><span class="toggle-icon">▶</span> Abstract</span>
         <span class="sep">|</span>
@@ -29,7 +29,7 @@
   <li>
     <div class="paper-body">
       <strong><a href="https://www.dropbox.com/scl/fi/cdflmoh4s2cjgbob6tuuu/BMS_2026.pdf?rlkey=wyrimnix1w612h4ryin95kakt&e=1&dl=0">Female Leaders and Welfare in a Water-Scarce Economy</a></strong>
-      <div class="paper-coauthors">with Caitlin Brown &amp; Aruni Mitra</div>
+     <div class="paper-coauthors"> with <a href="https://sites.google.com/site/caitbrownecon/">Caitlin Brown</a> &amp;<a href="https://arunimitra.com/">Aruni Mitra</a></div>
       <div class="paper-meta">
         <span class="abstract-toggle" onclick="toggleAbstract('abs1', this)"><span class="toggle-icon">▶</span> Abstract</span>
         <span class="sep">|</span>
@@ -48,7 +48,7 @@
   <li>
     <div class="paper-body">
       <strong><a href="https://sgordeev.com/misallocation_and_product_choice.pdf">Misallocation and Product Choice</a></strong>
-      <div class="paper-coauthors">with Stepan Gordeev</div>
+      <div class="paper-coauthors">with <a href="https://sgordeev.com/">Stepan Gordeev</a></div>
       <div class="paper-meta">
         <span class="abstract-toggle" onclick="toggleAbstract('abs3', this)"><span class="toggle-icon">▶</span> Abstract</span>
         <span class="sep">|</span>
@@ -64,7 +64,7 @@
   <li>
     <div class="paper-body">
       <strong><a href="https://sgordeev.com/input_heterogeneity_misallocation.pdf">Input-Driven Production Technology Heterogeneity and the Allocation of Inputs</a></strong>
-      <div class="paper-coauthors">with Stepan Gordeev</div>
+      <div class="paper-coauthors">with <a href="https://sgordeev.com/">Stepan Gordeev</a></div>
       <div class="paper-meta">
         <span class="abstract-toggle" onclick="toggleAbstract('abs4', this)"><span class="toggle-icon">▶</span> Abstract</span>
         <span class="sep">|</span>
@@ -77,8 +77,8 @@
 <li>
   <div class="paper-body">
     <strong><a href="https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html">Political Exit: The Unintended Effects of Electoral Rules in India</a></strong>
-    <div class="paper-coauthors">with Varun K.R. &amp; Drew Stommes</div>
-    <div class="paper-meta">
+    <div class="paper-coauthors">with <a href="https://www.varun-kr.com/">Varun K.R.</a> &amp; <a href="https://drew-stommes.github.io/">Drew Stommes</a></div>
+       <div class="paper-meta">
       <span class="abstract-toggle" onclick="toggleAbstract('abs5', this)"><span class="toggle-icon">▶</span> Abstract</span>
  <!--
       <span class="sep">|</span>
