@@ -8,12 +8,12 @@
 
   <li>
     <div class="paper-body">
-      <strong><a href="https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0nt8j6gg9g8wfp19&e=2&dl=0">College Access and Domestic Violence</a></strong>
+      <strong><a href="Paper/LS_College_Violence.pdf">College Access and Domestic Violence</a></strong>
      <div class="paper-coauthors">with <a href="https://haluong.weebly.com/">Ha Luong</a></div>
       <div class="paper-meta">
         <span class="abstract-toggle" onclick="toggleAbstract('abs2', this)"><span class="toggle-icon">▶</span> Abstract</span>
         <span class="sep">|</span>
-        <a href="https://www.dropbox.com/scl/fi/406ueaubjqgcoprb5f3i5/Colleges_and-DV_LSFeb26.pdf?rlkey=x3i79ulia0nt8j6gg9g8wfp19&e=2&dl=0">Paper</a>
+        <a href="Paper/LS_College_Violence.pdf">Paper</a>
  <!--
   <span class="sep">|</span>
   <a href="#">Slides</a>
