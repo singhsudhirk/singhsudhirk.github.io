@@ -552,7 +552,7 @@ a.paper-title:hover {
   font-weight: 500;
   color: black !important;
 }
-/* dotted Underline and hover only for linked titles */
+/* dotted Underline and hover only for linked titles 
 .paper-body strong a {
   text-decoration: underline dotted !important;
   text-decoration-thickness: 1px;
@@ -560,13 +560,14 @@ a.paper-title:hover {
   text-decoration-color: #999;
   transition: color 0.2s ease;
 }
+*/
 
-/* Underline and hover only for linked titles
+/* Underline and hover only for linked titles*/
 .paper-body strong a {
   text-decoration: underline !important;
   transition: color 0.2s ease;
 }
-*/
+
 
 .paper-body strong a:hover {
   color: #117a46 !important;
