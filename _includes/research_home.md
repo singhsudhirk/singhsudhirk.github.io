@@ -8,12 +8,12 @@
 
   <li>
     <div class="paper-body">
-      <strong><a href="Paper/LS_College_Violence.pdf">College Access and Domestic Violence</a></strong>
+      <strong><a href="papers/LS_College_Violence.pdf">College Access and Domestic Violence</a></strong>
      <div class="paper-coauthors">with <a href="https://haluong.weebly.com/">Ha Luong</a></div>
       <div class="paper-meta">
         <span class="abstract-toggle" onclick="toggleAbstract('abs2', this)"><span class="toggle-icon">▶</span> Abstract</span>
         <span class="sep">|</span>
-        <a href="Paper/LS_College_Violence.pdf">Paper</a>
+        <a href="papers/LS_College_Violence.pdf">Paper</a>
  <!--
   <span class="sep">|</span>
   <a href="#">Slides</a>
