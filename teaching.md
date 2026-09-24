@@ -14,7 +14,7 @@ Spring 2025, University of Rochester
 Spring 2025, University of Rochester
 
 **Advanced Quantitative Methods: Causal Inference** (Graduate level)  
-University of Rochester
+Fall 2023, 2024,2026 University of Rochester
 
 
 **Note:** Please check the course Blackboards for more information, or contact me with any questions.
