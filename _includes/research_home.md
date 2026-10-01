@@ -194,15 +194,24 @@
 
 <h3 style="border-bottom: none !important;">Selected Work in Progress</h3>
 
-  <!-- ==== Housing/Migration paper ==== -->
+
 
 <ul class="papers" style="--start: 0;">
 
+
+  <li>
+    <div class="paper-body">
+      <strong>Human Capital and Children’s Time Use</strong>
+         <div class="paper-coauthors">with <a href="https://haluong.weebly.com/">Ha Luong</a></div>
+         <div class="paper-journal"><em>draft coming soon</em></div>
+    </div>
+  </li>
+  <!-- ==== Housing/Migration paper ==== -->
   <li>
     <div class="paper-body">
       <strong>Housing, Network, and Migration</strong>
-      <div class="paper-coauthors">with Travis Baseler and Alp Sungu</div>
-      <div class="paper-journal"><em>fieldwork in progress</em></div>
+           <div class="paper-coauthors"> with <a href="https://sites.google.com/view/travisbaseler/home"> Travis Baseler</a> &amp; <a href="https://www.alpsungu.com/">Alp Sungu</a></div>
+         <div class="paper-journal"><em>fieldwork in progress</em></div>
     </div>
   </li>
 
@@ -211,7 +220,27 @@
   <li>
     <div class="paper-body">
       <strong>Farm, Trade, and Misallocation</strong>
-      <div class="paper-coauthors">with Stepan Gordeev</div>
+       <div class="paper-coauthors">with <a href="https://sgordeev.com/">Stepan Gordeev</a></div>
+    </div>
+  </li>
+
+
+ <!-- ==== Mental Health ==== -->
+
+  <li>
+    <div class="paper-body">
+      <strong>Longterm Effects of Conditional Cash Transfers on Mental Health</strong>
+        <div class="paper-coauthors">with <a href="https://haluong.weebly.com/">Ha Luong</a></div>
+    </div>
+  </li>
+
+
+ <!-- ====DV==== -->
+
+  <li>
+    <div class="paper-body">
+      <strong>Access to Support Centers and Gender-Based Violence</strong>
+        <div class="paper-coauthors">with <a href="https://haluong.weebly.com/">Ha Luong</a></div>
     </div>
   </li>
 
