@@ -221,6 +221,7 @@
     <div class="paper-body">
       <strong>Farm, Trade, and Misallocation</strong>
        <div class="paper-coauthors">with <a href="https://sgordeev.com/">Stepan Gordeev</a></div>
+       <div class="paper-journal"><em>analysis in progress</em></div>
     </div>
   </li>
 
@@ -231,6 +232,7 @@
     <div class="paper-body">
       <strong>Longterm Effects of Conditional Cash Transfers on Mental Health</strong>
         <div class="paper-coauthors">with <a href="https://haluong.weebly.com/">Ha Luong</a></div>
+       <div class="paper-journal"><em>analyisis in progress</em></div>
     </div>
   </li>
 
@@ -241,6 +243,7 @@
     <div class="paper-body">
       <strong>Access to Support Centers and Gender-Based Violence</strong>
         <div class="paper-coauthors">with <a href="https://haluong.weebly.com/">Ha Luong</a></div>
+       <div class="paper-journal"><em>draft in progress</em></div>
     </div>
   </li>
 
