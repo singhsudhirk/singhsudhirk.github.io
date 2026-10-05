@@ -638,19 +638,26 @@ ul.papers li:hover {
 }
 
 
-.papers,
-.papers li {
-  padding-left: 0 !important;
-  margin-left: 0 !important;
-}
-
+/* ===================================
+   LIST INDENT CONTROL
+   =================================== */
 ol.papers,
 ul.papers {
-  padding-left: 0.75rem !important;
+  padding-left: 0 !important;
 }
 
-ol.papers li,
+/* Unordered: no marker column at all; indent set by padding-left */
 ul.papers li {
-  grid-template-columns: 1rem 1fr !important;
-  gap: 0 0.25rem !important;
+  display: block !important;
+  padding-left: 0.75rem !important;   /* ← adjust indent here */
+}
+
+ul.papers li::before {
+  content: none !important;
+}
+
+/* Ordered: keep a narrow column for the numbers */
+ol.papers li {
+  grid-template-columns: 1.5rem 1fr !important;  /* ← number column width */
+  gap: 0 0.35rem !important;
 }
