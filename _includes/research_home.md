@@ -8,7 +8,7 @@
 
 
 
-<ol class="papers" style="--start: 0;">
+<ul class="papers" style="--start: 0;">
 
   <li>
     <div class="paper-body">
@@ -138,7 +138,7 @@
 </div>   <!-- closes paper-body -->
 </li>      <!-- closes the list item -->
 
-</ol>
+</ul>
 
 
  <!-- ==== Published ==== -->
@@ -150,7 +150,7 @@
 
 
 
-<ol class="papers" style="--start: 0;">
+<ul class="papers" style="--start: 0;">
 
   <li>
     <div class="paper-body">
@@ -208,7 +208,7 @@
     </div>
   </li>
 
-</ol>
+</ul>
 
 
 
@@ -222,7 +222,7 @@
 
 
 
-<ol class="papers" style="--start: 0;">
+<ul class="papers" style="--start: 0;">
 
 
   <li>
@@ -273,5 +273,5 @@
     </div>
   </li>
 
-</ol>
+</ul>
 
