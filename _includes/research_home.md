@@ -24,7 +24,7 @@
   -->
       </div>
       <div id="abs2" class="abstract-box">How does college access affect domestic violence? We study this question in the context of a large-scale investment in higher education expansion in India. The program incentivized the establishment of new colleges in areas with relatively low college enrollment. Using multiple sources of data and a regression discontinuity design, we find that college expansion significantly decreased the incidence of domestic violence for all women. The decline was more pronounced for younger women than for older women, suggesting that the impact was driven by cohorts that were more likely to be exposed to the colleges and benefit from them. Additionally, we find that these results can be explained by improved educational outcomes for women, changes in social norms and husbands' attitudes, and occupational choices. Better access to college led women to reject any justification for domestic violence, increased women's participation in household decision-making, and increased ownership of assets, along with improvements in husbands' gender attitudes. We find heterogeneous effects for employment. Husbands were more likely to work than wives; however, both husbands and wives were more likely to work in high-skilled occupations and move away from low-skilled occupations. </div>
-       <div class="paper-journal"><em> New Draft Coming Soon</em></div>
+       <div class="paper-journal"><em> Updated Sep. 2026</em></div>
     </div>
   </li>
 
@@ -134,7 +134,7 @@
 <div id="abs7" class="abstract-box">
   We study the effects of political connections, where the political leader is of the same caste, on public employment in India. Using an instrumental variables approach that exploits caste-based reservations, we examine whether local leaders favor individuals from their own caste when allocating jobs. Specifically, we find that political connections increased participation as well as the number of days worked in NREGS. The results are robust to the inclusion and exclusion of controls and fixed effects. Finally, we find that village council leaders affect participation in NREGS more than the council members. Our research emphasizes the dynamics of identity-based political networks and their implications for the distribution of public sector opportunities in India.</div>
 
-<div class="paper-journal"><em>under major revision</em></div>   
+<div class="paper-journal"><em>new draft coming soon</em></div>   
 </div>   <!-- closes paper-body -->
 </li>      <!-- closes the list item -->
 
