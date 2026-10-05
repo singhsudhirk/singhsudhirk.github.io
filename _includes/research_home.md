@@ -128,14 +128,9 @@
       <span class="sep">|</span>
       <a href="#">Slides</a>
  -->
-    </div>
-    <div id="abs6" class=".</div>
     <div class="paper-journal"><em>submitted</em></div>
   </div>
 </li>
-
-
-
 
 
 </ol>
@@ -149,7 +144,7 @@
 
 
 
-<ol class="papers" style="--start: 6;">
+<ol class="papers" style="--start: 0;">
 
   <li>
     <div class="paper-body">
