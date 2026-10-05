@@ -138,7 +138,8 @@
 
 <div class="paper-journal">
   <em>under major revision</em>
-</div>
+  </div>   <!-- closes paper-body -->
+</li>      <!-- closes the list item -->
 
 </ol>
 
