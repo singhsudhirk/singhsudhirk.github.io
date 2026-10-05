@@ -638,10 +638,15 @@ ul.papers li:hover {
 }
 
 
+.papers,
+.papers li {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
 ol.papers,
 ul.papers {
   padding-left: 0.75rem !important;
-  margin-left: 0 !important;
 }
 
 ol.papers li,
