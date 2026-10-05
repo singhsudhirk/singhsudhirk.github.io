@@ -132,16 +132,14 @@
 </div>
 
 <div id="abs7" class="abstract-box">
-  We study the effects of political connections, where the political leader is of the same caste, on public employment in India. Using an instrumental variables approach that exploits caste-based reservations, we examine whether local leaders favor individuals from their own caste when allocating jobs. Specifically, we find that political connections increased participation as well as the number of days worked in NREGS. The results are robust to the inclusion and exclusion of controls and fixed effects. Finally, we find that village council leaders affect participation in NREGS more than the council members. Our research emphasizes the dynamics of identity-based political networks and their implications for the distribution of public sector opportunities in India.
+  We study the effects of political connections, where the political leader is of the same caste, on public employment in India. Using an instrumental variables approach that exploits caste-based reservations, we examine whether local leaders favor individuals from their own caste when allocating jobs. Specifically, we find that political connections increased participation as well as the number of days worked in NREGS. The results are robust to the inclusion and exclusion of controls and fixed effects. Finally, we find that village council leaders affect participation in NREGS more than the council members. Our research emphasizes the dynamics of identity-based political networks and their implications for the distribution of public sector opportunities in India.</div>
 
-</div>
-
-<div class="paper-journal">
-  <em>under major revision</em>
-  </div>   <!-- closes paper-body -->
+<div class="paper-journal"><em>under major revision</em></div>   
+</div>   <!-- closes paper-body -->
 </li>      <!-- closes the list item -->
 
 </ol>
+
 
  <!-- ==== Published ==== -->
  <!-- ==== Published ==== -->
