@@ -649,15 +649,11 @@ ul.papers {
 /* Unordered: no marker column at all; indent set by padding-left */
 ul.papers li {
   display: block !important;
-  padding-left: 0.85rem !important;   /* ← adjust indent here */
+  padding-left: 1rem !important;   /* ← adjust indent here */
 }
 
 ul.papers li::before {
   content: none !important;
 }
 
-/* Ordered: keep a narrow column for the numbers */
-ol.papers li {
-  grid-template-columns: 1.5rem 1fr !important;  /* ← number column width */
-  gap: 0 0.35rem !important;
-}
+
