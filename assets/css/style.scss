@@ -638,9 +638,14 @@ ul.papers li:hover {
 }
 
 
+ol.papers,
+ul.papers {
+  padding-left: 0.75rem !important;
+  margin-left: 0 !important;
+}
 
 ol.papers li,
 ul.papers li {
-  grid-template-columns: 1.5rem 1fr !important;
-  gap: 0 0.45rem !important;
+  grid-template-columns: 1rem 1fr !important;
+  gap: 0 0.25rem !important;
 }
