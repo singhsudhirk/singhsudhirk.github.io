@@ -514,12 +514,13 @@ ul.papers li {
 
 ul.papers li::before {
   /*content: "○";*/ /* hollow bullet */
-  content: "»";   /* double chevron */
+  /*content: "»";*/ /* double chevron */
+  content: "";      /* no symbol */
   font-family: monospace !important;
-  font-weight: 700 !important;   /* add this */
+  font-weight: 700 !important;
   font-size: 1rem !important;
   color: #8a8a80 !important;
-   padding-top: 0.05rem !important;
+  padding-top: 0.05rem !important;
   /*padding-top: 0.2rem !important;*/
   text-align: right !important;
 }
