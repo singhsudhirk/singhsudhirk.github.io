@@ -4,7 +4,11 @@
 
 <h3 style="border-bottom: none !important;">Working Papers</h3>
 
-<ul class="papers" style="--start: 0;">
+
+
+
+
+<ol class="papers" style="--start: 0;">
 
   <li>
     <div class="paper-body">
@@ -113,9 +117,28 @@
   </div>
 </li>
 
+<li>
+  <div class="paper-body">
+    <strong>Identity, Political Connections, and Public Employment</strong>
+    <div class="paper-meta">
+      <span class="abstract-toggle" onclick="toggleAbstract('abs6', this)"><span class="toggle-icon">▶</span> Abstract</span>
+ <!--
+      <span class="sep">|</span>
+      <a href="#">Paper</a>
+      <span class="sep">|</span>
+      <a href="#">Slides</a>
+ -->
+    </div>
+    <div id="abs6" class=".</div>
+    <div class="paper-journal"><em>submitted</em></div>
+  </div>
+</li>
 
 
-</ul>
+
+
+
+</ol>
 
  <!-- ==== Published ==== -->
  <!-- ==== Published ==== -->
@@ -124,7 +147,9 @@
    
 <h3 style="border-bottom: none !important;">Published Papers</h3>
 
-<ul class="papers" style="--start: 6;">
+
+
+<ol class="papers" style="--start: 6;">
 
   <li>
     <div class="paper-body">
@@ -182,7 +207,7 @@
     </div>
   </li>
 
-</ul>
+</ol>
 
 
 
@@ -196,7 +221,7 @@
 
 
 
-<ul class="papers" style="--start: 0;">
+<ol class="papers" style="--start: 0;">
 
 
   <li>
@@ -247,5 +272,5 @@
     </div>
   </li>
 
-</ul>
+</ol>
 
