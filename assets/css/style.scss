@@ -635,3 +635,17 @@ ul.papers li:hover {
     color: inherit !important;
     text-decoration: none;
 }
+
+
+
+ol.papers li,
+ul.papers li {
+  grid-template-columns: 1.3rem 1fr !important;
+  gap: 0 0.4rem !important;
+  padding-left: 0 !important;
+}
+
+ol.papers li::before,
+ul.papers li::before {
+  text-align: left !important;
+}
