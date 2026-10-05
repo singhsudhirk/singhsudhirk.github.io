@@ -649,7 +649,7 @@ ul.papers {
 /* Unordered: no marker column at all; indent set by padding-left */
 ul.papers li {
   display: block !important;
-  padding-left: 1rem !important;   /* ← adjust indent here */
+  padding-left: 1.2rem !important;   /* ← adjust indent here */
 }
 
 ul.papers li::before {
