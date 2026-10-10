@@ -10,7 +10,8 @@ Welcome!
 
 <p>
 I am an economist and a postdoctoral researcher at the University of Rochester. My research is in development and labor economics, with a focus on agriculture, environment, health, and gender. I am also a Fellow of the Global Labor Organization (GLO). 
-
+</p>
+<p>
 Previously, I was an economist and consultant at the World Bank Group, and also consulted for the International Food Policy Research Institute in Washington, D.C. 
 </p>
 
