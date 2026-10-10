@@ -8,9 +8,9 @@
 <img src="image.jpg" alt="Sudhir K Singh" class="profile-img">
 Welcome!
 
-I am an economist and a postdoctoral researcher at the University of Rochester. I study development and labor economics with a focus on agriculture, environment, health, human capital, and gender. I am also a Fellow of the Global Labor Organization (GLO). Previously, I was an Economist and Consultant at the World Bank Group and have consulted for the International Food Policy Research Institute (IFPRI) in Washington, D.C. 
+I am an economist and a postdoctoral researcher at the University of Rochester. I study development and labor economics with a focus on agriculture, environment, health, and gender. I am also a Fellow of the Global Labor Organization (GLO). Previously, I was an Economist and Consultant at the World Bank Group and have consulted for the International Food Policy Research Institute (IFPRI) in Washington, D.C. 
 
- To learn more about my work, please visit my <a href="/research.html">Research</a> page or download my <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>. 
+To learn more about my work, please see my <a href="/research.html">research</a> or download my <a href="Sudhir_Singh_CV.pdf" target="_blank">CV</a>. 
  
 **Contact Information**<br>
 University of Rochester<br>
