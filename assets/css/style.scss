@@ -1,156 +1,147 @@
 ---
 ---
+/* The two dashed lines above tell Jekyll to process this file.
+   The line below loads your GitHub Pages theme first; everything
+   in this file comes after it, so these rules override the theme. */
 
 @import "{{ site.theme }}";
 
+
 /* ===================================
-   HEADER & TITLE STYLING
+   HEADER & TITLE
+   Your name and tagline at the top of the page
    =================================== */
+
+/* Header block: full width, centered, no side layout from the theme */
 header {
   float: none !important;
   position: static !important;
   width: 100% !important;
   text-align: center !important;
-  padding: 40px 0 15px 0 !important;
+  padding: 40px 0 15px 0 !important;   /* space above and below the header */
   border-bottom: none !important;
   left: auto !important;
   right: auto !important;
 }
 
+/* Your name */
 header h1 {
   text-align: center !important;
   font-size: 42px !important;
   margin-bottom: 8px !important;
 }
 
+/* Line under your name (title / affiliation) */
 header p {
   text-align: center !important;
   font-size: 18px !important;
-  color: #666 !important;
+  color: #666 !important;              /* medium gray */
   margin-bottom: 0 !important;
 }
 
+/* Links inside the header: green, no underline */
 header a {
   color: #117a46 !important;
   text-decoration: none !important;
   text-decoration-line: none !important;
 }
 
-/* FIXED (Oct 2026): was "// Center the title", which is not valid CSS
-   and silently broke the rule below */
-/* Center the title */
+/* Keeps the page title centered inside the theme's container */
 .container-lg h1 {
   text-align: center !important;
 }
 
-/* REMOVED: overridden by .paper-body strong, .paper-body strong a rule below
-a {
-  font-weight: 500;
-}
-*/
-
 
 /* ===================================
    NAVIGATION
+   The menu bar that sticks to the top as you scroll
    =================================== */
 
-/*
 .simple-nav {
   text-align: center;
-  margin: 25px 0 40px 0;
+  margin: 0 0 40px 0;                  /* space below the menu */
   padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;    /* thin light line under the menu */
   font-size: 16px;
-  position: sticky;
+  position: sticky;                    /* stays at the top while scrolling */
   top: 0;
-  background: white;
-  z-index: 1000;
-}
-*/
-
-.simple-nav {
-  text-align: center;
-  margin: 0 0 40px 0;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
-  font-size: 16px;
-  position: sticky;
-  top: 0;
-  background: white;
-  z-index: 1000;
+  background: white;                   /* so text doesn't show through when it sticks */
+  z-index: 1000;                       /* keeps the menu above page content */
 }
 
+/* Menu links */
 .simple-nav a {
-  color: #117a46;
+  color: #117a46;                      /* green */
   text-decoration: none;
-  margin: 0 12px;
-  font-weight: 600;
+  margin: 0 12px;                      /* space between menu items */
+  font-weight: 600;                    /* semi-bold */
   transition: color 0.2s;
 }
 
+/* Menu links on hover: darker green + underline */
 .simple-nav a:hover {
   color: #095c32;
   text-decoration: underline;
 }
 
+
 /* ===================================
    PROFILE IMAGE
    =================================== */
+
+/* Photo sits on the left, text wraps around it on the right */
 .profile-img {
   float: left;
   width: 230px;
-  margin: 0px 30px 15px 0px;
-  border-radius: 6px;
+  margin: 0px 30px 15px 0px;           /* top, right, bottom, left */
+  border-radius: 6px;                  /* slightly rounded corners */
 }
+
 
 /* ===================================
    LINKS
+   Default style for every link on the site
    =================================== */
 
 section a,
 a {
-  color: #117a46 !important;
+  color: #117a46 !important;           /* green */
   text-decoration: none;
   transition: color 0.2s;
 }
 
 section a:hover,
 a:hover {
-  color: #095c32 !important;
+  color: #095c32 !important;           /* darker green on hover */
   text-decoration: underline;
 }
 
-/* Override for paper status (journals) - keep them gray */
 
-/* OLD (Oct 2026): original paper-status rule — replaced by the NEW rule below
-.paper-status {
-  color: #666 !important;
-  font-style: italic;   <- this line was already commented out in the original
-  font-style: normal !important;
-  font-size: 15px;
-  margin-top: 2px;
-}
-*/
+/* ===================================
+   PAPER STATUS
+   Status line under working papers and work in progress
+   (submitted, Updated September 2026, draft coming soon, etc.)
+   =================================== */
 
-/* NEW (Oct 2026): status lines for working papers and work in progress
-   (Submitted, Updated September 2026, Draft coming soon, etc.) — light gray */
 .paper-status {
-  font-size: 0.88rem;
-  color: #8a8a80 !important;       /* light gray; #999 = lighter, #666 = darker */
-  font-style: normal !important;   /* change to italic if you prefer */
-  margin-top: 0.15rem;
+  font-size: 0.88rem;                  /* same size as co-authors and journal line */
+  color: #8a8a80 !important;           /* light gray; #999 = lighter, #666 = darker */
+  font-style: normal !important;       /* upright; change to italic if you prefer */
+  margin-top: 0.15rem;                 /* small gap above */
 }
 
+/* Any link inside a status line stays gray, not green */
 .paper-status a {
   color: #666 !important;
   font-style: italic;
 }
 
 
-
 /* ===================================
-   PAPER STYLING
+   PAPER STYLING (older classes)
+   Not used in your current research page HTML
    =================================== */
+
 .paper {
   margin-bottom: 25px;
 }
@@ -168,36 +159,38 @@ a:hover {
 }
 
 
-
-
 /* ===================================
    CONTENT SPACING
+   Space around section headings and paragraphs
    =================================== */
+
+/* Extra space above the first heading in a section */
 section h2:first-of-type {
   margin-top: 30px;
 }
 
+/* Space above and below every section heading */
 section h2 {
   margin-top: 40px;
   margin-bottom: 20px;
 }
 
+/* Space after each paragraph */
 section p {
   margin-bottom: 18px;
 }
 
 
-
-
 /* ===================================
    FOOTER
    =================================== */
+
 .site-footer {
   margin-top: 60px;
   padding-top: 30px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;       /* thin light line above the footer */
   text-align: center;
-  color: #999;
+  color: #999;                         /* light gray */
   font-size: 14px;
 }
 
@@ -205,15 +198,21 @@ section p {
   margin: 10px 0;
 }
 
+
 /* ===================================
-   DESKTOP LAYOUT (720px and above)
+   DESKTOP LAYOUT (720px and wider)
+   Overrides the theme's two-column layout so the page
+   is a single centered column
    =================================== */
 @media print, screen and (min-width: 720px) {
+
   .wrapper {
     width: 100% !important;
     display: block !important;
   }
 
+  /* Header: full width and centered (same as above, restated
+     because the theme sets its own desktop header layout) */
   header {
     float: none !important;
     position: static !important;
@@ -236,34 +235,37 @@ section p {
     text-align: center !important;
   }
 
+  /* Main content column */
   section {
     float: none !important;
     width: 90% !important;
-    max-width: 900px !important;
-    margin: 0 auto !important;
+    max-width: 900px !important;         /* page width; increase for wider text */
+    margin: 0 auto !important;           /* centers the column */
     padding-top: 0 !important;
   }
 }
 
+
 /* ===================================
-   MOBILE LAYOUT (below 768px)
+   MOBILE LAYOUT (768px and narrower)
    =================================== */
 @media (max-width: 768px) {
-  /* Center header on mobile */
+
+  /* Center the header on small screens */
   header {
     text-align: center !important;
   }
 
   header h1 {
     text-align: center !important;
-    font-size: 32px !important;
+    font-size: 32px !important;          /* smaller name on phones */
   }
 
   header p {
     text-align: center !important;
   }
 
-  /* Image: remove float so text goes below */
+  /* Photo: no longer floats; centered above the text */
   .profile-img {
     float: none !important;
     display: block;
@@ -275,53 +277,31 @@ section p {
 
 
 /* ===================================
-   ABSTRACT / PAPER BUTTONS
+   PAPER BUTTONS
+   Boxed buttons: Abstract, Paper, Slides, STEG Working Paper, etc.
    =================================== */
 
-/* OLD (Oct 2026): no-border buttons — replaced by boxed buttons below
-.paper-meta a, .abstract-toggle {
-  font-size: 13px;
-  font-weight: 550;
-  color: #117a46 !important;
-  text-decoration: none;
-  cursor: pointer;
-  padding: 3px 10px;
-  background: transparent;
-  border-radius: 4px;
-  border: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.paper-meta a:hover, .abstract-toggle:hover {
-  background: #c8e6c9;
-  color: #095c32 !important;
-  text-decoration: none !important;
-}
-*/
-
-/* NEW (Oct 2026): boxed buttons — Abstract, Paper, Slides, etc. */
 .paper-meta a,
 .paper-meta a:link,
 .paper-meta a:visited,
 .abstract-toggle {
-  font-family: inherit !important;
+  font-family: inherit !important;     /* same font as the page */
   font-size: 12px !important;
   font-weight: 500 !important;
-  color: #117a46 !important;
+  color: #117a46 !important;           /* green text */
   background: transparent !important;
-  border: 1px solid #c9dfd0 !important;
-  border-radius: 4px !important;
-  padding: 2px 9px !important;
+  border: 1px solid #c9dfd0 !important;  /* light green border */
+  border-radius: 4px !important;       /* slightly rounded corners */
+  padding: 2px 9px !important;         /* space inside the box */
   line-height: 1.5 !important;
   text-decoration: none !important;
-  cursor: pointer;
+  cursor: pointer;                     /* hand cursor, also on Abstract */
   display: inline-flex !important;
   align-items: center;
-  gap: 4px;
+  gap: 4px;                            /* space between ▶ and "Abstract" */
 }
 
+/* Buttons on hover: pale green fill, darker border and text */
 .paper-meta a:hover,
 .abstract-toggle:hover {
   background: #eef6f0 !important;
@@ -330,84 +310,7 @@ section p {
   text-decoration: none !important;
 }
 
-
-
-/* for gray soft box*/
-/*
-.paper-meta a, .abstract-toggle {
-  font-size: 13px;
-  font-weight: 550;
-  color: #666 !important;
-  text-decoration: none;
-  cursor: pointer;
-  padding: 3px 10px;
-  background: #f3f3f3;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.paper-meta a:hover, .abstract-toggle:hover {
-  background: #e8e8e8;
-  border-color: #d0d0d0;
-  color: #117a46 !important;
-  text-decoration: none !important;
-}
-*/
-
-
-/* Soft green no border VERSION - uncomment to restore
-.paper-links a, .abstract-toggle {
-  font-size: 13px;
-  color: #117a46 !important;
-  text-decoration: none;
-  cursor: pointer;
-  padding: 3px 10px;
-  background: #e8f5e9;
-  border-radius: 4px;
-  border: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-}
-*/
-
-/*
-.paper-links a, .abstract-toggle {
-  font-size: 13px;
-  font-weight: 550;
-  color: #117a46 !important;
-  text-decoration: none;
-  cursor: pointer;
-  padding: 3px 10px;
-  background: transparent;
-  border-radius: 4px;
-  border: 0.5px solid #a5d6a7;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-}
-*/
-
-/*
-.paper-links a:hover, .abstract-toggle:hover {
-  background: #c8e6c9;
-  color: #095c32 !important;
-  text-decoration: none !important;
-}
-*/
-
-/* ORIGINAL BORDER VERSION - color scheme
-.paper-links a:hover, .abstract-toggle:hover {
-  color: #095c32 !important;
-  border-color: #095c32;
-  background: #e8f5e9;
-  text-decoration: none !important;
-}
-*/
-
+/* ▶ arrow on the Abstract button */
 .toggle-icon {
   display: inline-block;
   transition: transform 0.2s;
@@ -415,84 +318,83 @@ section p {
   font-size: 10px;
 }
 
+/* Arrow rotates to ▼ when the abstract is open */
 .toggle-icon.open {
   transform: rotate(90deg);
 }
 
+/* "|" separator between buttons
+   (color is overridden by the second .sep rule further down) */
 .sep {
   color: #999;
   font-size: 13px;
 }
 
+/* Abstract box (background, padding, line height and color are
+   partly overridden by the second .abstract-box rule further down) */
 .abstract-box {
   margin-top: 10px;
   padding: 10px 14px;
-  background: #f1f8f1;
+  background: #f1f8f1;                 /* pale green background */
   border-left: 2px solid #117a46;
   font-size: 0.92em;
   line-height: 1.6;
   color: #444;
-  max-width: 700px;
+  max-width: 700px;                    /* keeps abstract lines readable */
 }
 
-
+/* Smooth scrolling when clicking a menu link */
 html {
   scroll-behavior: smooth;
 }
 
 
-/*******************************************/
-/* New paper style */
+/* ===================================
+   PAPER ENTRY
+   Layout of each paper: title, co-authors, buttons, journal line
+   =================================== */
 
+/* Lets long titles wrap instead of stretching the layout */
 .paper-body { min-width: 0; }
 
+/* "with Ha Luong" line */
 .paper-coauthors {
   font-size: 0.88rem;
-  color: #4a4a44;
-  /*font-style: italic;*/
+  color: #4a4a44;                      /* dark warm gray */
   margin-top: 0.1rem;
 }
 
+/* Journal line: journal name, year, volume, pages */
 .paper-journal {
   font-size: 0.88rem;
   color: #4a4a44;
   margin-top: 0.15rem;
 }
 
-/* NEW (Oct 2026): journal line — upright, slightly bolder, no underline
-   (the italic comes from the <em> tag in the HTML, so it is turned off here) */
+/* Journal name only (the part inside <em>) */
 .paper-journal em {
-  font-style: italic !important;   /* remove italic — delete this line to bring italic back */
-  font-weight: 500 !important;     /* slightly bolder — 400 = normal, 600 = bold */
+  font-style: normal !important;       /* italic journal name; change to normal for upright */
+  font-weight: 500 !important;         /* slightly bolder; 400 = normal, 600 = bold */
   text-decoration: none !important;
- /* color: #117a46 !important;       /* NEW (Oct 2026): journal name green; year/volume stay gray */
 }
 
+/* Row that holds the buttons */
 .paper-meta {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+  gap: 0.5rem;                         /* space between buttons */
+  flex-wrap: wrap;                     /* buttons wrap to a new line on small screens */
   margin-top: 0.3rem;
   font-size: 0.82rem;
 }
 
-/* OPTIONAL (Oct 2026): tighter gap between boxed buttons — uncomment to use
-.paper-meta {
-  gap: 6px !important;
-}
-*/
-
+/* "|" separator: very light, and can't be selected when copying text
+   (this color wins over the first .sep rule above) */
 .sep { color: #d8d8cc; user-select: none; }
 
-/* OPTIONAL (Oct 2026): hide the "|" separators between boxed buttons — uncomment to use
-.paper-meta .sep {
-  display: none !important;
-}
-*/
-
-/* NOTE (Oct 2026): font-family, font-size, display and gap here are now
-   overridden by the boxed-button rule in the ABSTRACT / PAPER BUTTONS section */
+/* Abstract button extras. Font, size, display and gap here are
+   overridden by the PAPER BUTTONS rule; letter-spacing and
+   user-select still apply */
 .abstract-toggle {
   font-family: monospace;
   font-size: 0.72rem;
@@ -504,22 +406,27 @@ html {
   gap: 0.3em;
 }
 
+/* ▶ arrow size (this size wins over the first .toggle-icon rule) */
 .toggle-icon {
   font-size: 0.6rem;
   display: inline-block;
   transition: transform 0.2s;
 }
 
+/* Abstract box: hidden until "Abstract" is clicked.
+   These values win over the first .abstract-box rule;
+   the pale green background and max-width from that rule still apply */
 .abstract-box {
-  display: none;
+  display: none;                       /* hidden by default; your script shows it */
   margin-top: 0.7rem;
   padding: 0.9rem 1rem;
-  border-left: 2px solid #d8d8cc;
+  border-left: 2px solid #d8d8cc;      /* light gray line on the left */
   font-size: 0.91rem;
   line-height: 1.65;
   color: #4a4a44;
 }
 
+/* Small badge style (class "rar-badge"; not used in your current HTML) */
 .rar-badge {
   font-family: monospace;
   font-size: 0.65rem;
@@ -531,10 +438,14 @@ html {
   margin-left: 0.3em;
 }
 
+
 /* ===================================
-   PAPER LISTS (ordered + unordered)
+   PAPER LISTS
+   <ol class="papers"> = numbered list, <ul class="papers"> = no numbers
+   (your research page uses <ul>)
    =================================== */
 
+/* Numbered list: removes default bullets, sets up the counter */
 ol.papers {
   list-style: none !important;
   counter-reset: paper-counter var(--start, 0) !important;
@@ -542,15 +453,17 @@ ol.papers {
   margin: 0 !important;
 }
 
+/* Numbered list item: number in a narrow left column, paper on the right */
 ol.papers li {
   counter-increment: paper-counter !important;
   display: grid !important;
   grid-template-columns: 2rem 1fr !important;
   gap: 0 0.55rem !important;
-  margin-bottom: 1.6rem !important;
+  margin-bottom: 1.6rem !important;    /* space between papers */
   align-items: start !important;
 }
 
+/* The number itself: "1.", "2.", ... */
 ol.papers li::before {
   content: counter(paper-counter) "." !important;
   font-family: monospace !important;
@@ -560,15 +473,15 @@ ol.papers li::before {
   text-align: right !important;
 }
 
-
-/*********Unordered List *******************/
-
+/* Unordered list: no bullets, no indent */
 ul.papers {
   list-style: none !important;
   padding: 0 !important;
   margin: 0 !important;
 }
 
+/* Unordered list item. margin-bottom sets the space between papers.
+   display and padding are overridden by LIST INDENT CONTROL at the bottom */
 ul.papers li {
   display: grid !important;
   grid-template-columns: 2rem 1fr !important;
@@ -577,88 +490,46 @@ ul.papers li {
   align-items: start !important;
 }
 
+/* Bullet slot for unordered items (turned off at the bottom of this file) */
 ul.papers li::before {
-  /*content: "○";*/ /* hollow bullet */
-  /*content: "»";*/ /* double chevron */
-  content: "";      /* no symbol */
+  content: "";                         /* no symbol */
   font-family: monospace !important;
   font-weight: 700 !important;
   font-size: 1rem !important;
   color: #8a8a80 !important;
   padding-top: 0.05rem !important;
-  /*padding-top: 0.2rem !important;*/
   text-align: right !important;
 }
 
 
+/* ===================================
+   PAPER TITLES
+   =================================== */
 
-/* REMOVED: .paper-title class no longer used in HTML
-section a.paper-title {
-  color: black !important;
-  text-decoration: underline !important;
-  transition: color 0.2s ease;
-}
-a.paper-title:hover {
-  color: #117a46 !important;
-  text-decoration: underline;
-}
-*/
-
-/* REMOVED: redundant — covered by combined rule below
-.paper-body strong a {
-  color: black !important;
-  text-decoration: underline !important;
-  transition: color 0.2s ease;
-}
-*/
-
-/* OLD (Oct 2026): weight without !important, so the theme's bold <strong> could win
+/* All titles, linked or not: black, medium weight */
 .paper-body strong,
 .paper-body strong a {
-  font-weight: 500;
+  font-weight: 500 !important;         /* 400 = normal, 600 = semi-bold, 700 = bold */
   color: black !important;
 }
-*/
 
-/* NEW (Oct 2026): paper title styling — covers both linked and unlinked titles */
-.paper-body strong,
-.paper-body strong a {
-  font-weight: 500 !important;   /* 400 = normal, 600 = semi-bold, 700 = bold */
-  color: black !important;
-}
-/* dotted Underline and hover only for linked titles
-.paper-body strong a {
-  text-decoration: underline dotted !important;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-  text-decoration-color: #999;
-  transition: color 0.2s ease;
-}
-*/
-
-/* OLD (Oct 2026): linked titles with no underline
-.paper-body strong a {
-  text-decoration: none !important;
-  transition: color 0.2s ease;
-}
-*/
-
-/* NEW (Oct 2026): linked titles — small muted gray dotted underline, green on hover */
+/* Linked titles only: muted gray dotted underline to show they're clickable */
 .paper-body strong a {
   text-decoration: underline dotted #aaa !important;   /* #ccc = lighter, #999 = darker */
   text-decoration-thickness: 1px !important;
-  text-underline-offset: 3px;
+  text-underline-offset: 3px;          /* gap between text and underline */
   transition: color 0.2s ease;
 }
 
-
+/* Linked titles on hover: turn green */
 .paper-body strong a:hover {
   color: #117a46 !important;
 }
 
 
-/*===================================
+/* ===================================
    PAPER BOX
+   Spacing inside each paper entry
    =================================== */
 
 ol.papers li,
@@ -666,53 +537,27 @@ ul.papers li {
   display: block;
   width: 100%;
   box-sizing: border-box;
-  padding: 0.05rem 0.3rem !important;
+  padding: 0.05rem 0.3rem !important;  /* for <ul>, left padding is overridden below */
   border-radius: 6px;
   background: transparent;
-
-  /* OLD (Oct 2026): hover-lift animation — removed
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    background-color 0.2s ease;
-  */
 }
 
-/* OLD (Oct 2026): hover lift + stacked shadow ("stairs") — removed
-ol.papers li:hover,
-ul.papers li:hover {
-  position: relative;
-  z-index: 2;
-  transform: translateY(-2px);
-  background: #ffffff;
-  box-shadow:
-    0 1px 2px rgba(0, 0, 0, 0.04),
-    1px 2px 0 -1px rgba(235, 235, 235, 0.6),
-    2px 4px 0 -2px rgba(245, 245, 245, 0.4),
-    0 4px 10px rgba(0, 0, 0, 0.06);
-}
 
-@media (max-width: 768px) {
-  ol.papers li:hover,
-  ul.papers li:hover {
-    transform: none;
-    box-shadow: none;
-  }
-}
-*/
+/* ===================================
+   MISC
+   =================================== */
 
-
-
-
+/* No extra offset when jumping to the Research section */
 #research {
   scroll-margin-top: 0;
 }
 
+/* Slightly tighter menu once it sticks to the top */
 .simple-nav.is-sticky {
   padding-bottom: 8px;
 }
 
-
+/* Co-author name links: same gray as the co-author line, no green */
 .paper-coauthors a,
 .paper-coauthors a:hover,
 .paper-coauthors a:visited,
@@ -724,18 +569,21 @@ ul.papers li:hover {
 
 /* ===================================
    LIST INDENT CONTROL
+   Final say on list layout (comes last, so it wins)
    =================================== */
+
 ol.papers,
 ul.papers {
   padding-left: 0 !important;
 }
 
-/* Unordered: no marker column at all; indent set by padding-left */
+/* Unordered items: simple block, indented from the left */
 ul.papers li {
   display: block !important;
-  padding-left: 1.2rem !important;   /* ← adjust indent here */
+  padding-left: 1.2rem !important;     /* indent of each paper; adjust here */
 }
 
+/* No bullet symbol */
 ul.papers li::before {
   content: none !important;
 }
