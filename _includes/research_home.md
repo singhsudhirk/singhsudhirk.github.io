@@ -24,7 +24,7 @@
   -->
       </div>
       <div id="abs2" class="abstract-box">How does college access affect domestic violence? We study this question in the context of a large-scale investment in higher education expansion in India. The program incentivized the establishment of new colleges in areas with relatively low college enrollment. Using multiple sources of data and a regression discontinuity design, we find that college expansion significantly decreased the incidence of domestic violence for all women. The decline was more pronounced for younger women than for older women, suggesting that the impact was driven by cohorts that were more likely to be exposed to the colleges and benefit from them. Additionally, we find that these results can be explained by improved educational outcomes for women, changes in social norms and husbands' attitudes, and occupational choices. Better access to college led women to reject any justification for domestic violence, increased women's participation in household decision-making, and increased ownership of assets, along with improvements in husbands' gender attitudes. We find heterogeneous effects for employment. Husbands were more likely to work than wives; however, both husbands and wives were more likely to work in high-skilled occupations and move away from low-skilled occupations. </div>
-       <div class="paper-journal"><em> Updated Sep. 2026</em></div>
+       <div class="paper-status"> Updated Sep. 2026</div>
     </div>
   </li>
 
@@ -44,7 +44,7 @@
   -->
       </div>
       <div id="abs1" class="abstract-box">Are female leaders better at mitigating the adverse economic consequences of environmental change than their male counterparts? Combining historical groundwater data with rural household survey data from India and exploiting village-level random variation in leadership quotas, we document that female leaders are more effective in mitigating the adverse employment impact of groundwater scarcity, increasing household incomes and non-food spending, particularly investment in child education. We identify a structural transformation mechanism: female leaders in water-scarce villages reallocate public works (NREGS) toward water-related infrastructure development, facilitating a shift from the water-constrained agricultural sector towards manufacturing and construction.</div>
-           <div class="paper-journal"><em>submitted</em></div>
+           <div class="paper-status">submitted</div>
     </div>
   </li>
 
@@ -61,7 +61,7 @@
         <a href="https://cepr.org/publications/wp094">STEG Working Paper</a>
       </div>
       <div id="abs3" class="abstract-box">We study the costs of misallocation of inputs between multi-product firms that endogenously choose among heterogeneous products. Misallocation of inputs between firms has been shown to be a significant drag on aggregate productivity: it is especially severe between farms in the agricultural sectors of low-income economies. Existing estimates of its costs have relied on models of single-product firms using a single aggregate production function. Using rich farm-crop-level data from India, we estimate product-level production functions and find that they are meaningfully different from one another and from the aggregate one. We build a general equilibrium model of firm-level misallocation in which multi-product firms (or farms) are able to choose the set and mix of heterogeneous products. Equalizing cross-farm input-market frictions raises aggregate productivity by 137% in the multi-product model and 167% in a conventional single-product model: the single-product model overstates the aggregate productivity cost of misallocation between Indian farms by 22%.</div>
-<div class="paper-journal"><em>Updated September 2026</em></div>
+<div class="paper-status">Updated September 2026</div>
     </div>
   </li>
 
@@ -92,7 +92,7 @@
  -->
     </div>
     <div id="abs5" class="abstract-box">What are the unintended consequences of electoral rules on candidate re-entry into politics? We examine how rules that punish candidates for poor performance affect re-entry. In India, candidates must submit a monetary deposit to electoral authorities, forfeiting it if they receive less than one-sixth of total votes cast in their race. We use the discontinuity created by this deposit rule to estimate the causal effect of costly procedural rules on re-contest rates. Deposit forfeiture disproportionately deters women from re-running compared to men. This effect is most pronounced among women from local niche parties, which are weakly institutionalized parties with a limited geographic footprint, suggesting party-level gatekeeping against women candidates.</div>
-    <div class="paper-journal"><em>submitted</em></div>
+    <div class="paper-status">submitted</div>
   </div>
 </li>
 
@@ -113,7 +113,7 @@
  -->
     </div>
     <div id="abs6" class="abstract-box">Departing from a large literature that documented wage increases triggered by India’s National Rural Employment Guarantee Scheme (NREGS), this paper explores initial size-differentiated implications of such wage growth for agricultural productivity. We show that, before 2008, exposure to the program allowed marginal farmers to greatly increase use of family labor on their own parcels, cultivate riskier crops, and rent somewhat more machinery and irrigation services. These changes in input use, presumably attributable to the wage income and implicit safety net provided by NREGS, translated into modest productivity gains. Large farmers, in turn, sharply reduced labor use and shifted towards cultivation of higher value crops as well as more intensive use of other purchased inputs, especially fertilizer, in a type of induced innovation. Though less rigorous analytically, 2007-15 data point towards a positive link between intensity of program implementation and productivity gains in favor of all farm size classes that could be indicative of a positive, but less targeted, impact of the public goods constructed under the program.</div>
-    <div class="paper-journal"><em>submitted</em></div>
+    <div class="paper-status">submitted</div>
   </div>
 </li>
 
@@ -134,7 +134,7 @@
 <div id="abs7" class="abstract-box">
   We study the effects of political connections, where the political leader is of the same caste, on public employment in India. Using an instrumental variables approach that exploits caste-based reservations, we examine whether local leaders favor individuals from their own caste when allocating jobs. Specifically, we find that political connections increased participation as well as the number of days worked in NREGS. The results are robust to the inclusion and exclusion of controls and fixed effects. Finally, we find that village council leaders affect participation in NREGS more than the council members. Our research emphasizes the dynamics of identity-based political networks and their implications for the distribution of public sector opportunities in India.</div>
 
-<div class="paper-journal"><em>new draft coming soon</em></div>   
+<div class="paper-status">new draft coming soon</div>   
 </div>   <!-- closes paper-body -->
 </li>      <!-- closes the list item -->
 
@@ -262,7 +262,7 @@
     <div class="paper-body">
       <strong>Human Capital and Children’s Time Use</strong>
          <div class="paper-coauthors">with <a href="https://haluong.weebly.com/">Ha Luong</a></div>
-         <div class="paper-journal"><em>draft coming soon</em></div>
+         <div class="paper-status">draft coming soon</div>
     </div>
   </li>
   <!-- ==== Housing/Migration paper ==== -->
@@ -270,7 +270,7 @@
     <div class="paper-body">
       <strong>Housing, Network, and Migration</strong>
            <div class="paper-coauthors"> with <a href="https://sites.google.com/view/travisbaseler/home"> Travis Baseler</a> &amp; <a href="https://www.alpsungu.com/">Alp Sungu</a></div>
-         <div class="paper-journal"><em>fieldwork in progress</em></div>
+         <div class="paper-status">fieldwork in progress</div>
     </div>
   </li>
 
@@ -280,7 +280,7 @@
     <div class="paper-body">
       <strong>Farm, Trade, and Misallocation</strong>
        <div class="paper-coauthors">with <a href="https://sgordeev.com/">Stepan Gordeev</a></div>
-       <div class="paper-journal"><em>analysis in progress</em></div>
+       <div class="paper-status">analysis in progress</div>
     </div>
   </li>
 
@@ -291,7 +291,7 @@
     <div class="paper-body">
       <strong>Longterm Effects of Conditional Cash Transfers on Mental Health</strong>
         <div class="paper-coauthors">with <a href="https://haluong.weebly.com/">Ha Luong</a></div>
-       <div class="paper-journal"><em>analyisis in progress</em></div>
+       <div class="paper-status">analyisis in progress</div>
     </div>
   </li>
 
@@ -302,7 +302,7 @@
     <div class="paper-body">
       <strong>Access to Support Centers and Gender-Based Violence</strong>
         <div class="paper-coauthors">with <a href="https://haluong.weebly.com/">Ha Luong</a></div>
-       <div class="paper-journal"><em>draft in progress</em></div>
+       <div class="paper-status">draft in progress</div>
     </div>
   </li>
 
