@@ -660,27 +660,38 @@ ul.papers li::before {
    OVERRIDES — Oct 2026
    =================================== */
 
+/* 2. Sparse, muted dotted underline on linked titles (stronger override) */
+section .paper-body strong a,
+section .paper-body strong a:link,
+section .paper-body strong a:visited {
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  background-image: linear-gradient(to right, #aaa 1.5px, transparent 1.5px) !important;
+  background-size: 5px 1.5px !important;
+  background-repeat: repeat-x !important;
+  background-position: 0 100% !important;
+  padding-bottom: 2px;
+}
+
+section .paper-body strong a:hover,
+section .paper-body strong a:focus {
+  color: #117a46 !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  background-image: linear-gradient(to right, #117a46 1.5px, transparent 1.5px) !important;
+}
+   
+
 /* 1. Lighter paper titles */
 .paper-body strong,
 .paper-body strong a {
   font-weight: 400 !important;
 }
 
-/* 2. Sparse, muted dotted underline on linked titles */
-.paper-body strong a {
-  text-decoration: none !important;
-  background-image: linear-gradient(to right, #b5b5b5 1px, transparent 1px);
-  background-size: 4px 1px;          /* 2nd number = dot size; 1st = gap between dots */
-  background-repeat: repeat-x;
-  background-position: 0 100%;
-  padding-bottom: 2px;
-}
 
-.paper-body strong a:hover {
-  color: #117a46 !important;
-  text-decoration: none !important;
-  background-image: linear-gradient(to right, #117a46 1px, transparent 1px);
-}
 
 /* 3. Bold journal line */
 .paper-journal {
@@ -693,13 +704,6 @@ ul.papers li {
   transition: none !important;
 }
 
-ol.papers li:hover,
-ul.papers li:hover {
-  transform: none !important;
-  box-shadow: none !important;
-  background: transparent !important;
-}
-}
 
 
 
