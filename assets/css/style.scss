@@ -84,7 +84,7 @@ a {
   color: #117a46;
   text-decoration: none;
   margin: 0 12px;
-  font-weight: 500;
+  font-weight: 600;
   transition: color 0.2s;
 }
 
@@ -145,7 +145,7 @@ a:hover {
 }
 
 .paper-title {
-  font-weight: 600;
+  font-weight: 500;
   color: #222;
   line-height: 1.4;
 }
@@ -611,7 +611,7 @@ a.paper-title:hover {
 /* NEW (Oct 2026): paper title styling — covers both linked and unlinked titles */
 .paper-body strong,
 .paper-body strong a {
-  font-weight: 500 !important;   /* 400 = normal, 600 = semi-bold, 700 = bold */
+  font-weight: 400 !important;   /* 400 = normal, 600 = semi-bold, 700 = bold */
   color: black !important;
 }
 /* dotted Underline and hover only for linked titles
