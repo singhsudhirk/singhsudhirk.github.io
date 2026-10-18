@@ -35,7 +35,10 @@ header a {
   text-decoration: none !important;
   text-decoration-line: none !important;
 }
-// Center the title
+
+/* FIXED (Oct 2026): was "// Center the title", which is not valid CSS
+   and silently broke the rule below */
+/* Center the title */
 .container-lg h1 {
   text-align: center !important;
 }
@@ -67,7 +70,7 @@ a {
 
 .simple-nav {
   text-align: center;
- margin: 0 0 40px 0;
+  margin: 0 0 40px 0;
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
   font-size: 16px;
@@ -122,7 +125,7 @@ a:hover {
 .paper-status {
   color: #666 !important;
   /*font-style: italic;*/
-    font-style: normal !important;
+  font-style: normal !important;
   font-size: 15px;
   margin-top: 2px;
 }
@@ -199,7 +202,7 @@ section p {
     width: 100% !important;
     display: block !important;
   }
-  
+
   header {
     float: none !important;
     position: static !important;
@@ -208,20 +211,20 @@ section p {
     padding: 40px 0 15px 0 !important;
     border-bottom: none !important;
   }
-  
+
   header h1 {
     font-size: 42px !important;
     margin-bottom: 8px !important;
     text-align: center !important;
   }
-  
+
   header p {
     font-size: 18px !important;
     color: #666 !important;
     margin-bottom: 0 !important;
     text-align: center !important;
   }
-  
+
   section {
     float: none !important;
     width: 90% !important;
@@ -239,16 +242,16 @@ section p {
   header {
     text-align: center !important;
   }
-  
+
   header h1 {
     text-align: center !important;
     font-size: 32px !important;
   }
-  
+
   header p {
     text-align: center !important;
   }
-  
+
   /* Image: remove float so text goes below */
   .profile-img {
     float: none !important;
@@ -261,12 +264,11 @@ section p {
 
 
 /* ===================================
-   ABSTRACT
+   ABSTRACT / PAPER BUTTONS
    =================================== */
 
-/*.paper-links a, .abstract-toggle { */
-
- .paper-meta a, .abstract-toggle {  
+/* OLD (Oct 2026): no-border buttons — replaced by boxed buttons below
+.paper-meta a, .abstract-toggle {
   font-size: 13px;
   font-weight: 550;
   color: #117a46 !important;
@@ -281,10 +283,38 @@ section p {
   gap: 5px;
 }
 
-/*.paper-links a:hover, .abstract-toggle:hover {*/
-   
 .paper-meta a:hover, .abstract-toggle:hover {
   background: #c8e6c9;
+  color: #095c32 !important;
+  text-decoration: none !important;
+}
+*/
+
+/* NEW (Oct 2026): boxed buttons — Abstract, Paper, Slides, etc. */
+.paper-meta a,
+.paper-meta a:link,
+.paper-meta a:visited,
+.abstract-toggle {
+  font-family: inherit !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: #117a46 !important;
+  background: transparent !important;
+  border: 1px solid #c9dfd0 !important;
+  border-radius: 4px !important;
+  padding: 2px 9px !important;
+  line-height: 1.5 !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  display: inline-flex !important;
+  align-items: center;
+  gap: 4px;
+}
+
+.paper-meta a:hover,
+.abstract-toggle:hover {
+  background: #eef6f0 !important;
+  border-color: #117a46 !important;
   color: #095c32 !important;
   text-decoration: none !important;
 }
@@ -418,6 +448,13 @@ html {
   margin-top: 0.15rem;
 }
 
+/* NEW (Oct 2026): journal line — small muted dotted underline */
+.paper-journal em {
+  text-decoration: underline dotted #aaa !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 3px;
+}
+
 .paper-meta {
   display: flex;
   align-items: center;
@@ -427,8 +464,22 @@ html {
   font-size: 0.82rem;
 }
 
+/* OPTIONAL (Oct 2026): tighter gap between boxed buttons — uncomment to use
+.paper-meta {
+  gap: 6px !important;
+}
+*/
+
 .sep { color: #d8d8cc; user-select: none; }
 
+/* OPTIONAL (Oct 2026): hide the "|" separators between boxed buttons — uncomment to use
+.paper-meta .sep {
+  display: none !important;
+}
+*/
+
+/* NOTE (Oct 2026): font-family, font-size, display and gap here are now
+   overridden by the boxed-button rule in the ABSTRACT / PAPER BUTTONS section */
 .abstract-toggle {
   font-family: monospace;
   font-size: 0.72rem;
@@ -554,7 +605,7 @@ a.paper-title:hover {
   font-weight: 500;
   color: black !important;
 }
-/* dotted Underline and hover only for linked titles 
+/* dotted Underline and hover only for linked titles
 .paper-body strong a {
   text-decoration: underline dotted !important;
   text-decoration-thickness: 1px;
@@ -564,7 +615,7 @@ a.paper-title:hover {
 }
 */
 
-/* Underline and hover only for linked titles*/
+/* Linked titles: no underline (Oct 2026: was "underline"), green on hover */
 .paper-body strong a {
   text-decoration: none !important;
   transition: color 0.2s ease;
@@ -577,7 +628,7 @@ a.paper-title:hover {
 
 
 /*===================================
-   DYNAMIC PAPER BOX
+   PAPER BOX
    =================================== */
 
 ol.papers li,
@@ -589,19 +640,20 @@ ul.papers li {
   border-radius: 6px;
   background: transparent;
 
+  /* OLD (Oct 2026): hover-lift animation — removed
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease,
     background-color 0.2s ease;
+  */
 }
 
+/* OLD (Oct 2026): hover lift + stacked shadow ("stairs") — removed
 ol.papers li:hover,
 ul.papers li:hover {
   position: relative;
   z-index: 2;
- transform: translateY(-2px);
- /*   transform: translate(-1px, -2px);*/
-   
+  transform: translateY(-2px);
   background: #ffffff;
   box-shadow:
     0 1px 2px rgba(0, 0, 0, 0.04),
@@ -617,6 +669,7 @@ ul.papers li:hover {
     box-shadow: none;
   }
 }
+*/
 
 
 
@@ -634,8 +687,8 @@ ul.papers li:hover {
 .paper-coauthors a:hover,
 .paper-coauthors a:visited,
 .paper-coauthors a:active {
-    color: inherit !important;
-    text-decoration: none;
+  color: inherit !important;
+  text-decoration: none;
 }
 
 
@@ -656,73 +709,3 @@ ul.papers li {
 ul.papers li::before {
   content: none !important;
 }
-
-
-/* ===================================
-   OVERRIDES — Oct 2026
-   =================================== */
-
-
-
-
-
-/* 3. Journal line: normal weight, small muted dotted underline */
-.paper-journal em {
-  text-decoration: underline dotted #aaa !important;
-  text-decoration-thickness: 1px !important;
-  text-underline-offset: 3px;
-}
-
-/* 4. Remove the hover lift / stacked shadow ("stairs") */
-ol.papers li,
-ul.papers li {
-  transition: none !important;
-}
-
-ol.papers li:hover,
-ul.papers li:hover {
-  transform: none !important;
-  box-shadow: none !important;
-  background: transparent !important;
-}
-
-
-/* 5. Boxed buttons: Abstract, Paper, Slides, etc. */
-.paper-meta a,
-.paper-meta a:link,
-.paper-meta a:visited,
-.abstract-toggle {
-  font-family: inherit !important;
-  font-size: 12px !important;
-  font-weight: 500 !important;
-  color: #117a46 !important;
-  background: transparent !important;
-  border: 1px solid #c9dfd0 !important;
-  border-radius: 4px !important;
-  padding: 2px 9px !important;
-  line-height: 1.5 !important;
-  text-decoration: none !important;
-  display: inline-flex !important;
-  align-items: center;
-  gap: 4px;
-}
-
-.paper-meta a:hover,
-.abstract-toggle:hover {
-  background: #eef6f0 !important;
-  border-color: #117a46 !important;
-  color: #095c32 !important;
-  text-decoration: none !important;
-}
-
-/* Hide the "|" separators, since the boxes already separate the buttons 
-.paper-meta .sep {
-  display: none !important;
-}
-*/
-
-/*
-.paper-meta {
-  gap: 6px !important;
-}
-*/
