@@ -565,7 +565,7 @@ a.paper-title:hover {
 
 /* Underline and hover only for linked titles*/
 .paper-body strong a {
-  text-decoration: underline !important;
+  text-decoration: none !important;
   transition: color 0.2s ease;
 }
 
@@ -663,28 +663,7 @@ ul.papers li::before {
 
 
 
-/* 1. Lighter paper titles */
-.paper-body strong,
-.paper-body strong a {
-  font-weight: 400 !important;
-}
 
-/* 2. No underline on paper titles */
-section .paper-body strong a,
-section .paper-body strong a:link,
-section .paper-body strong a:visited,
-section .paper-body strong a:hover,
-section .paper-body strong a:focus {
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-  background-image: none !important;
-  padding-bottom: 0 !important;
-}
-
-section .paper-body strong a:hover {
-  color: #117a46 !important;   /* title still turns green on hover */
-}
 
 /* 3. Journal line: normal weight, small muted dotted underline */
 .paper-journal em {
