@@ -654,6 +654,51 @@ ul.papers li {
 
 ul.papers li::before {
   content: none !important;
+
+
+   /* ===================================
+   OVERRIDES — Oct 2026
+   =================================== */
+
+/* 1. Lighter paper titles */
+.paper-body strong,
+.paper-body strong a {
+  font-weight: 400 !important;
+}
+
+/* 2. Sparse, muted dotted underline on linked titles */
+.paper-body strong a {
+  text-decoration: none !important;
+  background-image: linear-gradient(to right, #b5b5b5 1px, transparent 1px);
+  background-size: 4px 1px;          /* 2nd number = dot size; 1st = gap between dots */
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  padding-bottom: 2px;
+}
+
+.paper-body strong a:hover {
+  color: #117a46 !important;
+  text-decoration: none !important;
+  background-image: linear-gradient(to right, #117a46 1px, transparent 1px);
+}
+
+/* 3. Bold journal line */
+.paper-journal {
+  font-weight: 600 !important;
+}
+
+/* 4. Remove the hover lift / stacked shadow ("stairs") */
+ol.papers li,
+ul.papers li {
+  transition: none !important;
+}
+
+ol.papers li:hover,
+ul.papers li:hover {
+  transform: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
 }
 
 
