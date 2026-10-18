@@ -145,8 +145,6 @@
  <!-- ==== Published ==== -->
  <!-- ==== Published ==== -->
  
-
-   
 <h3 style="border-bottom: none !important;">Published Papers</h3>
 
 
@@ -157,6 +155,11 @@
     <div class="paper-body">
       <strong><a href="https://www.tandfonline.com/doi/abs/10.1080/00220388.2022.2043278">Addressing Declining Female Labor Force Participation in India: Does Political Empowerment Make a Difference?</a></strong>
       <div class="paper-coauthors">with K. Deininger, S. Jin, &amp; H. K. Nagarajan</div>
+      <!-- ungated PDF: put the link in place of #, then remove the comment markers
+      <div class="paper-meta">
+        <a href="#">PDF</a>
+      </div>
+      -->
       <div class="paper-journal"><em>Journal of Development Studies, 2022, 58 (9)</em></div>
     </div>
   </li>
@@ -165,6 +168,11 @@
     <div class="paper-body">
       <strong><a href="https://www.sciencedirect.com/science/article/pii/S0147596719301039">Women's Political Leadership and Economic Empowerment: Evidence from Public Works in India</a></strong>
       <div class="paper-coauthors">with K. Deininger &amp; H. K. Nagarajan</div>
+      <!-- ungated PDF: put the link in place of #, then remove the comment markers
+      <div class="paper-meta">
+        <a href="#">PDF</a>
+      </div>
+      -->
       <div class="paper-journal"><em>Journal of Comparative Economics, 2020, 48 (2), 277-291</em></div>
     </div>
   </li>
@@ -173,6 +181,11 @@
     <div class="paper-body">
       <strong><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1477-9552.12234">Wages, Prices, and Agriculture: How Can Indian Agriculture Cope with Rising Wages</a></strong>
       <div class="paper-coauthors">with H. Binswanger</div>
+      <!-- ungated PDF: put the link in place of #, then remove the comment markers
+      <div class="paper-meta">
+        <a href="#">PDF</a>
+      </div>
+      -->
       <div class="paper-journal"><em>Journal of Agricultural Economics, 2017, 32 (2)</em></div>
     </div>
   </li>
@@ -181,6 +194,11 @@
     <div class="paper-body">
       <strong><a href="https://le.uwpress.org/content/94/2/239">Can Labor Market Imperfections Explain Changes in Farm Size Productivity Relationship? Longitudinal Evidence from India</a></strong>
       <div class="paper-coauthors">with K. Deininger, S. Jin, &amp; Y. Liu</div>
+      <!-- ungated PDF: put the link in place of #, then remove the comment markers
+      <div class="paper-meta">
+        <a href="#">PDF</a>
+      </div>
+      -->
       <div class="paper-journal"><em>Land Economics, 2018, 94 (2), 239-258</em></div>
     </div>
   </li>
@@ -189,6 +207,11 @@
     <div class="paper-body">
       <strong><a href="https://academic.oup.com/wber/article-abstract/doi/10.1093/wber/lhw063/2965623/Determinants-of-Productivity-and-Structural-Change?redirectedFrom=fulltext">Determinants of Productivity and Structural Change in a Large Commercial Farm Environment: Evidence from Ukraine</a></strong>
       <div class="paper-coauthors">with K. Deininger &amp; D. Nizalov</div>
+      <!-- ungated PDF: put the link in place of #, then remove the comment markers
+      <div class="paper-meta">
+        <a href="#">PDF</a>
+      </div>
+      -->
       <div class="paper-journal"><em>The World Bank Economic Review, 2018, 32 (2), 287-306</em></div>
     </div>
   </li>
@@ -197,6 +220,11 @@
     <div class="paper-body">
       <strong><a href="http://www.tandfonline.com/doi/abs/10.1080/00220388.2016.1166210?journalCode=fjds20">Does Land Fragmentation Increase the Cost of Cultivation? Evidence from India</a></strong>
       <div class="paper-coauthors">with K. Deininger, D. Monchuck, &amp; H. K. Nagarajan</div>
+      <!-- ungated PDF: put the link in place of #, then remove the comment markers
+      <div class="paper-meta">
+        <a href="#">PDF</a>
+      </div>
+      -->
       <div class="paper-journal"><em>Journal of Development Studies, 2017, 53 (1), 82-98</em></div>
     </div>
   </li>
@@ -205,12 +233,16 @@
     <div class="paper-body">
       <strong><a href="http://www.jstor.org/stable/41969731?seq=1#page_scan_tab_contents">Consumption Smoothing and Insurance against the Income Risks: A Case of India</a></strong>
       <div class="paper-coauthors">with P. Kumar</div>
+      <!-- ungated PDF: put the link in place of #, then remove the comment markers
+      <div class="paper-meta">
+        <a href="#">PDF</a>
+      </div>
+      -->
       <div class="paper-journal"><em>Indian Economic Review, 2012, Vol. 47, No. 2 265-283</em></div>
     </div>
   </li>
 
 </ul>
-
 
 
  <!-- ==== Selected Work in Progress ==== -->
