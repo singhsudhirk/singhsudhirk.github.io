@@ -654,13 +654,20 @@ ul.papers li {
 
 ul.papers li::before {
   content: none !important;
+}
 
 
-   /* ===================================
+/* ===================================
    OVERRIDES — Oct 2026
    =================================== */
 
-/* 2. Sparse, muted dotted underline on linked titles (stronger override) */
+/* 1. Lighter paper titles */
+.paper-body strong,
+.paper-body strong a {
+  font-weight: 400 !important;
+}
+
+/* 2. Sparse, muted dotted underline on linked titles */
 section .paper-body strong a,
 section .paper-body strong a:link,
 section .paper-body strong a:visited {
@@ -683,15 +690,6 @@ section .paper-body strong a:focus {
   box-shadow: none !important;
   background-image: linear-gradient(to right, #117a46 1.5px, transparent 1.5px) !important;
 }
-   
-
-/* 1. Lighter paper titles */
-.paper-body strong,
-.paper-body strong a {
-  font-weight: 400 !important;
-}
-
-
 
 /* 3. Bold journal line */
 .paper-journal {
@@ -704,6 +702,9 @@ ul.papers li {
   transition: none !important;
 }
 
-
-
-
+ol.papers li:hover,
+ul.papers li:hover {
+  transform: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
