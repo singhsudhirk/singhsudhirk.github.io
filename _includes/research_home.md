@@ -160,7 +160,7 @@
         <a href="#">PDF</a>
       </div>
       -->
-      <div class="paper-journal"><em>Journal of Development Studies, 2022, 58 (9)</em></div>
+      <div class="paper-journal"><em>Journal of Development Studies</em>, 2022, 58 (9)</div>
     </div>
   </li>
 
@@ -173,7 +173,7 @@
         <a href="#">PDF</a>
       </div>
       -->
-      <div class="paper-journal"><em>Journal of Comparative Economics, 2020, 48 (2), 277-291</em></div>
+      <div class="paper-journal"><em>Journal of Comparative Economics</em>, 2020, 48 (2), 277-291</div>
     </div>
   </li>
 
@@ -186,7 +186,7 @@
         <a href="#">PDF</a>
       </div>
       -->
-      <div class="paper-journal"><em>Journal of Agricultural Economics, 2017, 32 (2)</em></div>
+      <div class="paper-journal"><em>Journal of Agricultural Economics</em>, 2017, 32 (2)</div>
     </div>
   </li>
 
@@ -199,7 +199,7 @@
         <a href="#">PDF</a>
       </div>
       -->
-      <div class="paper-journal"><em>Land Economics, 2018, 94 (2), 239-258</em></div>
+      <div class="paper-journal"><em>Land Economics</em>, 2018, 94 (2), 239-258</div>
     </div>
   </li>
 
@@ -212,7 +212,7 @@
         <a href="#">PDF</a>
       </div>
       -->
-      <div class="paper-journal"><em>The World Bank Economic Review, 2018, 32 (2), 287-306</em></div>
+      <div class="paper-journal"><em>The World Bank Economic Review</em>, 2018, 32 (2), 287-306</div>
     </div>
   </li>
 
@@ -225,7 +225,7 @@
         <a href="#">PDF</a>
       </div>
       -->
-      <div class="paper-journal"><em>Journal of Development Studies, 2017, 53 (1), 82-98</em></div>
+      <div class="paper-journal"><em>Journal of Development Studies</em>, 2017, 53 (1), 82-98</div>
     </div>
   </li>
 
@@ -238,7 +238,7 @@
         <a href="#">PDF</a>
       </div>
       -->
-      <div class="paper-journal"><em>Indian Economic Review, 2012, Vol. 47, No. 2 265-283</em></div>
+      <div class="paper-journal"><em>Indian Economic Review</em>, 2012, Vol. 47, No. 2 265-283</div>
     </div>
   </li>
 
