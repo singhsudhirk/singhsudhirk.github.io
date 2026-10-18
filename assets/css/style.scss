@@ -145,7 +145,7 @@ a:hover {
 }
 
 .paper-title {
-  font-weight: 500;
+  font-weight: 600;
   color: #222;
   line-height: 1.4;
 }
@@ -448,16 +448,12 @@ html {
   margin-top: 0.15rem;
 }
 
-
-
-/* NEW (Oct 2026): journal line — upright, slightly bolder, small muted dotted underline
+/* NEW (Oct 2026): journal line — upright, slightly bolder, no underline
    (the italic comes from the <em> tag in the HTML, so it is turned off here) */
 .paper-journal em {
   font-style: normal !important;   /* remove italic — delete this line to bring italic back */
-  font-weight: 400 !important;     /* slightly bolder — 400 = normal, 600 = bold */
-  text-decoration: underline dotted #aaa !important;
-  text-decoration-thickness: 1px !important;
-  text-underline-offset: 3px;
+  font-weight: 500 !important;     /* slightly bolder — 400 = normal, 600 = bold */
+  text-decoration: none !important;
 }
 
 .paper-meta {
@@ -604,10 +600,18 @@ a.paper-title:hover {
 }
 */
 
-/* Paper title styling — covers both linked and unlinked titles */
+/* OLD (Oct 2026): weight without !important, so the theme's bold <strong> could win
 .paper-body strong,
 .paper-body strong a {
   font-weight: 500;
+  color: black !important;
+}
+*/
+
+/* NEW (Oct 2026): paper title styling — covers both linked and unlinked titles */
+.paper-body strong,
+.paper-body strong a {
+  font-weight: 500 !important;   /* 400 = normal, 600 = semi-bold, 700 = bold */
   color: black !important;
 }
 /* dotted Underline and hover only for linked titles
@@ -620,9 +624,18 @@ a.paper-title:hover {
 }
 */
 
-/* Linked titles: no underline (Oct 2026: was "underline"), green on hover */
+/* OLD (Oct 2026): linked titles with no underline
 .paper-body strong a {
   text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+*/
+
+/* NEW (Oct 2026): linked titles — small muted gray dotted underline, green on hover */
+.paper-body strong a {
+  text-decoration: underline dotted #aaa !important;   /* #ccc = lighter, #999 = darker */
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 3px;
   transition: color 0.2s ease;
 }
 
