@@ -84,6 +84,8 @@
     <div class="paper-coauthors">with <a href="https://www.varun-kr.com/">Varun K.R.</a> &amp; <a href="https://drew-stommes.github.io/">Drew Stommes</a></div>
        <div class="paper-meta">
       <span class="abstract-toggle" onclick="toggleAbstract('abs5', this)"><span class="toggle-icon">▶</span> Abstract</span>
+         <span class="sep">|</span>
+         <a href="papers/deposit_rule.pdf">Paper</a>
  <!--
       <span class="sep">|</span>
       <a href="https://ideas.repec.org/p/osf/osfxxx/d7xsk_v1.html">Paper</a>
