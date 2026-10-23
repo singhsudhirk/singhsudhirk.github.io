@@ -373,7 +373,7 @@ html {
 
 /* Journal name only (the part inside <em>) */
 .paper-journal em {
-  font-style: normal !important;       /* italic journal name; change to normal for upright */
+  font-style: italic !important;       /* italic journal name; change to normal for upright */
   font-weight: 500 !important;         /* slightly bolder; 400 = normal, 600 = bold */
   text-decoration: none !important;
 }
