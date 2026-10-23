@@ -107,6 +107,8 @@
     <div class="paper-coauthors">with K. Deininger &amp; S. Jin</div>
     <div class="paper-meta">
       <span class="abstract-toggle" onclick="toggleAbstract('abs6', this)"><span class="toggle-icon">▶</span> Abstract</span>
+        <span class="sep">|</span>
+         <a href="papers/NREGS_Ag.pdf">Paper</a>
  <!--
       <span class="sep">|</span>
       <a href="#">Paper</a>
